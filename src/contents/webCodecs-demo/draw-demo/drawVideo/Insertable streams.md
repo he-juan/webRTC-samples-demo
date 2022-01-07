@@ -105,7 +105,7 @@
        - ReadableStream允许读取从任何连接到MediaStreamTrackGenerator的sink中发送的控制信号。控制信号是MediaStreamTrackSignal类型的对象。
   3. 案例(`多线程`) 
       ```javascript
-        // main.js
+        // main.css
         const stream = await navigator.mediaDevices.getUserMedia({audio:true, video:true});
         const audioTrack = stream.getAudioTracks()[0];
         const videoTrack = stream.getVideoTracks()[0];

@@ -2,10 +2,84 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b40463aa-678e-4814-ac4c-93d6cf257ddd" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/contents/soundDetection-demo/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/contents/soundDetection-demo/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/contents/soundDetection-demo/soundDetection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/ApplyConstraintsAPI_demo/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/ApplyConstraintsAPI_demo/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/ApplyConstraintsAPI_demo/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/ApplyConstraintsAPI_demo/js/adapter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/ApplyConstraintsAPI_demo/js/applyConstraints.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/ApplyConstraintsAPI_demo/js/applyConstraintsTest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/ApplyConstraintsAPI_demo/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/Camera _Resolution _Scan_demo/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/Camera _Resolution _Scan_demo/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/Camera _Resolution _Scan_demo/js/adapter-latest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/Camera _Resolution _Scan_demo/js/jquery-1.11.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/Camera _Resolution _Scan_demo/js/resolutionScan.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/Mobile_facingMode_demo/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/Mobile_facingMode_demo/js/audio.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/Mobile_facingMode_demo/js/vconsole.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/Mobile_facingMode_demo/js/video.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/enumerateDevices_demo/change_enumerateDevices_demo/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/enumerateDevices_demo/change_enumerateDevices_demo/js/debug.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/enumerateDevices_demo/change_enumerateDevices_demo/js/jquery-3.1.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/enumerateDevices_demo/change_enumerateDevices_demo/js/mediaDevice.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/enumerateDevices_demo/get_enumerateDevices_demo/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/enumerateDevices_demo/get_enumerateDevices_demo/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/getUserMediaConstraints/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/getUserMediaConstraints/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/getUserMediaConstraints/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/getUserMediaConstraints/js/adapter-latest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/getUserMediaConstraints/js/ga.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/getUserMediaConstraints/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/getUserMediaConstraints/js/sdp_tools.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/noiseSuppression_demo/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/noiseSuppression_demo/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/noiseSuppression_demo/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/noiseSuppression_demo/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/noiseSuppression_demo/js/peerconnection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/noiseSuppression_demo/js/soundmeter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/record-demo/changeFormat/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/record-demo/changeFormat/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/record-demo/changeFormat/js/OggOpusMediaRecorder.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/record-demo/changeFormat/js/api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/record-demo/changeFormat/js/detect-browser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/record-demo/changeFormat/js/event-target-shim.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/record-demo/multipleStreamsRecorder/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/record-demo/multipleStreamsRecorder/js/adapter-latest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/record-demo/multipleStreamsRecorder/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/record-demo/multipleStreamsRecorder/js/multiStreamRecorder.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/record-demo/recorderVideoToVideo/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/record-demo/recorderVideoToVideo/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/record-demo/recorderVideoToVideo/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/webAudio/Real-time_detection_volume_demo/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/webAudio/Real-time_detection_volume_demo/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/webAudio/mixingstream_demo/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/webAudio/mixingstream_demo/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/webAudio/mixingstream_demo/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contents/getDisplayMedia-DEMO/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/src/contents/getDisplayMedia_demo/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contents/getDisplayMedia-DEMO/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/contents/getDisplayMedia_demo/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contents/getDisplayMedia-DEMO/css/bootstrap-responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/contents/getDisplayMedia_demo/css/bootstrap-responsive.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contents/getDisplayMedia-DEMO/css/bootstrap-responsive.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/contents/getDisplayMedia_demo/css/bootstrap-responsive.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contents/getDisplayMedia-DEMO/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/contents/getDisplayMedia_demo/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contents/getDisplayMedia-DEMO/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/contents/getDisplayMedia_demo/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contents/getDisplayMedia-DEMO/css/serverless-webrtc-bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/contents/getDisplayMedia_demo/css/serverless-webrtc-bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contents/getDisplayMedia-DEMO/img/glyphicons-halflings-white.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/contents/getDisplayMedia_demo/img/glyphicons-halflings-white.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contents/getDisplayMedia-DEMO/img/glyphicons-halflings.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/contents/getDisplayMedia_demo/img/glyphicons-halflings.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contents/getDisplayMedia-DEMO/img/spinner.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/contents/getDisplayMedia_demo/img/spinner.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contents/getDisplayMedia-DEMO/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/contents/getDisplayMedia_demo/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contents/getDisplayMedia-DEMO/js/adapter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/contents/getDisplayMedia_demo/js/adapter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contents/getDisplayMedia-DEMO/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/contents/getDisplayMedia_demo/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contents/getDisplayMedia-DEMO/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/contents/getDisplayMedia_demo/js/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contents/getDisplayMedia-DEMO/js/file-transfer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/contents/getDisplayMedia_demo/js/file-transfer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contents/getDisplayMedia-DEMO/js/jquery-2.0.0.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/contents/getDisplayMedia_demo/js/jquery-2.0.0.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contents/getDisplayMedia-DEMO/js/jquery-3.4.0.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/contents/getDisplayMedia_demo/js/jquery-3.4.0.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contents/getDisplayMedia-DEMO/js/sdp_tools.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/contents/getDisplayMedia_demo/js/sdp_tools.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contents/getDisplayMedia-DEMO/js/serverless-webrtc.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/contents/getDisplayMedia_demo/js/serverless-webrtc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contents/getDisplayMedia-DEMO/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/contents/getDisplayMedia_demo/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contents/webAudio/Insertable streams.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/contents/webAudio/volume-demo/Insertable streams.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contents/webCodecs-demo/Insertable streams.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/contents/webCodecs-demo/Insertable streams.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contents/webCodecs-demo/draw-demo/RotateText/Insertable streams.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/contents/webCodecs-demo/draw-demo/RotateText/Insertable streams.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contents/webCodecs-demo/draw-demo/drawVideo/Insertable streams.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/contents/webCodecs-demo/draw-demo/drawVideo/Insertable streams.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,88 +93,109 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="soundDetection.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/contents/soundDetection-demo/soundDetection.js">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/contents/webAudio/mixingstream_demo/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="349">
-              <caret line="270" column="5" lean-forward="true" selection-start-line="270" selection-start-column="5" selection-end-line="270" selection-end-column="5" />
+            <state relative-caret-position="354">
+              <caret line="37" column="26" selection-start-line="37" selection-start-column="15" selection-end-line="37" selection-end-column="26" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/contents/soundDetection-demo/index.html">
+      <file leaf-file-name="adapter.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/contents/ApplyConstraintsAPI_demo/js/adapter.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
-              <caret line="118" column="7" lean-forward="true" selection-start-line="118" selection-start-column="7" selection-end-line="118" selection-end-column="7" />
+            <state relative-caret-position="813">
+              <caret line="5178" lean-forward="true" selection-start-line="5178" selection-end-line="5178" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/contents/noiseDetection-demo/jitsi-noiseDetection-demo/main.css">
+        <entry file="file://$PROJECT_DIR$/src/contents/ApplyConstraintsAPI_demo/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="54" selection-start-line="54" selection-end-line="56" selection-end-column="1" />
+            <state relative-caret-position="813">
+              <caret line="262" lean-forward="true" selection-start-line="262" selection-end-line="262" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/contents/record-demo/updateRecorder/index.css">
+      <file leaf-file-name="applyConstraints.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/contents/ApplyConstraintsAPI_demo/js/applyConstraints.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-146">
-              <caret line="106" lean-forward="true" selection-start-line="106" selection-end-line="121" selection-end-column="1" />
+            <state relative-caret-position="813">
+              <caret line="242" lean-forward="true" selection-start-line="242" selection-end-line="242" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/contents/soundDetection-demo/index.js">
+      <file leaf-file-name="applyConstraintsTest.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/contents/ApplyConstraintsAPI_demo/js/applyConstraintsTest.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="87" column="9" lean-forward="true" selection-start-line="87" selection-start-column="9" selection-end-line="87" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/contents/noiseDetection-demo/jitsi-noiseDetection-demo/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="421">
-              <caret line="69" column="1" lean-forward="true" selection-start-line="48" selection-end-line="69" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tip.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/contents/noiseDetection-demo/jitsi-noiseDetection-demo/tip.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/contents/record-demo/updateRecorder/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="20" column="71" lean-forward="true" selection-start-line="20" selection-start-column="71" selection-end-line="20" selection-end-column="71" />
+            <state relative-caret-position="813">
+              <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/contents/record-demo/updateRecorder/index.js">
+        <entry file="file://$PROJECT_DIR$/src/contents/webAudio/mixingstream_demo/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-632">
-              <caret line="741" column="15" selection-start-line="741" selection-start-column="15" selection-end-line="741" selection-end-column="15" />
+            <state relative-caret-position="495">
+              <caret line="173" column="5" lean-forward="true" selection-start-line="173" selection-start-column="5" selection-end-line="173" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/contents/noiseDetection-demo/jitsi-noiseDetection-demo/index.html">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/contents/ApplyConstraintsAPI_demo/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="35" column="27" lean-forward="true" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
+            <state relative-caret-position="1134">
+              <caret line="42" column="10" lean-forward="true" selection-start-line="42" selection-start-column="10" selection-end-line="42" selection-end-column="10" />
+              <folding>
+                <element signature="n#style#0;n#select#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#textarea#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/contents/ApplyConstraintsAPI_demo/js/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="813">
+              <caret line="275" lean-forward="true" selection-start-line="275" selection-end-line="275" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/contents/ApplyConstraintsAPI_demo/css/index.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="813">
+              <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/contents/webAudio/mixingstream_demo/index.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="813">
+              <caret line="57" column="1" selection-start-line="57" selection-start-column="1" selection-end-line="57" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -110,6 +205,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="CSS File" />
         <option value="HTML File" />
         <option value="JavaScript File" />
       </list>
@@ -128,6 +224,8 @@
       <find>erro</find>
       <find>show</find>
       <find>muteBtn</find>
+      <find>volume</find>
+      <find>remoteVideo</find>
     </findStrings>
     <replaceStrings>
       <replace>console</replace>
@@ -139,10 +237,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/src/contents/soundDetection-demo/soundDetection.js" />
-        <option value="$PROJECT_DIR$/src/contents/soundDetection-demo/index.html" />
-        <option value="$PROJECT_DIR$/src/contents/soundDetection-demo/index.js" />
+        <option value="$PROJECT_DIR$/src/contents/record-demo/multipleStreamsRecorder/js/adapter-latest.js" />
+        <option value="$PROJECT_DIR$/src/contents/record-demo/multipleStreamsRecorder/index.html" />
+        <option value="$PROJECT_DIR$/src/contents/record-demo/changeFormat/index.css" />
+        <option value="$PROJECT_DIR$/src/contents/record-demo/changeFormat/js/OggOpusMediaRecorder.js" />
+        <option value="$PROJECT_DIR$/src/contents/record-demo/changeFormat/js/api.js" />
+        <option value="$PROJECT_DIR$/src/contents/record-demo/changeFormat/js/detect-browser.js" />
+        <option value="$PROJECT_DIR$/src/contents/record-demo/changeFormat/js/event-target-shim.js" />
+        <option value="$PROJECT_DIR$/src/contents/record-demo/changeFormat/index.html" />
+        <option value="$PROJECT_DIR$/src/contents/record-demo/recorderVideoToVideo/index.html" />
+        <option value="$PROJECT_DIR$/src/contents/record-demo/recorderVideoToVideo/main.js" />
+        <option value="$PROJECT_DIR$/src/contents/record-demo/recorderVideoToVideo/main.css" />
+        <option value="$PROJECT_DIR$/src/contents/get_enumerateDevices_demo/index.html" />
+        <option value="$PROJECT_DIR$/src/contents/get_enumerateDevices_demo/index.js" />
+        <option value="$PROJECT_DIR$/src/contents/enumerateDevices_demo/change_enumerateDevices_demo/js/debug.js" />
+        <option value="$PROJECT_DIR$/src/contents/enumerateDevices_demo/change_enumerateDevices_demo/js/jquery-3.1.1.min.js" />
+        <option value="$PROJECT_DIR$/src/contents/enumerateDevices_demo/change_enumerateDevices_demo/index.html" />
+        <option value="$PROJECT_DIR$/src/contents/enumerateDevices_demo/change_enumerateDevices_demo/js/mediaDevice.js" />
+        <option value="$PROJECT_DIR$/src/contents/getUserMediaConstraints/index.html" />
+        <option value="$PROJECT_DIR$/src/contents/getUserMediaConstraints/js/sdp_tools.js" />
+        <option value="$PROJECT_DIR$/src/contents/getUserMediaConstraints/js/index.js" />
+        <option value="$PROJECT_DIR$/src/contents/getUserMediaConstraints/js/ga.js" />
+        <option value="$PROJECT_DIR$/src/contents/getUserMediaConstraints/js/adapter-latest.js" />
+        <option value="$PROJECT_DIR$/src/contents/getUserMediaConstraints/css/index.css" />
+        <option value="$PROJECT_DIR$/src/contents/getUserMediaConstraints/css/main.js" />
+        <option value="$PROJECT_DIR$/src/contents/Mobile facingMode_demo/index.html" />
+        <option value="$PROJECT_DIR$/src/contents/Mobile facingMode_demo/js/video.js" />
+        <option value="$PROJECT_DIR$/src/contents/Mobile facingMode_demo/js/audio.js" />
+        <option value="$PROJECT_DIR$/src/contents/Mobile facingMode_demo/js/vconsole.min.js" />
+        <option value="$PROJECT_DIR$/src/contents/Camera _Resolution _Scan_demo/js/jquery-1.11.0.min.js" />
+        <option value="$PROJECT_DIR$/src/contents/Camera _Resolution _Scan_demo/js/resolutionScan.js" />
+        <option value="$PROJECT_DIR$/src/contents/Camera _Resolution _Scan_demo/js/adapter-latest.js" />
+        <option value="$PROJECT_DIR$/src/contents/Camera _Resolution _Scan_demo/bootstrap.min.css" />
+        <option value="$PROJECT_DIR$/src/contents/Camera _Resolution _Scan_demo/index.html" />
+        <option value="$PROJECT_DIR$/src/contents/noiseSuppression_demo/index.html" />
+        <option value="$PROJECT_DIR$/src/contents/noiseSuppression_demo/css/main.css" />
+        <option value="$PROJECT_DIR$/src/contents/noiseSuppression_demo/css/index.css" />
+        <option value="$PROJECT_DIR$/src/contents/noiseSuppression_demo/js/main.js" />
+        <option value="$PROJECT_DIR$/src/contents/noiseSuppression_demo/js/peerconnection.js" />
+        <option value="$PROJECT_DIR$/src/contents/noiseSuppression_demo/js/soundmeter.js" />
+        <option value="$PROJECT_DIR$/src/contents/webAudio/Real-time_detection_volume_demo/index.html" />
+        <option value="$PROJECT_DIR$/src/contents/webAudio/Real-time_detection_volume_demo/index.js" />
+        <option value="$PROJECT_DIR$/src/contents/webAudio/mixingstream_demo/index.js" />
+        <option value="$PROJECT_DIR$/src/contents/webAudio/mixingstream_demo/index.css" />
+        <option value="$PROJECT_DIR$/src/contents/webAudio/mixingstream_demo/index.html" />
+        <option value="$PROJECT_DIR$/src/contents/ApplyConstraintsAPI_demo/index.html" />
+        <option value="$PROJECT_DIR$/src/contents/ApplyConstraintsAPI_demo/js/applyConstraintsTest.js" />
+        <option value="$PROJECT_DIR$/src/contents/ApplyConstraintsAPI_demo/js/applyConstraints.js" />
+        <option value="$PROJECT_DIR$/src/contents/ApplyConstraintsAPI_demo/js/adapter.js" />
+        <option value="$PROJECT_DIR$/src/contents/ApplyConstraintsAPI_demo/js/index.js" />
+        <option value="$PROJECT_DIR$/src/contents/ApplyConstraintsAPI_demo/css/index.css" />
+        <option value="$PROJECT_DIR$/src/contents/ApplyConstraintsAPI_demo/css/main.css" />
       </list>
     </option>
   </component>
@@ -154,7 +299,7 @@
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
-      <path value="$PROJECT_DIR$/src/contents/getDisplayMedia-DEMO/package.json" />
+      <path value="$PROJECT_DIR$/src/contents/getDisplayMedia_demo/package.json" />
       <path value="$PROJECT_DIR$/src/contents/websocket_webrtc/package.json" />
     </packageJsonPaths>
   </component>
@@ -192,29 +337,29 @@
               <item name="webRTC-samples-demo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="contents" type="462c0819:PsiDirectoryNode" />
-              <item name="noiseDetection-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="ApplyConstraintsAPI_demo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="webRTC-samples-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="webRTC-samples-demo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="contents" type="462c0819:PsiDirectoryNode" />
-              <item name="noiseDetection-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="jitsi-noiseDetection-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="noiseSuppression_demo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="webRTC-samples-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="webRTC-samples-demo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="contents" type="462c0819:PsiDirectoryNode" />
-              <item name="record-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="webAudio" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="webRTC-samples-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="webRTC-samples-demo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="contents" type="462c0819:PsiDirectoryNode" />
-              <item name="soundDetection-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="webAudio" type="462c0819:PsiDirectoryNode" />
+              <item name="mixingstream_demo" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -227,11 +372,17 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="E:/workspace/program/getDisplayMedia-video-generated-gif-picture" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\webRTC-samples-demo\src\contents\webAudio\volume-demo" />
+      <recent name="E:\webRTC-samples-demo\src\contents\enumerateDevices_demo" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\webRTC-samples-demo\src\contents\ApplyConstraintsAPI_demo" />
       <recent name="E:\webRTC-samples-demo\src\contents\soundDetection-demo" />
       <recent name="E:\webRTC-samples-demo\src" />
       <recent name="E:\webRTC-samples-demo" />
@@ -260,25 +411,25 @@
       <option name="presentableId" value="Default" />
       <updated>1641527533742</updated>
       <workItem from="1641527535373" duration="1042000" />
-      <workItem from="1641540820499" duration="8893000" />
+      <workItem from="1641540820499" duration="16065000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9935000" />
+    <option name="totallyTimeSpent" value="17107000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3293348" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3293348" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3293348" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -287,7 +438,6 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -297,93 +447,415 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/src/contents/record-demo/changeFormat/js/api.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3537">
-          <caret line="131" lean-forward="true" selection-start-line="131" selection-end-line="131" />
+        <state relative-caret-position="3643">
+          <caret line="195" column="24" lean-forward="true" selection-start-line="195" selection-start-column="24" selection-end-line="195" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/main.css">
+    <entry file="file://$PROJECT_DIR$/src/contents/record-demo/changeFormat/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="65" column="8" lean-forward="true" selection-start-line="65" selection-start-column="8" selection-end-line="65" selection-end-column="8" />
+          <folding>
+            <element signature="n#style#0;n#input#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/record-demo/changeFormat/js/detect-browser.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="511">
+          <caret line="175" lean-forward="true" selection-start-line="175" selection-end-line="175" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/record-demo/changeFormat/js/event-target-shim.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6397">
+          <caret line="732" column="64" lean-forward="true" selection-start-line="732" selection-start-column="64" selection-end-line="732" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/record-demo/recorderVideoToVideo/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="511">
+          <caret line="250" column="1" selection-start-line="250" selection-start-column="1" selection-end-line="250" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/record-demo/recorderVideoToVideo/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="511">
+          <caret line="51" column="1" selection-start-line="51" selection-start-column="1" selection-end-line="51" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/record-demo/recorderVideoToVideo/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="511">
+          <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/enumerateDevices_demo/get_enumerateDevices_demo/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+          <folding>
+            <element signature="n#style#0;n#h1#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/enumerateDevices_demo/get_enumerateDevices_demo/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2266">
+          <caret line="122" column="37" lean-forward="true" selection-start-line="122" selection-start-column="37" selection-end-line="122" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/enumerateDevices_demo/change_enumerateDevices_demo/js/debug.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="511">
+          <caret line="1358" column="3" selection-start-line="1358" selection-start-column="3" selection-end-line="1358" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/enumerateDevices_demo/change_enumerateDevices_demo/js/jquery-3.1.1.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="22611" selection-start-line="3" selection-start-column="22611" selection-end-line="3" selection-end-column="22611" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/enumerateDevices_demo/change_enumerateDevices_demo/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="139" column="46" lean-forward="true" selection-start-line="139" selection-start-column="46" selection-end-line="139" selection-end-column="46" />
+          <folding>
+            <element signature="n#style#0;n#select#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#select#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+            <element signature="e#33#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/enumerateDevices_demo/change_enumerateDevices_demo/js/mediaDevice.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-514">
+          <caret line="370" column="70" lean-forward="true" selection-start-line="370" selection-start-column="23" selection-end-line="370" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/getDsiplayMediaConstraints/index.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/src/contents/getUserMediaConstraints/js/sdp_tools.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="183" lean-forward="true" selection-start-line="183" selection-end-line="183" />
+        <state relative-caret-position="511">
+          <caret line="1010" lean-forward="true" selection-start-line="1010" selection-end-line="1010" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/main.css">
+    <entry file="file://$PROJECT_DIR$/src/contents/getUserMediaConstraints/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="34" selection-start-line="34" selection-end-line="40" selection-end-column="1" />
+        <state relative-caret-position="511">
+          <caret line="381" selection-start-line="381" selection-end-line="381" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/contents/record-demo/updateRecorder/index.css">
+    <entry file="file://$PROJECT_DIR$/src/contents/getUserMediaConstraints/js/ga.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-146">
-          <caret line="106" lean-forward="true" selection-start-line="106" selection-end-line="121" selection-end-column="1" />
+        <state relative-caret-position="216">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/contents/record-demo/updateRecorder/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="20" column="71" lean-forward="true" selection-start-line="20" selection-start-column="71" selection-end-line="20" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contents/record-demo/updateRecorder/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-632">
-          <caret line="741" column="15" selection-start-line="741" selection-start-column="15" selection-end-line="741" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contents/noiseDetection-demo/jitsi-noiseDetection-demo/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="54" selection-start-line="54" selection-end-line="56" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contents/noiseDetection-demo/jitsi-noiseDetection-demo/tip.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contents/noiseDetection-demo/jitsi-noiseDetection-demo/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="35" column="27" lean-forward="true" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contents/soundDetection-demo/soundDetection.js">
+    <entry file="file://$PROJECT_DIR$/src/contents/getUserMediaConstraints/js/adapter-latest.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="349">
-          <caret line="270" column="5" lean-forward="true" selection-start-line="270" selection-start-column="5" selection-end-line="270" selection-end-column="5" />
+          <caret line="5467" column="34" lean-forward="true" selection-start-line="5467" selection-start-column="34" selection-end-line="5467" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/contents/noiseDetection-demo/jitsi-noiseDetection-demo/main.js">
+    <entry file="file://$PROJECT_DIR$/src/contents/getUserMediaConstraints/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="69" column="1" lean-forward="true" selection-start-line="48" selection-end-line="69" selection-end-column="1" />
+        <state relative-caret-position="511">
+          <caret line="97" column="1" selection-start-line="97" selection-start-column="1" selection-end-line="97" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/getUserMediaConstraints/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="262" column="8" selection-start-line="262" selection-start-column="8" selection-end-line="262" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/getUserMediaConstraints/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1645">
+          <caret line="81" column="7" selection-start-line="81" selection-start-column="7" selection-end-line="81" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/Mobile_facingMode_demo/js/audio.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="813">
+          <caret line="180" column="1" selection-start-line="180" selection-start-column="1" selection-end-line="180" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/Mobile_facingMode_demo/js/vconsole.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="785">
+          <caret line="2346" column="3" selection-start-line="2346" selection-start-column="3" selection-end-line="2346" selection-end-column="3" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/Mobile_facingMode_demo/js/video.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="813">
+          <caret line="158" selection-start-line="158" selection-end-line="158" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/Mobile_facingMode_demo/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1785">
+          <caret line="144" lean-forward="true" selection-start-line="144" selection-end-line="144" />
+          <folding>
+            <element signature="n#style#0;n#button#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/Camera _Resolution _Scan_demo/js/jquery-1.11.0.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/Camera _Resolution _Scan_demo/js/resolutionScan.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="813">
+          <caret line="673" lean-forward="true" selection-start-line="673" selection-end-line="673" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/Camera _Resolution _Scan_demo/js/adapter-latest.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="813">
+          <caret line="5639" lean-forward="true" selection-start-line="5639" selection-end-line="5639" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/Camera _Resolution _Scan_demo/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="122375" selection-start-line="4" selection-start-column="122375" selection-end-line="4" selection-end-column="122375" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/Camera _Resolution _Scan_demo/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="33" lean-forward="true" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+          <folding>
+            <element signature="n#style#0;n#h4#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/noiseSuppression_demo/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="813">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/noiseSuppression_demo/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="813">
+          <caret line="267" lean-forward="true" selection-start-line="267" selection-end-line="267" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/noiseSuppression_demo/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3162">
+          <caret line="121" lean-forward="true" selection-start-line="121" selection-end-line="121" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/noiseSuppression_demo/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="813">
+          <caret line="183" selection-start-line="183" selection-end-line="183" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/noiseSuppression_demo/js/soundmeter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1242">
+          <caret line="46" column="46" lean-forward="true" selection-start-line="46" selection-start-column="46" selection-end-line="46" selection-end-column="46" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/noiseSuppression_demo/js/peerconnection.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="813">
+          <caret line="147" lean-forward="true" selection-start-line="147" selection-end-line="147" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/webAudio/volume-demo/Insertable streams.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/contents/soundDetection-demo/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
+        <state relative-caret-position="705">
           <caret line="118" column="7" lean-forward="true" selection-start-line="118" selection-start-column="7" selection-end-line="118" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/contents/soundDetection-demo/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="87" column="9" lean-forward="true" selection-start-line="87" selection-start-column="9" selection-end-line="87" selection-end-column="9" />
+        <state relative-caret-position="556">
+          <caret line="200" selection-start-line="200" selection-end-line="205" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/webAudio/Real-time_detection_volume_demo/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="17" column="27" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/webAudio/Real-time_detection_volume_demo/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/webAudio/mixingstream_demo/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="813">
+          <caret line="57" column="1" selection-start-line="57" selection-start-column="1" selection-end-line="57" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/webAudio/mixingstream_demo/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="173" column="5" lean-forward="true" selection-start-line="173" selection-start-column="5" selection-end-line="173" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/webAudio/mixingstream_demo/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="37" column="26" selection-start-line="37" selection-start-column="15" selection-end-line="37" selection-end-column="26" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/ApplyConstraintsAPI_demo/js/applyConstraintsTest.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="813">
+          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/ApplyConstraintsAPI_demo/js/applyConstraints.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="813">
+          <caret line="242" lean-forward="true" selection-start-line="242" selection-end-line="242" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/ApplyConstraintsAPI_demo/js/adapter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="813">
+          <caret line="5178" lean-forward="true" selection-start-line="5178" selection-end-line="5178" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/ApplyConstraintsAPI_demo/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="813">
+          <caret line="275" lean-forward="true" selection-start-line="275" selection-end-line="275" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/ApplyConstraintsAPI_demo/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="813">
+          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/ApplyConstraintsAPI_demo/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="813">
+          <caret line="262" lean-forward="true" selection-start-line="262" selection-end-line="262" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/ApplyConstraintsAPI_demo/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1134">
+          <caret line="42" column="10" lean-forward="true" selection-start-line="42" selection-start-column="10" selection-end-line="42" selection-end-column="10" />
+          <folding>
+            <element signature="n#style#0;n#select#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#textarea#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
