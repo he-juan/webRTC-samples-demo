@@ -1,0 +1,194 @@
+<!DOCTYPE>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>屏幕录制</title>
+    <!--内部部样式表-->
+    <!--<style type="text/css"></style>-->
+    <!--外部样式表-->
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.js"></script>
+    <script type = "text/javascript"  src="record/videoArea.js"></script>
+</head>
+<body>
+
+<h1 class="title"> 音频 视频 屏幕共享进行录制</h1>
+<hr/>
+
+<div id="contrainer">
+    <div id="contrainer_start">
+        <button class="audioRecording"onclick="getArea({recodeType: 'audio'})"> 录制音频</button>
+        <button class="videoRecodering" onclick=" getArea({recodeType: 'video'})"> 录制视频</button>
+        <button class="RegionalRecording" onclick=" getArea({recodeType: 'regionalVideo'})"> 区域录制</button>
+    </div>
+</div>
+
+<!--***********************************音频录制阶段*******************************************-->
+<div id="audioTip">
+    <div id="flex">
+        <!--    设备选择部分    -->
+        <div class="select">
+            <label >Audio input source: </label><select class="audioInSource" onchange="getAudioSource()"></select>
+        </div>
+
+        <div class="select">
+            <label >Audio output destination: </label><select class="audioOutSource" onchange="getAudioOutSource()"></select>
+        </div>
+        <hr />
+
+        <div class = "recordCon">
+            <button class="audioButton" onclick="handleAudioRecord()">开始录制</button>
+            <audio class="audio" controls></audio>
+        </div>
+
+    </div>
+</div>
+
+<!--******************************************区域录制阶段**********************************************-->
+
+<div id="shareTip">
+    <div class="shareContrainer">
+        <div class="shareTip_top">
+            <span> <h2>区域录制片段</h2></span>
+            <button class="shareButton" onclick="handleShareLogic()">开启演示</button>
+            <!--<button class="uploadVideo" onclick="shareLocalVideo()">上传视频</button>-->
+            <button class="close" onclick="closePopUp()">X</button>
+            <!--</button>-->
+        </div>
+        <hr/>
+        <div id="middle">
+            <div class="shareTip_middles">
+                <div class="midContent show">
+                    <div class="shareTip_middle">
+                        <video class="share_video"></video>
+                    </div>
+                    <div class="shareTip_bottom">
+                        <canvas class="share_canvas"></canvas>
+                    </div>
+                    <video id="share_record"></video>
+                </div>
+
+                <!--<div class="midContent">-->
+                    <!--<div class="shareTip_bottom">-->
+                        <!--<canvas class="share_canvas"></canvas>-->
+                    <!--</div>-->
+                    <!--<video id="share_record"></video>-->
+                <!--</div>-->
+
+                <!--<div class="midContent">-->
+                    <!--&lt;!&ndash;<video id="share_record"></video>&ndash;&gt;-->
+                <!--</div>-->
+            </div>
+
+            <div id="share_mediaRecord">
+                <div class="mediaRecordButton">
+                    <button class="share_startRecord  btn"  onclick="beginRecord({type: 'shareCanvasRecord'})" >开始录制</button>
+                    <button class="share_pauseRecord"  onclick="pauseVideoRecord({type: 'shareCanvasRecord'})" >暂停录制</button>
+                    <button class="share_resumeRecord"  onclick="resumeVideoRecord({type: 'shareCanvasRecord'})" >恢复录制</button>
+                    <button class="share_stopRecord btn"  onclick="stopVideoRecord({type: 'shareCanvasRecord'})" >停止录制</button>
+                    <button class="share_download" onclick ="download({type: 'shareCanvasRecord'})" disabled>下载</button>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+
+<!--****************************************音视频混流录制阶段*************************************************-->
+<div id="tip" >
+    <!--获取视频流相关内容.....-->
+    <div class="tip_top">
+        <h2>录制视频片段</h2>
+        <div class="closePopUp"><div class="close" onclick="closePopUp()">X</div></div>
+        <hr/>
+    </div>
+
+    <div id="tip_middle">
+        <div class ="middle_start">
+            <!--<video id="recordVideo" disable></video>-->
+            <div class="videoContrainer">
+                <video id="video"></video>
+                <video id="shareScreen" autoplay ></video>
+                <canvas id="canvas"></canvas>
+            </div>
+            <div class="wrapper">
+                <ul>
+                    <li><button class="videoAction" onclick="toggleVideoButton()">开启视频</button></li>
+                    <li><button class="isMute" onclick="isHandleMute()">非静音</button></li>
+                    <li><button class="setDeviceButton" onclick="setDeviced()">设置</button></li>
+                </ul>
+            </div>
+
+            <!--                     设备选择                             -->
+            <div class="selectDevice" >
+                <div class="setArea">
+                    <button class="camera" onmousemove="handleCamera()">摄像头
+                        <!--<span> > <span> -->
+                    </button>
+
+                    <button class="speaker" onmousemove="handleSpeaker()">扬声器
+                        <!--<span> > <span> -->
+                    </button>
+
+                    <button class="mic" onmousemove="handleMic()">麦克风
+                        <!--<span> > <span> -->
+                    </button>
+
+                </div>
+            </div>
+
+            <select class="audioinput" onchange="getAudioInput()"></select>
+            <select class="audioOutput" onchange="getAudioOutput()"></select>
+            <select class="cameraDeviced" onchange="getCamera()"></select>
+        </div>
+    </div>
+
+
+    <div class="tip_bottom">
+        <hr/>
+        <div class="record">
+            <button class="share" onclick="toggleShareButton()">屏幕共享</button>
+            <button class="recording" onclick = "beginRecord({type: 'canvasRecord'})">开始记录</button>
+        </div>
+    </div>
+</div>
+
+
+<!--******************************************录制阶段**********************************************-->
+<div id="record" disabled>
+    <!--录制视频选择相关内容.....-->
+    <div class="tip_top">
+        <h2 class="startMark">开始录制</h2>
+        <!--<div class="restartRecord">重新录制</div>-->
+        <div class="closePopUp">
+            <div class="close" onclick="closeButton()">X</div>
+            <span class="restartRecord" onclick="restartRecord()">重新录制</span>
+        </div>
+
+    </div>
+
+    <div id="record_middle">
+        <div class ="middle_start" >
+            <video id="recordVideo"></video>
+        </div>
+
+    </div>
+
+    <div class="tip_bottom">
+        <div class="record">
+            <button class="recorded" onclick="stopVideoRecord({type: 'canvasRecord'})">停止记录</button>
+            <button>已完成</button>
+            <button class="download" onclick ="download({type: 'video'})">下载</button>
+        </div>
+    </div>
+</div>
+
+
+<script type = "text/javascript"  src="index.js"></script>
+<script type = "text/javascript"  src="record/record.js"></script>
+<script type = "text/javascript"  src="record/api.js"></script>
+<script type = "text/javascript"  src="record/stream.js"></script>
+<script type = "text/javascript"  src="record/common.js"></script>
+</body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>关于indexedDB demo 测试</title>
+    <script src="js/jszip.min.js"></script>
+    <script src="js/debug.js"></script>
+    <script src="js/dbExport.js"></script>
+    <style>
+        h1 {
+            margin: 0 auto;
+            color: blueviolet;
+        }
+    </style>
+</head>
+
+<body>
+    <!--<h1> 关于indexedDB 本地日志输出和导出</h1>-->
+
+    <div>
+        <button onclick="dbExport.getAll()">getAll</button>
+    </div>
+
+    <!--<div>-->
+        <!--<button onclick="dbExport.getAllWidthIDBKeyRange()">getAllWidthIDBKeyRange</button>-->
+    <!--</div>-->
+
+    <!--<div>-->
+        <!--<button onclick="dbExport.openCursor()">openCursor</button>-->
+    <!--</div>-->
+
+    <!--<div>-->
+        <!--<button onclick="dbExport.openCursorWidthIDBKeyRange()">openCursorWidthIDBKeyRange</button>-->
+    <!--</div>-->
+
+    <!--<div>-->
+        <!--<button onclick="dbExport.getAllWidthIDBKeyRange(true)">getAllWidthIDBKeyRange</button>-->
+    <!--</div>-->
+
+
+    <script>
+        /* 日志级别 */
+        let log = {}
+        log.debug = window.debug('indexedDB:DEBUG')
+        log.log = window.debug('indexedDB:LOG')
+        log.info = window.debug('indexedDB:INFO')
+        log.warn = window.debug('indexedDB:WARN')
+        log.error = window.debug('indexedDB:ERROR')
+
+        /*执行流程*/
+        window.onload = function(){
+            log.info ("window start onload ...")
+            let  i = 0
+            let  timer = setInterval(function () {
+                log.info('output log:' + i)
+                i++
+                if(i >= 100){
+                    log.warn("clear data")
+                    clearInterval(timer)
+                }
+            },10)
+
+            window.dbExport = new DBExport(true)
+        }
+
+    </script>
+</body>
+
+</html>

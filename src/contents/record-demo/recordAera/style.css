@@ -1,0 +1,600 @@
+
+
+/**{*/
+    /*padding: 0;*/
+    /*margin: 0;*/
+/*}*/
+
+body{
+    background-image: linear-gradient(to right, #37b9e9 , #89bfbc);
+    color: #fff;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+#tip, #record, #audioTip{
+    height: 600px;
+    width: 800px;
+    border: 2px solid #cbcbcb;
+    background-color: #fff;
+    text-align: left;
+    color: #020404;
+    z-index: 999;
+    /*padding:20px;*/
+    display:none;
+    border-radius: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#shareTip{
+    height: 900px;
+    width: 1200px;
+    border: 2px solid #cbcbcb;
+    background-color: #fff;
+    text-align: left;
+    color: #020404;
+    z-index: 999;
+    display:none;
+    border-radius: 10px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+}
+
+#shareTip .shareContrainer{
+    height: 900px;
+    width: 1200px;
+    overflow: hidden;
+}
+
+#shareTip .shareTip_top{
+    color: #020404;
+    height: 60px;
+    /*margin: 0 auto;*/
+    margin-left:10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between  ;
+    align-items: center ;
+    align-content:center;
+}
+
+
+.shareTip_top .shareButton{
+    width: 80px;
+    height:40px;
+    color: #cbcbcb;
+    border: 0  solid  #cbcbcb;
+}
+
+.shareTip_top .close{
+    margin-right: 10px;
+    width: 60px;
+    height: 40px;
+    background: #c8c3c3;
+    border: 0  solid  #c8c3c3;
+    color: cornsilk;
+    border-radius: 2px;
+    font-size: 20px;
+    font-weight:500;
+    padding: 0px;
+}
+
+
+#middle{
+    height: 800px;
+    width: 1200px;
+    border: 1px solid #37b9e9;
+}
+
+#middle::after {              /**清除浮动**/
+    content: '';
+    display: block;
+    clear: both;
+}
+.shareTip_middles{
+    float: left;
+    height: 800px;
+    width: 1100px;
+    border: 1px solid #37b9e9;
+}
+
+.shareTip_middle{
+   height: 360px;
+   width: 750px;
+   margin-left: 250px;
+   border: 1px solid coral;
+}
+
+.shareTip_bottom{
+    height:360px;
+    width:750px;
+    margin-left: 250px;
+    margin-top:5px;
+    border: 1px solid coral;
+}
+
+
+.share_video, .share_canvas{
+    border-radius: 2px;
+    /*border: 1px solid #F0EFDA;*/
+}
+
+.share_video{
+    position:absolute;
+}
+.share_canvas{
+    margin: 0 auto;
+}
+
+#share_record {
+    width: 0px;
+    height: 0px;
+}
+
+#share_mediaRecord, #tip_mediaRecord{
+    float: right;
+    height:800px;
+    width: 90px;
+    /*height: 80px;*/
+    border: 1px solid coral;
+    z-index:999;
+    /*margin-top:5px;*/
+    /*margin-top:100px;*/
+    /*display:none;*/
+}
+
+#share_mediaRecord .mediaRecordButton, #tip_mediaRecord .tip_RecordButton {
+    z-index:999;
+    height:500px;
+    border: 1px solid coral;
+    /*margin-left: 180px;*/
+    /*margin-right:150px;*/
+    /*display: flex;*/
+    /*flex-direction: row;*/
+    /*flex-wrap: nowrap;*/
+    /*justify-content: space-between  ;*/
+    /*align-items: center ;*/
+    /*align-content:center;*/
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between ;
+    align-items: flex-start;
+    align-content:space-between;
+}
+.mediaRecordButton button{
+    width:90px;
+    height: 60px;
+    color: #37b9e9;
+    border:none;
+}
+
+#flex{
+    width: 600px;
+    height:400px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border: 2px solid #cbcbcb;
+
+    text-align: left;
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    justify-content: flex-start  ;
+    align-items: flex-start ;
+    align-content:flex-start ;
+}
+
+#flex .select{
+    margin-top:10px;
+    width: 500px;
+    height: 100px;
+}
+
+#flex .recordCon{
+    width: 600px;
+    /*height:300px;*/
+    margin-left: 10px;
+    display: flex;
+    flex-direction:column;
+    flex-wrap: nowrap;
+    justify-content: flex-start  ;
+    align-items: flex-start ;
+    align-content:center ;
+}
+
+#flex .recordCon .audioButton{
+    height:40px;
+    width:80px;
+    border: 1px solid #cbcbcb;
+}
+
+#flex .recordCon .audio{
+    height: 50px;
+    width:300px;
+}
+
+.tip_top{
+    color: #020404;
+    height: 100px;
+    width: 800px;
+}
+
+#tip_middle,record_middle{
+    height: 400px;
+    width:800px;
+}
+
+#recordVideo{
+    height:360px;
+    width: 720px;
+    line-height:360px;
+    border: 2px solid #cbcbcb;
+    border-radius: 10px;
+
+}
+
+.tip_bottom{
+    height: 100px;
+    width:800px;
+    text-align:center;
+}
+#record .tip_bottom {
+    height: 100px;
+    width:800px;
+    text-align:center;
+    margin-top:420px;
+}
+
+.record .download{
+    color: #020404;
+    background-color: #ffffff;
+}
+.download:hover{
+    background: #cbcbcb;
+}
+
+
+
+.tip_top h2{
+    padding-left: 10px;
+}
+
+.middle_start {
+    width: 700px;
+    height: 400px;
+    /*border: 1px solid #F0EFDA;*/
+    border-radius: 2px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    z-index:999;
+
+    /*display: -webkit-flex; !* Safari *!*/
+    /*display: flex;*/
+    /*flex-direction: column-reverse;*/
+    /*justify-content:center;*/
+}
+.videoContrainer{
+    width: 720px;
+    height: 360px;
+    overflow: hidden;
+    border: 2px solid #F0EFDA;
+    border-radius: 5px;
+}
+
+/*video, canvas{*/
+    /*width: 720px;*/
+    /*height: 360px;*/
+    /*border-radius: 2px;*/
+    /*border: 1px solid #F0EFDA;*/
+/*}*/
+#video， #shareScreen{
+    width: 720px;
+    height: 360px;
+    border-radius: 2px;
+    border: 1px solid #F0EFDA;
+    display:none;
+    /*z-index:-1;*/
+}
+
+#shareScreen{
+    width: 720px;
+    height: 360px;
+    border-radius: 2px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index:-1;
+    border: 1px solid #F0EFDA;
+    /*display:none;*/
+}
+
+#canvas {
+    width: 720px;
+    height: 360px;
+    border-radius: 2px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index:999;
+    /*border: 1px solid #F0EFDA;*/
+}
+
+
+.wrapper {
+    width: 300px;
+    height:50px;
+    /*margin-left:-20px;*/
+    /*margin-top:-50px;*/
+    text-align: left;
+    z-index: 999;
+    /*border: 1px solid #cbcbcb;*/
+
+}
+.wrapper ul {
+    width: 500px;
+    height:50px;
+    /*margin-left: 10px;*/
+    /*margin-left: -50px;*/
+    overflow: hidden;
+}
+
+.wrapper ul::after, .audioinput::after {     /*清除浮动 */
+    content: '';
+    display: inline-block;
+    clear: both;
+}
+.wrapper ul li {
+    float: left;         /*让li浮动起来 横向排列*/
+    text-align: left;  /*让li在ul中水平居中则设置为center*/
+    height: 50px;
+    line-height: 5px;   /*垂直居中*/
+    width: 100px;        /*任意设置li的宽度，不设置宽度的话也可以设置padding*/
+    list-style-type:none;
+    font-size: 20px;
+    margin-left: -15px;
+    z-index:9999;
+}
+
+.wrapper ul li button{
+    background-color: #fff;
+    text-align: center;
+    border-color:#fff;
+    z-index:9999;
+}
+
+.wrapper ul li button:hover{
+    border: 1px solid #A2A2A2;
+    background-color:#cbcbcb;
+}
+
+.wrapper ul .videoAction::after{
+    /*content: "关闭摄像头";*/
+    /*color: #A2A2A2;*/
+}
+
+.selectDevice{
+    width:150px;
+    height:90px;
+    margin: 0;
+    padding: 0;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    position:absolute;
+    left:200px;
+    bottom: 40px;
+    display:none;
+    z-index:999;
+}
+
+.setArea{
+    width:150px;
+    height:90px;
+    /*border: 1px solid #F0EFDA;*/
+    /*margin-top: 25px;*/
+    /*margin-left:20px;*/
+    text-align: center;
+    display: flex;
+    flex-direction:column-reverse;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content:center;
+}
+
+/*.setArea button span{*/
+/*border-weight:10px;*/
+/*magrin-right: 0px;*/
+/*}*/
+
+.camera, .mic, .speaker{
+    width: 150px;
+    height:30px;
+    text-align: center;
+    border:none;
+    line-height:30px;
+    background-color:#ffffff;
+}
+
+
+.camera:hover, .mic:hover, .speaker:hover{
+    background-color:#37b9e9;
+    color:#ffffff;
+}
+
+select{
+    width: 200px;
+    height: 30px;
+}
+
+.audioinput{
+    text-align: left;
+    border: 1px solid #A2A2A2;
+    line-height:30px;
+    background-color:#ffffff;
+    color:#37b9e9;
+    position: absolute;
+    left:350px;
+    top: 268px;
+    border-radius:5px;
+    z-index: 9999;
+    display:none;
+}
+
+.audioOutput{
+    text-align: left;
+    border: 1px solid #A2A2A2;
+    line-height:30px;
+    background-color:#ffffff;
+    color:#37b9e9;
+    position: absolute;
+    left:350px;
+    top: 300px;
+    border-radius:5px;
+    z-index: 9999;
+    display:none;
+}
+
+.cameraDeviced{
+    text-align: left;
+    border: 1px solid #A2A2A2;
+    line-height:30px;
+    background-color:#ffffff;
+    color:#37b9e9;
+    position: absolute;
+    left:350px;
+    top: 330px;
+    border-radius:5px;
+    z-index: 9999;
+    display:none;
+}
+
+
+.record button {
+    width: 100px;
+    height:50px;
+    background-color: orangered;
+    border: 1px solid #fff;
+    font-family: Algerian;
+    color: #fff;
+    font-size: 15px;
+    font-weight:700;
+}
+
+.record .share{
+    background-color: #fff;
+    color: deepskyblue;
+}
+
+.share:hover{
+    background-color: #cbcbcb;
+    border:1px solid #cbcbcb;
+}
+
+.closePopUp{
+    font-size: medium;
+    color: cornsilk;
+    float: right;
+    text-align: center;
+}
+
+.closePopUp div{
+    width: 50px;
+    float: right;
+    margin-top: -40px;
+    margin-right: -10px;
+    text-align: center;
+    background: #c8c3c3;
+    color: cornsilk;
+    border-radius: 2px;
+    font-size: 20px;
+    font-weight:500;
+}
+
+.closePopUp .close{
+    /*width：40px;*/
+    margin-right: 10px;
+}
+
+.restartRecord{
+    width: 70px;
+    height: 28px;
+    float: right;
+    margin-top: -40px;
+    margin-right: 80px;
+    text-align: center;
+    background-color: #c8c3c3;
+    color: cornsilk;
+    border-radius: 2px;
+    font-size:15px;
+    display: none;
+}
+.restartRecord:hover{
+    /*width：60px;*/
+    background-color: #c8c3c3;
+}
+
+
+
+.title{
+    text-shadow: 2px 2px 15px rgb(26, 70, 90);
+    margin-top: 50px;
+    margin-left:10px;
+}
+
+#contrainer {
+    height: 500px;
+    width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #cbcbcb;
+}
+
+#contrainer_start{
+    height: 500px;
+    width: 700px;
+    margin: 0 auto;
+}
+
+#contrainer_start button{
+    width: 80px;
+    height:50px;
+    border: 1px solid #cbcbcb;
+}
+
+button{
+    height: 30px;
+    color: #031b3e;
+    font-family: fantasy;
+    border-radius: 5px;
+}
+
+.mask,
+.rect {
+    position: absolute;
+    /*position:fixed;*/
+}
+
+.mask {
+    background-color: #000;
+    opacity: 0;
+}
+
+.rect {
+    background-color: #fff;
+    opacity: 0.5;
+    border:1px dashed #f50;
+}

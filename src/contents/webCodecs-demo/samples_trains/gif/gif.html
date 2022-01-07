@@ -1,0 +1,94 @@
+<!doctype html>
+<head>
+    <title>WebCodecs Animated GIF Renderer</title>
+</head>
+
+<body>
+    <canvas width="480" height="270"></canvas>
+    <br/><br/>
+    <image src="R-C.gif" />
+
+    <textarea style="width: 640px; height: 270px" ></textarea>
+    <script>
+        let imageDecoder = null;
+        let imageIndex = 0;
+
+        fetch('R-C.gif').then(response => decodeImage(response.body));
+
+        function log(str) {
+            document.querySelector('textarea').value += str + '\n';
+        }
+
+        function decodeImage(imageStream){
+            if(ImageDecoder in window){
+                log("Your browser does not support the WebCodecs ImageDecoder API")
+                return
+            }
+
+            imageDecoder = new ImageDecoder({data: imageStream, type: 'image/gif'});
+            imageDecoder.tracks.ready.then(logMetadata)
+            imageDecoder.decode({frameIndex: imageIndex}).then(renderImage);
+        }
+
+        function logMetadata(){
+            log("imageDecoder.type :" + imageDecoder.type)
+            log("imageDecoder.tracks.length :" + imageDecoder.tracks.length)
+            log(" ")
+
+            if(!imageDecoder.complete){
+                log('Partial metadata while still loading:');
+                log("imageDecoder.complete :" + imageDecoder.complete)
+                logTracks()
+                log(' ')
+            }
+
+            imageDecoder.completed.then(_ => {
+                log('Final metadata after all data received:');
+                log('imageDecoder.complete = ' + imageDecoder.complete);
+                logTracks();
+            });
+
+            function logTracks(){
+                for (let i = 0; i < imageDecoder.tracks.length; ++i) {
+                    let  track = imageDecoder.tracks[i];
+                    log(`track[${i}].frameCount = ` + track.frameCount);
+                    log(`track[${i}].repetitionCount = ` + track.repetitionCount);
+                    log(`track[${i}].animated = ` + track.animated);
+                    log(`track[${i}].selected = ` + track.selected);
+                }
+            }
+        }
+       function renderImage(result){
+           let canvas = document.querySelector('canvas');
+           let ctx = canvas.getContext('2d');
+           ctx.drawImage(result.image, 0, 0);
+           const track = imageDecoder.tracks.selectedTrack;
+           if (imageDecoder.complete) {
+               if (track.frameCount == 1)
+                   return;
+
+               if (imageIndex + 1 >= track.frameCount)
+                   imageIndex = 0;
+           }
+           imageDecoder.decode({frameIndex:++imageIndex})
+               .then(
+                   nextResult => setTimeout(
+                       _ => {
+                           renderImage(nextResult);
+                       },
+                       result.image.duration / 1000.0)
+               ).catch( e => {
+                   if (e instanceof RangeError) {
+                       imageIndex = 0;
+                       imageDecoder.decode({frameIndex: imageIndex}).then(renderImage);
+                   } else {
+                       throw e;
+                   }
+               }
+           )
+       }
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,383 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    color: #fff;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+
+#header,#footer{
+    width: 100%;
+    height: 100px;
+    background: #ccc;
+}
+
+/************************************头部**************************************************************/
+#header{
+    width: auto;
+    height:100px;
+    text-align: center;
+    font-weight: 200;
+    line-height:100px;
+    background-image: linear-gradient(to right, #37b9e9 , #89bfbc);
+}
+
+.title{
+    text-shadow: 2px 2px 15px rgb(26, 70, 90);
+    margin: 0 auto;
+}
+
+
+/*********************************************正文布局************************************************************/
+#container{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    top: 100px;
+    bottom: 100px;
+}
+/*.left-group{*/
+    /*width: 200px;*/
+    /*background-color: #cbcbcb;*/
+    /*text-align: center;*/
+/*}*/
+
+.right-group{
+    width: 200px;
+    background-color: #cbcbcb;
+    text-align: center;
+}
+.mid-group{
+    flex: 1;
+    text-align: center;
+    /*border:1px solid #cbcbcb;*/
+}
+.foot{
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    bottom: 0;
+    background-color: purple;
+    text-align: center;
+}
+
+
+
+/*******************************正文左边内容**************************************/
+
+.leftContrainterButton{
+    width:200px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between ;
+    align-items: flex-start;
+    align-content:space-between;
+    margin: 0 auto;
+}
+
+.leftContrainterButton  button{
+    width: 90px;
+    height: 50px;
+    background-color: #8c818a;
+    color: white;
+    margin: 8px 5px;
+    padding: 3px;
+    border: 0;
+    border-radius: 8px;
+    transition: all 200ms;
+    font-size: small;
+}
+
+.leftContrainterButton .toggleShareButton, .leftContrainterButton .localVideoButton, .leftContrainterButton .toggleMuteButton, .leftContrainterButton .toggleVideoButton{
+    background-color: skyblue;
+}
+
+
+/*.leftContrainterButton  button:hover{*/
+    /*background-color:white;*/
+    /*color: skyblue;*/
+/*}*/
+
+.setDeviced{
+    width:150px;
+    height:100px;
+    margin-left:20px;
+    margin-top:20px;
+    /*margin:0 auto;*/
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between ;
+    align-items: flex-start;
+    align-content:space-between;
+}
+
+.select select{
+    height: 20px;
+    width: 90px;
+}
+
+
+
+/**************************************正文中部内容*************************************/
+.midTop{
+    width: auto;
+    height:50px;
+    background-color: darkkhaki;
+
+    display: flex;
+    flex-direction:row;
+    flex-wrap: nowrap;
+    justify-content:space-between;
+    align-items: center;
+    align-content:space-between;
+}
+
+.midTop div{
+    width: 150px;
+    height: 40px;
+    background-color: #8c818a;
+    color: white;
+    margin: 8px 5px;
+    padding: 3px;
+    transition: all 200ms;
+    font-size: medium;
+    text-align: center;
+    line-height: 40px;
+}
+
+.midMiddle{
+    width: auto;
+    height:1000px;
+    /*border: 5px solid #F35252*/
+}
+
+.midContent{
+    height: auto;
+    width: auto;
+    display: none;
+    /*border: 5px solid #F35252;*/
+}
+.btn.active{
+    background-color: purple ;
+}
+
+.midMiddle .show{
+    display:block;
+}
+
+/*.videoArea{*/
+    /*display: none;*/
+/*}*/
+/*.shareContrainter .show{*/
+    /*display:block;*/
+/*}*/
+
+/****************关于音视频录制、区域录制处理************************/
+
+.shareContrainer, .videoContrainer, .audioContrainter{
+    width: auto;
+    height:1000px;
+}
+
+.videoContrainer{
+    margin: 0 auto;
+}
+
+.p-video_recorder_canvas__container, .imgContainer, .canvas_gif_container{
+    position: relative;
+    background: rgba(var(--sk_foreground_min,29,28,29),.04);
+    border-radius: 8px;
+    overflow: hidden;
+    width: 640px;
+    height: 298px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shareVideo_container, .shareRecord_container{
+    background: rgba(var(--sk_foreground_min,29,28,29),.04);
+    border-radius: 8px;
+    overflow: hidden;
+    width: 640px;
+    height: 298px;
+    margin: 0 auto;
+}
+
+.shareCanvas_container{
+    background: rgba(var(--sk_foreground_min,29,28,29),.04);
+    border-radius: 8px;
+    width: 640px;
+    height: 298px;
+    margin: 0 auto;
+}
+
+.p-video_recorder_canvas__container--screen_share {
+    width: 600px;
+    height: 338px;
+    border-radius: 0;
+}
+.p-video_recorder_canvas, .canvasRecord, .gifVideo, .gifCanvas, #result, /*.shareVideo, */.shareLocalVideo, .shareCanvas, .shareRecord, .gifVideoOfAreaVideo, #imgResult{
+    width: 100%;
+    height: 100%;
+}
+
+/*.shareRecord, .canvasRecord, .gifVideo, .gifVideoOfAreaVideo, .shareLocalVideo{*/
+    /*object-fit: cover;*/
+/*}*/
+
+.shareCanvas{
+    border-radius: 8px;
+}
+/*#result{*/
+    /*width: 100%;*/
+    /*height: 100%;*/
+/*}*/
+
+.shareVideo, .shareLocalVideo, .canvas_gif_container, .gifContainer, .gif_container{
+    display:none;
+}
+
+#info, #load{
+    text-align: center;
+    color:red;
+}
+/***********************************关于音频录制内容 *****************************************/
+.audio_contrainter{
+    margin:0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.localAudio{
+    display: none;
+    height: 50px;
+    width: 300px;
+    magrin: 0 auto;
+}
+
+.audioContrainter span{
+    color:red;
+}
+
+#span{
+    color:#7A0099  !important;
+}
+/**************************************正文右边内容*************************************/
+
+.rightTop{
+    width: 200px;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-between;
+}
+
+.rightTop  button, .rightTop .textContrainter, .downloadBtn{
+    width: 90px;
+    height: 50px;
+    background-color: #8c818a;
+    color: white;
+    margin: 8px 5px;
+    padding: 3px;
+    border: 0;
+    border-radius: 8px;
+    transition: all 200ms;
+    font-size: small;
+}
+.downloadBtn{
+    width: 180px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+    margin:0 auto;
+}
+.downloadBtn .download, .downloadBtn  .downloadImg{
+    width: 80px;
+    height: 50px;
+    border: 1px solid white;
+    border-radius: 8px;
+    font-size: small;
+}
+
+.textContrainter{
+    display: none;
+    width: 140px;
+    height: 90px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.input{
+    /*margin: 8px 5px;*/
+    margin-left: 5px;
+    width:140px;
+    height:90px;
+}
+.textContrainter .textBtn{
+    position: relative;
+    top: -105px;
+    left: 66px;
+    border-radius: 3px;
+    border: none;
+    width: 20px;
+    height: 20px;
+    line-height: 15px;
+    text-align: center;
+}
+.textBtn:hover{
+    background-color: #8c818a;
+}
+
+
+
+
+
+/*.rightTop  button:hover{*/
+    /*background-color:white;*/
+    /*color: skyblue;*/
+/*}*/
+
+
+
+
+
+
+
+
+
+
+
+/********************获取区域************************/
+.mask,
+.rect {
+    position: absolute;
+    /*position:fixed;*/
+}
+
+.mask {
+    background-color: #000;
+    opacity: 0;
+}
+
+.rect {
+    background-color: #fff;
+    opacity: 0.5;
+    border:1px dashed #f50;
+}

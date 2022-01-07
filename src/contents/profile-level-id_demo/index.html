@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<!--
+ *  Copyright (c) 2015 The WebRTC project authors. All Rights Reserved.
+ *
+ *  Use of this source code is governed by a BSD-style license
+ *  that can be found in the LICENSE file in the root of the source
+ *  tree.
+-->
+<html>
+<head>
+
+    <meta charset="utf-8">
+    <meta name="description" content="WebRTC code samples">
+    <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1, maximum-scale=1">
+    <meta itemprop="description" content="Client-side WebRTC code samples">
+    <meta itemprop="image" content="../../../images/webrtc-icon-192x192.png">
+    <meta itemprop="name" content="WebRTC code samples">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta id="theme-color" name="theme-color" content="#ffffff">
+
+    <base target="_blank">
+
+    <title>Peer connection</title>
+
+    <!--<link rel="icon" sizes="192x192" href="../../../images/webrtc-icon-192x192.png">-->
+    <script src="js/sdp_tools.js"></script>
+    <link href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/index.css"/>
+    <link rel="stylesheet" href="css/main.css"/>
+
+</head>
+
+<body>
+
+<div id="container">
+    <h1><a href="//webrtc.github.io/samples/" title="WebRTC samples homepage">WebRTC samples</a>
+        <span>Peer connection</span></h1>
+
+    <p>This sample shows how to setup a connection between two peers using
+        <a href="https://developer.mozilla.org/en-US/docs/Web/API/RTCPeerConnection">RTCPeerConnection</a>.
+        An option to specify the <a href="https://webrtc.org/web-apis/chrome/unified-plan/">SDP semantics</a> for
+        the connection is also available (unified-plan, plan-b or default).
+    </p>
+
+
+    <div style="display: inline">
+        <span style ="font-weight:bold;">设置的profile-level-id：</span>
+        <input type="text" id="setLevelId" style="width: 200px;height: 30px; margin-top:10px;" placeholder="420028">
+    </div>
+
+    <div class="box">
+        <span style ="font-weight:bold;">SDP Semantics:</span>
+        <select id="sdpSemantics" style="width: 200px;height: 30px; margin-top:10px;">
+            <option selected value="">Default</option>
+            <option value="unified-plan">Unified Plan</option>
+            <option value="plan-b">Plan B</option>
+        </select>
+    </div>
+
+    <div class="box">
+        <button id="startButton">Start</button>
+        <button id="callButton">Call</button>
+        <button id="hangupButton">Hang Up</button>
+    </div>
+
+
+    <section id="video">
+        <div id="local_Video">
+            <h2>localVideo</h2>
+            <video playsinline autoplay muted id="localVideo"></video>
+            <div id="localHtml"></div>
+            <div id="local_bytesSent"></div>
+        </div>
+        <div id="remote_Video">
+            <h2>remoteVideo</h2>
+            <video playsinline autoplay muted id="remoteVideo"></video>
+            <div id="remoteHtml"></div>
+            <div id="remote_bytesSent"></div>
+            <div id="bitrate"></div>
+            <div id="peer"></div>
+        </div>
+    </section>
+
+</div>
+
+<!--<script src="js/adapter-latest.js"></script>-->
+<script src="js/main.js" async></script>
+
+
+<script src="js/ga.js"></script>
+</body>
+</html>

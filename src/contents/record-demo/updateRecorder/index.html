@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>录制</title>
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <script src = "https://cdn.bootcss.com/jquery/3.2.1/jquery.js"></script>
+    <script type = "text/javascript"  src="js/videoArea.js"></script>
+</head>
+<body>
+
+   <!--<div class="content">-->
+       <!--***************************************页面顶部************************************************-->
+       <div id="header">
+           <h1 class="title"> 音频 视频 屏幕共享进行录制</h1>
+       </div>
+       <div id="container">
+           <!--***************************************页面左边（左边侧边栏）*********************************************-->
+           <div class="left-group">
+               <div class="leftContrainterButton">
+                   <button class="toggleVideoButton" onclick="toggleVideoButton({type:'main'})" >开启视频</button>
+                   <button class="toggleShareButton" onclick="toggleShareButton({type: 'slides'})">开启共享</button>
+                   <button class="localVideoButton" onclick="localVideoButton()">上传视频</button>
+                   <button class="toggleMuteButton" onclick="toggleMuteButton({type: 'audio'})">非静音</button>
+                   <button class="setDeviceds">设置</button>
+               </div>
+
+               <!--***********************************设备选择************************************************-->
+               <div class="setDeviced">
+                   <div class="select">
+                       <label for="audioSource">麦克风: </label><select id="audioSource"></select>
+                   </div>
+
+                   <div class="select">
+                       <label for="audioOutput">扬声器: </label><select id="audioOutput"></select>
+                   </div>
+
+                   <div class="select">
+                       <label for="camera">摄像头: </label><select id="camera"></select>
+                   </div>
+               </div>
+           </div>
+           <!--**************************************页面中间******************************************************-->
+           <div class="mid-group">
+               <div class="midTop">
+                   <div  class="btn active  areaVideoBtn" >区域录制类型</div>
+                   <div  class="btn videoBtn">混合录制类型</div>
+                   <div  class="btn audioBtn">音频录制类型</div>
+               </div>
+
+
+               <!--***************************页面中间显示部分（音视频录制）**************************-->
+               <div class="midMiddle">
+                   <div class="midContent show">
+                       <div class="shareContrainter">
+                           <div class="videoArea shareVideo_container">
+                               <!--<div class="shareVideo_container">-->
+                                  <video class="shareVideo" style="transform: scale(1)" width="1920" height="1080"></video>
+                                  <video class="shareLocalVideo" style="transform: scale(1)" width="1920" height="1080"></video>
+                               <!--</div>-->
+                           </div>
+
+                           <!--<div class="videoArea">-->
+                               <!--<video class="shareLocalVideo" style="transform: scale(1)" ></video>-->
+                           <!--</div>-->
+                           <hr/>
+                           <div class="shareCanvas_container">
+                               <canvas class="shareCanvas" style="transform: scale(1)" width="1920" height="1080"></canvas>
+                           </div>
+                           <hr/>
+                           <div class="shareRecord_container">
+                               <video class="shareRecord" style="transform: scale(1)" width="1920" height="1080"></video>
+                           </div>
+                           <!--<hr />-->
+                           <div class="gif_container">
+                               <p>
+                                   <!--<input disabled id="sample" type="range" step="1" min="20" max="500" value="400">-->
+                                   <button id="goes" disabled>Generate gif animation</button>
+                                   <button id="begin" onclick="handleGIF()">change screen</button>
+                               <p id="load">Loading...</p>
+                               </p>
+
+                               <div class="canvas_gif_container">
+                                   <canvas class="gifCanvas" style="transform: scale(1)" width="1920" height="1080"></canvas>
+                               </div>
+
+                               <br />
+
+                               <div class="p-video_recorder_canvas__container video_container">
+                                   <video class="gifVideoOfAreaVideo" style="transform: scale(1)" width="1920" height="1080"></video>
+                               </div>
+
+                               <br/>
+
+                               <div class="p-video_recorder_canvas__container video_container">
+                                   <img id="imgResult"  style="transform: scale(1)" width="1920" height="1080" />
+                               </div>
+                           </div>
+
+
+                       </div>
+                   </div>
+
+                   <div class="midContent ">
+                       <div class="videoContrainter">
+                           <!--<video class="mainVideo"></video>-->
+                           <!--<video class="slidesVideo"></video>-->
+                           <!--<h1>录制内容</h1>-->
+                           <div class="p-video_recorder_canvas__container">
+                               <canvas class="p-video_recorder_canvas" style="transform: scale(1)" width="1920" height="1080"></canvas>
+                           </div>
+
+                           <hr/>
+
+                           <div class="p-video_recorder_canvas__container video_container">
+                               <video class="canvasRecord" style="transform: scale(1)" width="1920" height="1080"></video>
+                           </div>
+
+                           <hr />
+
+                           <div class="gifContainer">
+                               <p>
+                                   <!--<input disabled id="sample" type="range" step="1" min="20" max="500" value="400">-->
+                                   <button id="go" disabled onclick="listenClickofGif()">Generate gif animation </button>
+                                   <button id="start" onclick="handleGIF()">change screen</button>
+                               <p id="info">Loading...</p>
+                               </p>
+
+                               <div class="canvas_gif_container">
+                                   <canvas class="gifCanvas" style="transform: scale(1)" width="1920" height="1080" ></canvas>
+                               </div>
+
+                               <br />
+
+                               <div class="p-video_recorder_canvas__container video_container">
+                                   <video class="gifVideo" style="transform: scale(1)" width="1920" height="1080" oncanplay="listenCanPlayofGif()"  onended="listenVideoEnded()" onplay="listenPlayofGif()"></video>
+                               </div>
+
+                               <br/>
+
+                               <div class="p-video_recorder_canvas__container video_container">
+                                   <img id="result"  style="transform: scale(1)" width="1920" height="1080" />
+                               </div>
+                           </div>
+                       </div>
+
+                   </div>
+                   <div class="midContent">
+                       <div class="audioContrainter">
+                           <div class="audio_contrainter">
+                               <audio class="localAudio" controls></audio>
+                           </div>
+                           <span>请点击开始录制</span>
+                           <!--<input type="text" placeholder="页面二内容" />-->
+                       </div>
+
+                   </div>
+               </div>
+           </div>
+           <!--**************************************页面右边（右侧边栏）**************************************-->
+           <div class="right-group">
+               <div class="rightTop">
+                   <button class="startRecord"  onclick="beginRecord()" disabled>开始录制</button>
+                   <button class="gifImg" onclick ="gifImg()" >gif 动图</button>
+                   <button class="pauseRecord"  onclick="pauseRecord()" disabled>暂停录制</button>
+                   <button class="resumeRecord"  onclick="resumeRecord()" disabled>恢复录制</button>
+                   <button class="stopRecord"  onclick="stopRecord()" disabled>停止录制</button>
+                   <button class="restartRecord"  onclick="restartRecord()" disabled>重新录制</button>
+                   <div class="downloadBtn">
+                       <button class="download " onclick ="download()" disabled>下载视频</button>
+                       <button class="downloadImg" onclick ="downloadImg()" disabled>下载图片</button>
+                   </div>
+               </div>
+               <div class="textContrainter">
+                   <textarea class="input"></textarea>
+                   <button class="textBtn"> X </button>
+               </div>
+           </div>
+       </div>
+       <!--<div id="foot">foot</div>-->
+   <!--</div>-->
+
+</body>
+
+
+<script type = "text/javascript"  src="js/record.js"></script>
+<script type = "text/javascript"  src="js/api.js"></script>
+<script type = "text/javascript"  src="js/main.js"></script>
+<script type = "text/javascript"  src="js/stream.js"></script>
+<script type = "text/javascript"  src="js/common.js"></script>
+<script type = "text/javascript"  src="gif.js"></script>
+<script type = "text/javascript"  src="gif.worker.js"></script>
+<script type = "text/javascript"  src="index.js"></script>
+</html>
