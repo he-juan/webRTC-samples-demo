@@ -1,11 +1,4 @@
 <!DOCTYPE html>
-<!--
- *  Copyright (c) 2015 The WebRTC project authors. All Rights Reserved.
- *
- *  Use of this source code is governed by a BSD-style license
- *  that can be found in the LICENSE file in the root of the source
- *  tree.
--->
 <html>
 <head>
 
@@ -17,14 +10,11 @@
     <meta itemprop="name" content="WebRTC code samples">
     <meta name="mobile-web-app-capable" content="yes">
     <meta id="theme-color" name="theme-color" content="#ffffff">
-
-    <base target="_blank">
-
     <title>WebRTC samples</title>
 
     <link rel="icon" sizes="192x192" href="src/images/webrtc-icon-192x192.png">
     <link href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="src/css/main.css"/>
+    <link rel="stylesheet" href="index.css"/>
 
     <style>
         h2 {
@@ -56,137 +46,187 @@
     <h1>WebRTC samples</h1>
     <section>
 
-        <h2 id="getusermedia"><a href="https://developer.mozilla.org/en-US/docs/Web/API/Navigator/getUserMedia">getUserMedia():</a>
-        </h2>
-        <p class="description">Access media devices</p>
+        <h2 id="getusermedia">getUserMedia():  </h2>
+        <!--<p class="description">Access media devices</p>-->
         <ul>
-            <li><a href="src/contents/getusermedia/gum/">Basic getUserMedia demo</a></li>
+            <li><a href="src/contents/GUM_demo/getDisplayMedia_demo/">点对点开启共享</a></li>
 
-            <li><a href="src/content/getusermedia/canvas/">Use getUserMedia with canvas</a></li>
+            <li><a href="src/contents/GUM_demo/getDsiplayMediaConstraints/">Edge和Chrome getDisplayMedia 测试</a></li>
 
-            <li><a href="src/content/getusermedia/filter/">Use getUserMedia with canvas and CSS filters</a></li>
+            <li><a href="src/contents/GUM_demo/getUserMediaConstraints/">getUserMedia 取流参数测试</a></li>
 
-            <li><a href="src/content/getusermedia/resolution/">Choose camera resolution</a></li>
+            <li><a href="src/contents/ApplyConstraintsAPI_demo/">ApplyConstraintsAPI_demo</a></li>
 
-            <li><a href="src/content/getusermedia/audio/">Audio-only getUserMedia() output to local audio element</a>
-            </li>
+            <li><a href="src/contents/Mobile_facingMode_demo/">Mobile_facingMode_demo</a></li>
 
-            <li><a href="src/content/getusermedia/volume/">Audio-only getUserMedia() displaying volume</a></li>
-
-            <li><a href="src/content/getusermedia/record/">Record stream</a></li>
-
-            <li><a href="src/content/getusermedia/getdisplaymedia/">Screensharing with getDisplayMedia</a></li>
-
-            <li><a href="src/content/getusermedia/pan-tilt-zoom/">Control camera pan, tilt, and zoom</a></li>
+            <li><a href="src/contents/switchShareScreenSource_demo/">switchShareScreenSource_demo</a></li>
         </ul>
+
+        <h2 id="bandwidth">Bandwidth:</h2>
+        <ul>
+            <li><a href="src/contents/bandwith/chromePacketLoss/">Chrome 95版本x-google参数提高码率后视频存在明显丢包</a></li>
+            <li><a href="src/contents/bandwith/WebRTC-bandwidth-limit/">通过修改SDP来限制WebRTC的带宽</a></li>
+        </ul>
+
         <h2 id="devices">Devices:</h2>
-        <p class="description">Query media devices</p>
+        <!--<p class="description">Query media devices</p>-->
         <ul>
-            <li><a href="src/content/devices/input-output/">Choose camera, microphone and speaker</a></li>
+            <li><a href="src/contents/enumerateDevices_demo/change_enumerateDevices_demo/">change_enumerateDevices_demo</a></li>
 
-            <li><a href="src/content/devices/multi/">Choose media source and audio output</a></li>
+            <li><a href="src/contents/enumerateDevices_demo/get_enumerateDevices_demo/">Choose media source and audio output</a></li>
+
+            <li><a href="src/contents/Camera_Resolution_Scan_demo/">Camera_Resolution_Scan_demo</a></li>
         </ul>
 
-        <h2 id="capture">Stream capture:</h2>
-        <p class="description">Stream from canvas or video elements</p>
+        <h2 id="detection">Detection:</h2>
+        <!--<p class="description">voice detection and noise Detection </p>-->
         <ul>
+            <li><a href="src/contents/jitsi_VirtualBackground_demo/">jitsi_VirtualBackground_demo</a></li>
 
-            <li><a href="src/content/capture/video-video/">Stream from a video element to a video element</a></li>
+            <li><a href="src/contents/soundDetection-demo/">soundDetection-demo</a></li>
 
-            <li><a href="src/content/capture/video-pc/">Stream from a video element to a peer connection</a></li>
+            <li><a href="src/contents/noiseDetection-demo/jitsi-noiseDetection-demo/">jitsi-noiseDetection-demo</a></li>
 
-            <li><a href="src/content/capture/canvas-video/">Stream from a canvas element to a video element</a></li>
+            <li><a href="src/contents/noiseDetection-demo/rnnoise-demo/">rnnoise-demo</a></li>
 
-            <li><a href="src/content/capture/canvas-pc/">Stream from a canvas element to a peer connection</a></li>
+            <li><a href="src/contents/noiseDetection-demo/rnnoise_wasm/">rnnoise_wasm(需要终端运行)</a></li>
 
-            <li><a href="src/content/capture/canvas-record/">Record a stream from a canvas element</a></li>
-
-            <li><a href="src/content/capture/video-contenthint/">Guiding video encoding with content hints</a></li>
+            <li><a href="src/contents/noiseSuppression_demo/">noiseSuppression_demo</a></li>
         </ul>
 
-        <h2 id="peerconnection"><a href="https://developer.mozilla.org/en-US/docs/Web/API/RTCPeerConnection">RTCPeerConnection:</a>
-        </h2>
-        <p class="description">Controlling peer connectivity</p>
+        <h2 id="peerconnection">RTCPeerConnection: </h2>
+        <!--<p class="description">Controlling peer connectivity</p>-->
         <ul>
-            <li><a href="src/content/peerconnection/pc1/">Basic peer connection demo</a></li>
+            <li><a href="src/contents/media_bundle_demo/">media_bundle_demo</a></li>
 
-            <li><a href="src/content/peerconnection/perfect-negotiation/">Peer connection using Perfect Negotiation</a></li>
+            <li><a href="src/contents/peerConnection_demo/packetization_mode_demo/">packetization_mode_demo</a></li>
 
-            <li><a href="src/content/peerconnection/audio/">Audio-only peer connection demo</a></li>
+            <li><a href="src/contents/peerConnection_demo/profile-level-id/level_id_demo">level_id_demo</a></li>
 
-            <li><a href="src/content/peerconnection/bandwidth/">Change bandwidth on the fly</a></li>
+            <li><a href="src/contents/peerConnection_demo/profile-level-id/profile-level-id_demo">profile-level-id_demo</a></li>
 
-            <li><a href="src/content/peerconnection/change-codecs/">Change codecs before the call</a></li>
+            <li><a href="src/contents/peerConnection_demo/profile-level-id/WebRTC_profile-level-id">WebRTC_profile-level-id</a></li>
 
-            <li><a href="src/content/peerconnection/upgrade/">Upgrade a call and turn video on</a></li>
+            <li><a href="src/contents/peerconnection/states/">Display peer connection states</a></li>
 
-            <li><a href="src/content/peerconnection/multiple/">Multiple peer connections at once</a></li>
+            <li><a href="src/contents/peerConnection_demo/PeerConnection_simulcast_demo/">PeerConnection_simulcast_demo</a></li>
 
-            <li><a href="src/content/peerconnection/multiple-relay/">Forward the output of one PC into another</a></li>
+            <li><a href="src/contents/peerConnection_demo/PeerConnectionReplaceTrack/">PeerConnectionReplaceTrack</a></li>
 
-            <li><a href="src/content/peerconnection/munge-sdp/">Munge SDP parameters</a></li>
+            <li><a href="src/contents/peerConnection_demo/multiStreamPeerConnection_demo/">multiStreamPeerConnection_demo</a></li>
 
-            <li><a href="src/content/peerconnection/pr-answer/">Use pranswer when setting up a peer connection</a></li>
+            <li><a href="src/contents/peerConnection_demo/decoderDemo/">decoderDemo</a></li>
 
-            <li><a href="src/content/peerconnection/constraints/">Constraints and stats</a></li>
+            <li><a href="src/contents/peerConnection_demo/fileUploadPeerConnection_demo/">fileUploadPeerConnection_demo</a></li>
 
-            <li><a href="src/content/peerconnection/old-new-stats/">More constraints and stats</a></li>
+            <li><a href="src/contents/peerConnection_demo/iceRestart/iceRestart_demo">iceRestart_demo</a></li>
 
-            <li><a href="src/content/peerconnection/create-offer/">Display createOffer output for various scenarios</a>
-            </li>
+            <li><a href="src/contents/peerConnection_demo/iceRestart/answer_iceRestart_demo">answer_iceRestart_demo</a></li>
 
-            <li><a href="src/content/peerconnection/dtmf/">Use RTCDTMFSender</a></li>
+            <li><a href="src/contents/peerConnection_demo/webRTC_encodec_demo/">webRTC_encodec_demo</a></li>
 
-            <li><a href="src/content/peerconnection/states/">Display peer connection states</a></li>
+            <li><a href="src/contents/peerConnection_demo/webRTC_framerate_demo/">webRTC_framerate_demo</a></li>
 
-            <li><a href="src/content/peerconnection/trickle-ice/">ICE candidate gathering from STUN/TURN servers</a>
-            </li>
-
-            <li><a href="src/content/peerconnection/restart-ice/">Do an ICE restart</a></li>
-
-            <li><a href="src/content/peerconnection/webaudio-input/">Web Audio output as input to peer connection</a>
-            </li>
-
-            <li><a href="src/content/peerconnection/webaudio-output/">Peer connection as input to Web Audio</a></li>
-            <li><a href="src/content/peerconnection/negotiate-timing/">Measure how long renegotation takes</a></li>
         </ul>
-        <h2 id="datachannel"><a
-                href="https://developer.mozilla.org/en-US/docs/Web/API/RTCDataChannel">RTCDataChannel:</a></h2>
-        <p class="description">Send arbitrary data over peer connections</p>
+        <h2 id="WebAudio">WebAudio:</h2>
+        <!--<p class="description">Send arbitrary data over peer connections</p>-->
         <ul>
-            <li><a href="src/content/datachannel/basic/">Transmit text</a></li>
+            <li><a href="src/contents/webAudio/audio-demo/">audio-demo</a></li>
 
-            <li><a href="src/content/datachannel/filetransfer/">Transfer a file</a></li>
+            <li><a href="src/contents/webAudio/mixingstream_demo/">mixingstream_demo</a></li>
 
-            <li><a href="src/content/datachannel/datatransfer/">Transfer data</a></li>
+            <li><a href="src/contents/webAudio/Real-time_detection_volume_demo/">Real-time_detection_volume_demo</a></li>
             
-            <li><a href="src/content/datachannel/messaging/">Messaging</a></li>
+            <li><a href="src/contents/webAudio/volume-demo/">volume-demo</a></li>
+
+            <li><a href="src/contents/SpeechSynthesis_demo/demo1/">read text</a></li>
+
+            <li><a href="src/contents/SpeechSynthesis_demo/demo2/">read message</a></li>
+
+            <!--<li><a href="src/contents/w/demo3/">volume-demo</a></li>-->
         </ul>
 
-        <h2 id="videoChat">Video chat:</h2>
-        <p class="description">Full featured WebRTC application</p>
+        <h2 id="recorder">recorder:</h2>
+        <!--<p class="description">Send arbitrary data over peer connections</p>-->
         <ul>
+            <li><a href="src/contents/record-demo/audio-recorder/">audio-recorder</a></li>
 
-            <li><a href="https://apprtc.appspot.com/">AppRTC video chat client</a> powered by Google App Engine</li>
+            <li><a href="src/contents/record-demo/backgroundVideo/">backgroundVideo</a></li>
 
-            <li><a href="https://apprtc.appspot.com/params.html">AppRTC URL parameters</a></li>
+            <li><a href="src/contents/record-demo/changeFormat/">changeFormat</a></li>
 
+            <li><a href="src/contents/record-demo/multipleStreamsRecorder/">multipleStreamsRecorder</a></li>
+
+            <li><a href="src/contents/record-demo/recordAera/">recordAera</a></li>
+
+            <li><a href="src/contents/record-demo/recorderVideoToVideo/">recorderVideoToVideo</a></li>
+
+            <li><a href="src/contents/record-demo/recordProgram/">recordProgram</a></li>
+
+            <li><a href="src/contents/record-demo/updateRecorder/">updateRecorder</a></li>
+
+            <li><a href="src/contents/record-demo/UploadFileshare_demo/">UploadFileshare_demo</a></li>
         </ul>
 
-        <h2 id="capture">Insertable Streams:</h2>
-        <p class="description">API for processing media</p>
+
+        <h2 id="webCodecs">webCodecs:</h2>
+        <!--<p class="description">Send arbitrary data over peer connections</p>-->
         <ul>
-            <li><a href="src/content/insertable-streams/endtoend-encryption">End to end encryption using WebRTC Insertable Streams</a></li> (Experimental)
-            <li><a href="src/content/insertable-streams/video-analyzer">Video analyzer using WebRTC Insertable Streams</a></li> (Experimental)
-            <li><a href="src/content/insertable-streams/video-processing">Video processing using MediaStream Insertable Streams</a></li> (Experimental)            
-            <li><a href="src/content/insertable-streams/audio-processing">Audio processing using MediaStream Insertable Streams</a></li> (Experimental)            
+            <li><a href="src/contents/webCodecs-demo/draw-demo/drawVideo">drawVideo</a></li>
+
+            <li><a href="src/contents/webCodecs-demo/draw-demo/RotateText">RotateText</a></li>
+
+            <li><a href="src/contents/webCodecs-demo/samples/capture-to-file">capture-to-file</a></li>
+
+            <li><a href="src/contents/webCodecs-demo/samples/image-decoder">image-decoder</a></li>
+
+            <li><a href="src/contents/webCodecs-demo/samples/mp4-decode">mp4-decode</a></li>
+
+            <li><a href="src/contents/webCodecs-demo/samples/webAudio">webAudio</a></li>
+
+            <li><a href="src/contents/webCodecs-demo/samples/webcam">webcam</a></li>
+
+            <li><a href="src/contents/webCodecs-demo/samples/webcam-in-worker">webcam-in-worker</a></li>
+
+            <li><a href="src/contents/webCodecs-demo/samples_trains/gif">gif</a></li>
+
+            <li><a href="src/contents/webCodecs-demo/samples_trains/mp4">mp4</a></li>
+
+            <li><a href="src/contents/webCodecs-demo/webcodecpush/">webcodecpush</a></li>
         </ul>
+
+
+        <h2 >captrue stream:</a></h2>
+        <!--<p class="description">Access media devices</p>-->
+        <ul>
+            <li><a href="src/contents/canvas_demo/changeButton/">切换页面</a></li>
+
+            <li><a href="src/contents/canvas_demo/clipImage/">截取Image区域</a></li>
+
+            <li><a href="src/contents/canvas_demo/getColor/">获取Image颜色</a></li>
+
+            <li><a href="src/contents/canvas_demo/play-video-canvas/">video to canvas</a></li>
+
+            <li><a href="src/contents/canvas_demo/tableModify/">table</a>
+            </li>
+
+            <li><a href="src/contents/canvas_demo/transform/">get transform</a></li>
+
+            <li><a href="src/contents/canvas_demo/upLoadFile/">uploadFile</a></li>
+
+            <li><a href="src/contents/canvas_demo/video-screen-record/">video-screen-record</a></li>
+
+            <li><a href="src/contents/canvas_demo/video-screen-record-demo/">video-screen-record-demo</a></li>
+
+            <li><a href="src/contents/canvas_demo/videoScreenshots/">videoScreenshots</a></li>
+
+            <li><a href="src/contents/canvas_demo/web_screenshots_print/">web_screenshots_print</a></li>
+        </ul>
+
 
     </section>
 
 </div>
-
-<script src="src/js/lib/ga.js"></script>
 
 </body>
 </html>

@@ -2,21 +2,83 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dec9322d-fd7a-48cf-a961-2f8945c4710d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/contents/jitsi_VirtualBackground_demo/image/background-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/contents/jitsi_VirtualBackground_demo/image/background-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/contents/jitsi_VirtualBackground_demo/image/background-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/contents/jitsi_VirtualBackground_demo/image/background-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/contents/jitsi_VirtualBackground_demo/image/background-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/contents/jitsi_VirtualBackground_demo/image/background-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/contents/jitsi_VirtualBackground_demo/image/background-7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/contents/jitsi_VirtualBackground_demo/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/contents/jitsi_VirtualBackground_demo/js/gsrtc.streamBackgroundEffect.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/contents/jitsi_VirtualBackground_demo/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/contents/jitsi_VirtualBackground_demo/js/tflite.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/contents/jitsi_VirtualBackground_demo/js/tflite.wasm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/contents/jitsi_VirtualBackground_demo/js/timerWorker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/contents/jitsi_VirtualBackground_demo/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/bandwith/WebRTC-bandwidth-limit/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/bandwith/chromePacketLoss/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/bandwith/chromePacketLoss/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/bandwith/chromePacketLoss/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/bandwith/chromePacketLoss/js/bitrateControl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/bandwith/chromePacketLoss/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/bandwith/chromePacketLoss/js/mediaDevice.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/bandwith/chromePacketLoss/js/sdp_tools.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/peerConnection_demo/webRTC_framerate_demo/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/peerConnection_demo/webRTC_framerate_demo/sdp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/webCodecs-demo/samples/webcam/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contents/Camera _Resolution _Scan_demo/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/contents/Camera_Resolution_Scan_demo/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contents/Camera _Resolution _Scan_demo/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/contents/Camera_Resolution_Scan_demo/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contents/Camera _Resolution _Scan_demo/js/adapter-latest.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/contents/Camera_Resolution_Scan_demo/js/adapter-latest.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contents/Camera _Resolution _Scan_demo/js/jquery-1.11.0.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/contents/Camera_Resolution_Scan_demo/js/jquery-1.11.0.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contents/Camera _Resolution _Scan_demo/js/resolutionScan.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/contents/Camera_Resolution_Scan_demo/js/resolutionScan.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contents/IndexedDB_demo/indexedDB/index1.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/contents/IndexedDB_demo/indexedDB/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contents/canvas_demo/videoScreenshots/vss.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/contents/canvas_demo/videoScreenshots/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contents/peerConnection_demo/PeerConnection_simulcast_dmo/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/contents/peerConnection_demo/PeerConnection_simulcast_demo/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contents/peerConnection_demo/profile-leveI-id/WebRTC_profile-level-id/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/contents/peerConnection_demo/profile-level-id/WebRTC_profile-level-id/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contents/peerConnection_demo/profile-leveI-id/WebRTC_profile-level-id/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/contents/peerConnection_demo/profile-level-id/WebRTC_profile-level-id/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contents/peerConnection_demo/profile-leveI-id/WebRTC_profile-level-id/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/contents/peerConnection_demo/profile-level-id/WebRTC_profile-level-id/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contents/peerConnection_demo/profile-leveI-id/WebRTC_profile-level-id/js/adapter-latest.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/contents/peerConnection_demo/profile-level-id/WebRTC_profile-level-id/js/adapter-latest.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contents/peerConnection_demo/profile-leveI-id/WebRTC_profile-level-id/js/debug.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/contents/peerConnection_demo/profile-level-id/WebRTC_profile-level-id/js/debug.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contents/peerConnection_demo/profile-leveI-id/WebRTC_profile-level-id/js/ga.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/contents/peerConnection_demo/profile-level-id/WebRTC_profile-level-id/js/ga.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contents/peerConnection_demo/profile-leveI-id/WebRTC_profile-level-id/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/contents/peerConnection_demo/profile-level-id/WebRTC_profile-level-id/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contents/peerConnection_demo/profile-leveI-id/WebRTC_profile-level-id/js/sdp_tools.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/contents/peerConnection_demo/profile-level-id/WebRTC_profile-level-id/js/sdp_tools.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contents/peerConnection_demo/profile-leveI-id/WebRTC_profile-level-id/js/vconsole.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/contents/peerConnection_demo/profile-level-id/WebRTC_profile-level-id/js/vconsole.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contents/peerConnection_demo/profile-leveI-id/WebRTC_profile-level-id/sdp_tool.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/contents/peerConnection_demo/profile-level-id/WebRTC_profile-level-id/sdp_tool.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contents/peerConnection_demo/profile-leveI-id/level_id_demo/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/contents/peerConnection_demo/profile-level-id/level_id_demo/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contents/peerConnection_demo/profile-leveI-id/level_id_demo/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/contents/peerConnection_demo/profile-level-id/level_id_demo/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contents/peerConnection_demo/profile-leveI-id/level_id_demo/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/contents/peerConnection_demo/profile-level-id/level_id_demo/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contents/peerConnection_demo/profile-leveI-id/level_id_demo/js/adapter-latest.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/contents/peerConnection_demo/profile-level-id/level_id_demo/js/adapter-latest.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contents/peerConnection_demo/profile-leveI-id/level_id_demo/js/ga.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/contents/peerConnection_demo/profile-level-id/level_id_demo/js/ga.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contents/peerConnection_demo/profile-leveI-id/level_id_demo/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/contents/peerConnection_demo/profile-level-id/level_id_demo/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contents/peerConnection_demo/profile-leveI-id/profile-level-id_demo/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/src/contents/peerConnection_demo/profile-level-id/profile-level-id_demo/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contents/peerConnection_demo/profile-leveI-id/profile-level-id_demo/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/contents/peerConnection_demo/profile-level-id/profile-level-id_demo/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contents/peerConnection_demo/profile-leveI-id/profile-level-id_demo/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/contents/peerConnection_demo/profile-level-id/profile-level-id_demo/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contents/peerConnection_demo/profile-leveI-id/profile-level-id_demo/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/contents/peerConnection_demo/profile-level-id/profile-level-id_demo/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contents/peerConnection_demo/profile-leveI-id/profile-level-id_demo/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/contents/peerConnection_demo/profile-level-id/profile-level-id_demo/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contents/peerConnection_demo/profile-leveI-id/profile-level-id_demo/js/adapter-lastest.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/contents/peerConnection_demo/profile-level-id/profile-level-id_demo/js/adapter-lastest.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contents/peerConnection_demo/profile-leveI-id/profile-level-id_demo/js/ga.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/contents/peerConnection_demo/profile-level-id/profile-level-id_demo/js/ga.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contents/peerConnection_demo/profile-leveI-id/profile-level-id_demo/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/contents/peerConnection_demo/profile-level-id/profile-level-id_demo/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contents/peerConnection_demo/profile-leveI-id/profile-level-id_demo/js/sdp_tools.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/contents/peerConnection_demo/profile-level-id/profile-level-id_demo/js/sdp_tools.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contents/webCodecs-demo/samples/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/contents/webCodecs-demo/samples/webcam-in-worker/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contents/webCodecs-demo/samples/capture-to-file/capture-to-file.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/contents/webCodecs-demo/samples/capture-to-file/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contents/webCodecs-demo/samples/image-decoder/animated-gif-renderer.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/contents/webCodecs-demo/samples/image-decoder/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contents/webCodecs-demo/samples/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contents/webCodecs-demo/samples/samples.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/contents/webCodecs-demo/samples/webcam-in-worker/samples.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contents/webCodecs-demo/samples/webCodecs.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/contents/webCodecs-demo/samples/webcam-in-worker/webCodecs.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contents/webCodecs-demo/samples/webcam-in-worker/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/contents/webCodecs-demo/samples/webcam-in-worker/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contents/webCodecs-demo/samples/webcam-in-worker/stream_worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/contents/webCodecs-demo/samples/webcam/stream_worker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contents/webCodecs-demo/samples_trains/gif/gif.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/contents/webCodecs-demo/samples_trains/gif/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contents/webCodecs-demo/webcodecpush/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contents/webCodecs-demo/webcodecpush/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contents/webCodecs-demo/webcodecpush/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contents/webCodecs-demo/webcodecpush/.idea/webcodecpush.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contents/webCodecs-demo/webcodecpush/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contents/webRTC_encodec_demo/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/contents/peerConnection_demo/webRTC_encodec_demo/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contents/webRTC_encodec_demo/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/contents/peerConnection_demo/webRTC_encodec_demo/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contents/webRTC_encodec_demo/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/contents/peerConnection_demo/webRTC_encodec_demo/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contents/webRTC_encodec_demo/js/bitrate.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/contents/peerConnection_demo/webRTC_encodec_demo/js/bitrate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contents/webRTC_encodec_demo/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/contents/peerConnection_demo/webRTC_encodec_demo/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contents/webRTC_encodec_demo/js/newP2p.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/contents/peerConnection_demo/webRTC_encodec_demo/js/newP2p.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contents/webRTC_framerate_demo/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/contents/peerConnection_demo/webRTC_framerate_demo/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contents/webRTC_framerate_demo/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/contents/peerConnection_demo/webRTC_framerate_demo/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contents/webRTC_framerate_demo/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/contents/peerConnection_demo/webRTC_framerate_demo/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contents/webRTC_framerate_demo/js/adapter-latest.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/contents/peerConnection_demo/webRTC_framerate_demo/js/adapter-latest.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contents/webRTC_framerate_demo/js/debug.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/contents/peerConnection_demo/webRTC_framerate_demo/js/debug.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contents/webRTC_framerate_demo/js/ga.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/contents/peerConnection_demo/webRTC_framerate_demo/js/ga.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contents/webRTC_framerate_demo/js/mediaDevice.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/contents/peerConnection_demo/webRTC_framerate_demo/js/mediaDevice.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contents/webRTC_framerate_demo/js/sdp_tools.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/contents/peerConnection_demo/webRTC_framerate_demo/js/sdp_tools.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contents/webRTC_framerate_demo/js/vconsole.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/contents/peerConnection_demo/webRTC_framerate_demo/js/vconsole.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/main.css" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,100 +91,112 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/contents/peerConnection_demo/fileUploadPeerConnection_demo/index.html">
+        <entry file="file://$PROJECT_DIR$/src/contents/bandwith/chromePacketLoss/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="627">
-              <caret line="33" selection-start-line="33" selection-end-line="33" />
+            <state relative-caret-position="-798">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/contents/bandwith/WebRTC-bandwidth-limit/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="566">
+              <caret line="115" column="16" selection-start-line="115" selection-start-column="16" selection-end-line="115" selection-end-column="16" />
               <folding>
-                <element signature="e#1208#1213#0" expanded="true" />
-                <element signature="n#style#0;n#section#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h2#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#select#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#select#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/contents/switchShareScreenSource_demo/index.html">
+      <file leaf-file-name="mediaDevice.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/contents/bandwith/chromePacketLoss/js/mediaDevice.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="20" column="26" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="26" />
+            <state relative-caret-position="623">
+              <caret line="1351" lean-forward="true" selection-start-line="1351" selection-end-line="1351" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="718">
+              <caret line="268" lean-forward="true" selection-start-line="268" selection-end-line="268" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sdp_tools.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/contents/bandwith/chromePacketLoss/js/sdp_tools.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="623">
+              <caret line="1783" lean-forward="true" selection-start-line="1783" selection-end-line="1783" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/contents/bandwith/chromePacketLoss/css/index.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="623">
+              <caret line="267" lean-forward="true" selection-start-line="267" selection-end-line="267" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bitrateControl.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/contents/bandwith/chromePacketLoss/js/bitrateControl.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="623">
+              <caret line="166" lean-forward="true" selection-start-line="166" selection-end-line="166" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/contents/bandwith/chromePacketLoss/js/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="623">
+              <caret line="373" lean-forward="true" selection-start-line="373" selection-end-line="373" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#strong#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#strong#0;n#!!top" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/contents/jitsi_VirtualBackground_demo/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="78" column="53" selection-start-line="78" selection-start-column="53" selection-end-line="78" selection-end-column="53" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/contents/noiseDetection-demo/jitsi-noiseDetection-demo/index.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="tflite.wasm" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/contents/jitsi_VirtualBackground_demo/js/tflite.wasm">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-494">
-              <caret column="33755" lean-forward="true" selection-start-column="33755" selection-end-column="33755" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gsrtc.streamBackgroundEffect.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/contents/jitsi_VirtualBackground_demo/js/gsrtc.streamBackgroundEffect.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="47" column="43" selection-start-line="47" selection-start-column="43" selection-end-line="47" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tflite.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/contents/jitsi_VirtualBackground_demo/js/tflite.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="timerWorker.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/contents/jitsi_VirtualBackground_demo/js/timerWorker.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="45" column="18" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/contents/jitsi_VirtualBackground_demo/js/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="20" column="41" lean-forward="true" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/contents/jitsi_VirtualBackground_demo/main.css">
+        <entry file="file://$PROJECT_DIR$/src/contents/bandwith/chromePacketLoss/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
-              <caret line="68" selection-start-line="68" selection-end-line="68" />
+            <state relative-caret-position="623">
+              <caret line="112" lean-forward="true" selection-start-line="112" selection-end-line="112" />
             </state>
           </provider>
         </entry>
@@ -132,9 +206,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaScript File" />
         <option value="HTML File" />
         <option value="CSS File" />
-        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -151,13 +225,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/contents/UploadFileshare_demo/js/adapter.js" />
-        <option value="$PROJECT_DIR$/src/contents/UploadFileshare_demo/js/common.js" />
-        <option value="$PROJECT_DIR$/src/contents/UploadFileshare_demo/js/getScreenId.js" />
-        <option value="$PROJECT_DIR$/src/contents/UploadFileshare_demo/js/index.js" />
-        <option value="$PROJECT_DIR$/src/contents/UploadFileshare_demo/index.css" />
-        <option value="$PROJECT_DIR$/src/contents/UploadFileshare_demo/index.html" />
-        <option value="$PROJECT_DIR$/src/contents/profile-leveI-id/level_id_demo/adapter-latest.js" />
         <option value="$PROJECT_DIR$/src/contents/profile-leveI-id/level_id_demo/js/ga.js" />
         <option value="$PROJECT_DIR$/src/contents/profile-leveI-id/level_id_demo/js/index.js" />
         <option value="$PROJECT_DIR$/src/contents/profile-leveI-id/level_id_demo/css/index.css" />
@@ -196,6 +263,19 @@
         <option value="$PROJECT_DIR$/src/contents/jitsi_VirtualBackground_demo/js/ff.js" />
         <option value="$PROJECT_DIR$/src/contents/jitsi_VirtualBackground_demo/index.html" />
         <option value="$PROJECT_DIR$/src/contents/jitsi_VirtualBackground_demo/js/tflite.js" />
+        <option value="$PROJECT_DIR$/src/contents/webCodecs-demo/samples/image-decoder/index.html" />
+        <option value="$PROJECT_DIR$/src/contents/peerConnection_demo/webRTC_framerate_demo/index.js" />
+        <option value="$PROJECT_DIR$/src/contents/peerConnection_demo/webRTC_framerate_demo/sdp.js" />
+        <option value="$PROJECT_DIR$/src/contents/bandWith/bandWith_demo/js/mediaDevice.js" />
+        <option value="$PROJECT_DIR$/src/contents/bandWith/bandWith_demo/js/sdp_tools.js" />
+        <option value="$PROJECT_DIR$/src/contents/bandWith/bandWith_demo/index.css" />
+        <option value="$PROJECT_DIR$/src/contents/bandWith/bandWith_demo/js/bitrateControl.js" />
+        <option value="$PROJECT_DIR$/src/contents/bandWith/bandWith_demo/js/index.js" />
+        <option value="$PROJECT_DIR$/src/contents/bandWith/bandWith_demo/css/main.css" />
+        <option value="$PROJECT_DIR$/src/contents/bandWith/bandWith_demo/index.html" />
+        <option value="$PROJECT_DIR$/src/contents/bandWith/BitrateControl_demo/index.html" />
+        <option value="$PROJECT_DIR$/index.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -214,8 +294,8 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
-    <option name="width" value="1003" />
-    <option name="height" value="1049" />
+    <option name="width" value="1004" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -229,47 +309,6 @@
             <path>
               <item name="webRTC-samples-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="webRTC-samples-demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webRTC-samples-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webRTC-samples-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webRTC-samples-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webRTC-samples-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="contents" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webRTC-samples-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webRTC-samples-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="contents" type="462c0819:PsiDirectoryNode" />
-              <item name="jitsi_VirtualBackground_demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webRTC-samples-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webRTC-samples-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="contents" type="462c0819:PsiDirectoryNode" />
-              <item name="jitsi_VirtualBackground_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webRTC-samples-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webRTC-samples-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="contents" type="462c0819:PsiDirectoryNode" />
-              <item name="noiseDetection-demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webRTC-samples-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webRTC-samples-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="contents" type="462c0819:PsiDirectoryNode" />
-              <item name="noiseDetection-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="jitsi-noiseDetection-demo" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -286,19 +325,19 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\lenovo\Desktop\webRTC-samples-demo\src\contents\bandWith\bandWith_demo\css" />
+      <recent name="C:\Users\lenovo\Desktop\webRTC-samples-demo\src\contents\peerConnection_demo" />
+      <recent name="C:\Users\lenovo\Desktop\webRTC-samples-demo\src\contents\webCodecs-demo\samples\webcam-in-worker" />
+      <recent name="C:\Users\lenovo\Desktop\webRTC-samples-demo\src\contents\webCodecs-demo\samples\webcam" />
+      <recent name="C:\Users\lenovo\Desktop\webRTC-samples-demo\src\contents\peerConnection_demo\profile-leveI-id" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\lenovo\Desktop\webRTC-samples-demo\src\contents\jitsi_VirtualBackground_demo\js" />
       <recent name="C:\Users\lenovo\Desktop\webRTC-samples-demo\src\contents\jitsi_VirtualBackground_demo\image" />
       <recent name="C:\Users\lenovo\Desktop\webRTC-samples-demo\src\contents\peerConnection_demo\fileUploadPeerConnection_demo" />
       <recent name="C:\Users\lenovo\Desktop\webRTC-samples-demo\src\contents\multiStreamPeerConnection_demo" />
       <recent name="C:\Users\lenovo\Desktop\webRTC-samples-demo\src\contents\PeerConnectionReplaceTrack" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\lenovo\Desktop\webRTC-samples-demo\src\contents\peerConnection_demo\profile-leveI-id" />
-      <recent name="C:\Users\lenovo\Desktop\webRTC-samples-demo\src\contents\peerConnection_demo" />
-      <recent name="C:\Users\lenovo\Desktop\webRTC-samples-demo\src\contents\GUM_demo" />
-      <recent name="C:\Users\lenovo\Desktop\webRTC-samples-demo\src\contents\record-demo" />
-      <recent name="C:\Users\lenovo\Desktop\webRTC-samples-demo\src\contents\profile-leveI-id\level_id_demo\js" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -323,12 +362,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1641633678336</updated>
-      <workItem from="1641633684893" duration="6642000" />
+      <workItem from="1641633684893" duration="7032000" />
+      <workItem from="1641708448197" duration="8009000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6642000" />
+    <option name="totallyTimeSpent" value="15041000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
@@ -336,18 +376,18 @@
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25363275" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32911393" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32911393" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32911393" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -360,249 +400,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contents/record-demo/UploadFileshare_demo/js/adapter.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="3586" column="3" selection-start-line="3586" selection-start-column="3" selection-end-line="3586" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contents/record-demo/UploadFileshare_demo/js/common.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contents/record-demo/UploadFileshare_demo/js/getScreenId.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="191" lean-forward="true" selection-start-line="191" selection-end-line="191" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contents/record-demo/UploadFileshare_demo/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="384" lean-forward="true" selection-start-line="384" selection-end-line="384" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contents/record-demo/UploadFileshare_demo/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="93" lean-forward="true" selection-start-line="93" selection-end-line="93" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contents/record-demo/UploadFileshare_demo/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="91" column="23" lean-forward="true" selection-start-line="91" selection-start-column="23" selection-end-line="91" selection-end-column="23" />
-          <folding>
-            <element signature="n#style#0;n#canvas#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#hr#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contents/peerConnection_demo/profile-leveI-id/profile-level-id_demo/README.md">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contents/peerConnection_demo/profile-leveI-id/level_id_demo/js/adapter-latest.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="5473" column="3" selection-start-line="5473" selection-start-column="3" selection-end-line="5473" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contents/peerConnection_demo/profile-leveI-id/level_id_demo/js/ga.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contents/peerConnection_demo/profile-leveI-id/level_id_demo/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="366" lean-forward="true" selection-start-line="366" selection-end-line="366" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contents/peerConnection_demo/profile-leveI-id/level_id_demo/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="97" column="1" selection-start-line="97" selection-start-column="1" selection-end-line="97" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contents/peerConnection_demo/profile-leveI-id/level_id_demo/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="272" lean-forward="true" selection-start-line="272" selection-end-line="272" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contents/peerConnection_demo/profile-leveI-id/level_id_demo/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
-          <folding>
-            <element signature="e#1500#1505#0" expanded="true" />
-            <element signature="n#style#0;n#select#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#select#1;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contents/peerConnection_demo/PeerConnectionReplaceTrack/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="364" lean-forward="true" selection-start-line="364" selection-end-line="364" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contents/peerConnection_demo/PeerConnectionReplaceTrack/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contents/peerConnection_demo/PeerConnectionReplaceTrack/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="267" lean-forward="true" selection-start-line="267" selection-end-line="267" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contents/peerConnection_demo/PeerConnectionReplaceTrack/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="27" column="49" lean-forward="true" selection-start-line="27" selection-start-column="49" selection-end-line="27" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contents/switchShareScreenSource_demo/js/adapter-latest.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="5282" column="3" selection-start-line="5282" selection-start-column="3" selection-end-line="5282" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contents/switchShareScreenSource_demo/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contents/peerConnection_demo/packetization_mode_demo/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-570" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contents/peerConnection_demo/packetization_mode_demo/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="67" column="33" selection-start-line="67" selection-start-column="33" selection-end-line="67" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contents/peerConnection_demo/iceRestart/iceRestart_demo/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contents/peerConnection_demo/iceRestart/iceRestart_demo/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="159" column="29" selection-start-line="159" selection-start-column="29" selection-end-line="159" selection-end-column="29" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contents/switchShareScreenSource_demo/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="168" column="5" selection-start-line="168" selection-start-column="5" selection-end-line="168" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contents/peerConnection_demo/multiStreamPeerConnection_demo/js/adapter.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="7242" column="3" selection-start-line="7242" selection-start-column="3" selection-end-line="7242" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contents/peerConnection_demo/multiStreamPeerConnection_demo/js/ga.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contents/peerConnection_demo/multiStreamPeerConnection_demo/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="339" selection-start-line="339" selection-end-line="339" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contents/peerConnection_demo/multiStreamPeerConnection_demo/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="268" selection-start-line="268" selection-end-line="268" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contents/peerConnection_demo/multiStreamPeerConnection_demo/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="50" selection-start-line="50" selection-end-line="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contents/peerConnection_demo/multiStreamPeerConnection_demo/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="89" selection-start-line="89" selection-end-line="89" />
-          <folding>
-            <element signature="n#style#0;n#video#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#canvas#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#select#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#select#1;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contents/peerConnection_demo/PeerConnection_simulcast_dmo/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="65" selection-start-line="65" selection-end-line="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contents/peerConnection_demo/profile-leveI-id/WebRTC_profile-level-id/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/contents/peerConnection_demo/fileUploadPeerConnection_demo/js/adapter.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="646">
@@ -661,7 +458,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/contents/switchShareScreenSource_demo/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
+        <state relative-caret-position="380">
           <caret line="20" column="26" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="26" />
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -675,14 +472,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/contents/jitsi_VirtualBackground_demo/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
+        <state relative-caret-position="1292">
           <caret line="68" selection-start-line="68" selection-end-line="68" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/contents/jitsi_VirtualBackground_demo/js/timerWorker.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
+        <state relative-caret-position="855">
           <caret line="45" column="18" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
         </state>
       </provider>
@@ -692,36 +489,222 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/contents/jitsi_VirtualBackground_demo/js/tflite.wasm">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-494">
-          <caret column="33755" lean-forward="true" selection-start-column="33755" selection-end-column="33755" />
+        <state relative-caret-position="627">
+          <caret column="33755" selection-start-column="33755" selection-end-column="33755" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/contents/jitsi_VirtualBackground_demo/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
+        <state relative-caret-position="1482">
           <caret line="78" column="53" selection-start-line="78" selection-start-column="53" selection-end-line="78" selection-end-column="53" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/contents/jitsi_VirtualBackground_demo/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
+        <state relative-caret-position="380">
           <caret line="20" column="41" lean-forward="true" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/contents/jitsi_VirtualBackground_demo/js/tflite.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="760">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/contents/jitsi_VirtualBackground_demo/js/gsrtc.streamBackgroundEffect.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
+        <state relative-caret-position="893">
           <caret line="47" column="43" selection-start-line="47" selection-start-column="43" selection-end-line="47" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/GUM_demo/getDisplayMedia_demo/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-57" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/GUM_demo/getDsiplayMediaConstraints/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/GUM_demo/getUserMediaConstraints/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/IndexedDB_demo/indexedDB/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/IndexedDB_demo/debugExportLog/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/canvas_demo/play-video-canvas/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/canvas_demo/transform/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/canvas_demo/upLoadFile/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/canvas_demo/video-screen-record/README.md">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/canvas_demo/video-screen-record-demo/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/canvas_demo/video-screen-record/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/canvas_demo/videoScreenshots/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/Camera_Resolution_Scan_demo/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1354" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/noiseDetection-demo/rnnoise_wasm/README.md">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/SpeechSynthesis_demo/demo2/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/SpeechSynthesis_demo/demo3/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/webCodecs-demo/samples/image-decoder/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/webCodecs-demo/samples/mp4-decode/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/webCodecs-demo/samples/webcam/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/webCodecs-demo/samples/webcam-in-worker/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/webCodecs-demo/webcodecpush/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="58" lean-forward="true" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/websocket_webrtc/README.md">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/peerConnection_demo/webRTC_framerate_demo/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1847" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/peerConnection_demo/webRTC_framerate_demo/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="623">
+          <caret line="306" lean-forward="true" selection-start-line="306" selection-end-line="306" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/peerConnection_demo/webRTC_framerate_demo/sdp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="623">
+          <caret line="211" lean-forward="true" selection-start-line="211" selection-end-line="211" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/bandwith/chromePacketLoss/js/mediaDevice.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="623">
+          <caret line="1351" lean-forward="true" selection-start-line="1351" selection-end-line="1351" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/bandwith/chromePacketLoss/js/sdp_tools.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="623">
+          <caret line="1783" lean-forward="true" selection-start-line="1783" selection-end-line="1783" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/bandwith/chromePacketLoss/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="623">
+          <caret line="267" lean-forward="true" selection-start-line="267" selection-end-line="267" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/bandwith/chromePacketLoss/js/bitrateControl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="623">
+          <caret line="166" lean-forward="true" selection-start-line="166" selection-end-line="166" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/bandwith/chromePacketLoss/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="623">
+          <caret line="373" lean-forward="true" selection-start-line="373" selection-end-line="373" />
+          <folding>
+            <element signature="n#style#0;n#strong#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#strong#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/bandwith/chromePacketLoss/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="623">
+          <caret line="112" lean-forward="true" selection-start-line="112" selection-end-line="112" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/bandwith/chromePacketLoss/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-798">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/bandwith/WebRTC-bandwidth-limit/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="566">
+          <caret line="115" column="16" selection-start-line="115" selection-start-column="16" selection-end-line="115" selection-end-column="16" />
+          <folding>
+            <element signature="n#style#0;n#h2#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#select#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#select#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="718">
+          <caret line="268" lean-forward="true" selection-start-line="268" selection-end-line="268" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
