@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>加解密处理</title>
+
+    <!--  CryptoJS加解密测试  -->
+    <script src="crypto-js.js"></script>
+</head>
+<body>
+<div id="container">
+    <h1>webRTC 加解密处理</h1>
+    <section>
+        <p>测试结果见控制台打印</p>
+        <ul>
+            <li><button onclick="getDecryptData()">CryptoJS加解密测试</button></li>
+        </ul>
+    </section>
+</div>
+<script >
+    function getDecryptData(){
+        if(!window.crypto && !window.msCrypto){
+            console.warn("crypto is not supported!")
+            return false
+        }
+        let cipherValue = 'CryptoJS encryption and decryption test'
+        let secretValue = 'aes'
+        //加密数据
+        let encJson = CryptoJS.AES.encrypt(JSON.stringify(cipherValue), secretValue).toString();
+        console.log('encJson:', encJson)
+        //对加密数据进行base64处理, 原理：就是先将字符串转换为utf8字符数组，再转换为base64数据
+        let encData = CryptoJS.enc.Base64.stringify(CryptoJS.enc.Utf8.parse(encJson));
+        console.log('encData:', encData)
+        //将数据先base64还原，再转为utf8数据
+        let decData = CryptoJS.enc.Base64.parse(encData).toString(CryptoJS.enc.Utf8);
+        console.log('decData:', decData)
+        //解密数据
+        let decJson = CryptoJS.AES.decrypt(decData, 'aes').toString(CryptoJS.enc.Utf8);
+        console.warn('CryptoJS.AES.decrypt data:', decJson)
+
+        if(decJson === JSON.stringify(cipherValue)){
+            console.warn('解密成功')
+            return true
+        }else {
+            console.warn('解密失败？')
+            return false
+        }
+    }
+</script>
+</body>
+</html>

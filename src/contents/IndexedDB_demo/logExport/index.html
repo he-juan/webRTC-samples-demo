@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>日志导出(count+openCursor+getAll)</title>
+    <!--  日志导出  -->
+    <script src="./indexeddb/debug.js"></script>
+    <script src="./indexeddb/indexedDB.js"></script>
+</head>
+<body>
+<div id="container">
+    <h1>日志打印输出</h1>
+    <section>
+        <p>测试结果见控制台打印</p>
+        <ul>
+            <li><button onclick="logExport()">日志导出测试（count+openCursor+getAll）</button></li>
+        </ul>
+    </section>
+</div>
+<script >
+    function logExport(){
+        if (!window.indexedDB) {
+            console.warn("Your browser doesn't support a stable version of IndexedDB. Such and such feature will not be available.")
+            return
+        }
+        let log = {}
+        log.debug = window.debug('indexedDB:DEBUG')
+        log.log = window.debug('indexedDB:LOG')
+        log.info = window.debug('indexedDB:INFO')
+        log.warn = window.debug('indexedDB:WARN')
+        log.error = window.debug('indexedDB:ERROR')
+        log.info('window onload ...')
+        let index = 0
+        let testInterval = setInterval(function (){
+            log.info('print test index ' + index)
+            index++
+
+            if(index === 50){
+                log.warn('clear test Interval')
+                clearInterval(testInterval)
+                dbExport.getAllWidthIDBKeyRange(true)
+            }
+        }, 10)
+
+        window.dbExport = new DBExport(true)
+    }
+
+</script>
+</body>
+</html>

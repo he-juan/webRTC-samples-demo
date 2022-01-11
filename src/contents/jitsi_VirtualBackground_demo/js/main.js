@@ -120,7 +120,7 @@ function setBackgroundEffect(data){
         virtualSource: null
     }
     if(data.type === 'image'){
-        option.virtualSource = './images/background-' + data.selectedThumbnail + '.jpg'
+        option.virtualSource = './image/background-' + data.selectedThumbnail + '.jpg'
     }
 
     virtualBackgroundOption = option
