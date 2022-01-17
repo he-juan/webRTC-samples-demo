@@ -1,0 +1,1 @@
+[TRTC能力检测](https://web.sdk.qcloud.com/trtc/webrtc/demo/detect/index.html)
