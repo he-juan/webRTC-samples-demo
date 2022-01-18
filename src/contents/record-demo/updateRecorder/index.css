@@ -232,6 +232,13 @@ body{
     object-fit: inherit;
 }
 
+/*.shareRecord, .canvasRecord, .gifVideo, .gifVideoOfAreaVideo, .shareLocalVideo{*/    /***CSS3 calc() 流布局自动算width、height等***/
+/*margin: 0 0 20px 0;*/
+/*--width: 100%;*/
+/*width: var(--width);*/
+/*height: calc(var(--width) * 0.75);*/
+/*}*/
+
 .shareCanvas{
     border-radius: 8px;
 }

@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="dec9322d-fd7a-48cf-a961-2f8945c4710d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/src/contents/record-demo/recordProgram/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/contents/record-demo/recordProgram/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contents/record-demo/recordProgram/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/contents/record-demo/recordProgram/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contents/record-demo/recordProgram/js/stream.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/contents/record-demo/recordProgram/js/stream.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/contents/record-demo/updateRecorder/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/contents/record-demo/updateRecorder/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contents/record-demo/updateRecorder/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/contents/record-demo/updateRecorder/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contents/record-demo/updateRecorder/js/stream.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/contents/record-demo/updateRecorder/js/stream.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -42,11 +38,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/contents/record-demo/recordProgram/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="232" lean-forward="true" selection-start-line="232" selection-end-line="232" />
+            <state relative-caret-position="242">
+              <caret line="235" column="1" lean-forward="true" selection-start-line="235" selection-start-column="1" selection-end-line="235" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -54,8 +50,8 @@
       <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/contents/record-demo/updateRecorder/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="234" column="13" lean-forward="true" selection-start-line="234" selection-start-column="13" selection-end-line="234" selection-end-column="13" />
+            <state relative-caret-position="395">
+              <caret line="239" column="5" selection-start-line="239" selection-start-column="5" selection-end-line="239" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -87,11 +83,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/contents/record-demo/updateRecorder/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="1581" column="57" selection-start-line="1581" selection-start-column="57" selection-end-line="1581" selection-end-column="57" />
+            <state relative-caret-position="381">
+              <caret line="1578" lean-forward="true" selection-start-line="1578" selection-end-line="1578" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/contents/record-demo/updateRecorder/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -104,15 +109,6 @@
                 <caret column="9" selection-start-column="9" selection-end-column="9" />
               </first_editor>
               <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="stackedit.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/contents/markdown_demo/stackEditor_demo/js/stackedit.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="705">
-              <caret line="174" column="38" lean-forward="true" selection-start-line="174" selection-start-column="38" selection-end-line="174" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -195,12 +191,12 @@
         <option value="$PROJECT_DIR$/src/contents/markdown_demo/stackEditor_demo/index.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/src/contents/enumerateDevices_demo/README.md" />
-        <option value="$PROJECT_DIR$/src/contents/record-demo/recordProgram/index.css" />
-        <option value="$PROJECT_DIR$/src/contents/record-demo/updateRecorder/index.css" />
         <option value="$PROJECT_DIR$/src/contents/record-demo/updateRecorder/js/stream.js" />
         <option value="$PROJECT_DIR$/src/contents/record-demo/recordProgram/js/stream.js" />
         <option value="$PROJECT_DIR$/src/contents/record-demo/recordProgram/index.js" />
         <option value="$PROJECT_DIR$/src/contents/record-demo/updateRecorder/index.js" />
+        <option value="$PROJECT_DIR$/src/contents/record-demo/updateRecorder/index.css" />
+        <option value="$PROJECT_DIR$/src/contents/record-demo/recordProgram/index.css" />
       </list>
     </option>
   </component>
@@ -356,12 +352,12 @@
       <updated>1641633678336</updated>
       <workItem from="1641633684893" duration="7032000" />
       <workItem from="1641708448197" duration="8009000" />
-      <workItem from="1641973278008" duration="8096000" />
+      <workItem from="1641973278008" duration="9398000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32418000" />
+    <option name="totallyTimeSpent" value="33720000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -393,13 +389,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/contents/peerConnection_demo/webRTC_framerate_demo/sdp.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="623">
-          <caret line="211" lean-forward="true" selection-start-line="211" selection-end-line="211" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/contents/bandwith/chromePacketLoss/js/mediaDevice.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="623">
@@ -721,20 +710,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/contents/record-demo/recordProgram/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="232" lean-forward="true" selection-start-line="232" selection-end-line="232" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contents/record-demo/updateRecorder/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="234" column="13" lean-forward="true" selection-start-line="234" selection-start-column="13" selection-end-line="234" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/contents/record-demo/updateRecorder/js/stream.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
@@ -749,6 +724,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/record-demo/updateRecorder/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="1578" lean-forward="true" selection-start-line="1578" selection-end-line="1578" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/record-demo/updateRecorder/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/record-demo/updateRecorder/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="239" column="5" selection-start-line="239" selection-start-column="5" selection-end-line="239" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/contents/record-demo/recordProgram/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="402">
@@ -756,10 +752,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/contents/record-demo/updateRecorder/index.js">
+    <entry file="file://$PROJECT_DIR$/src/contents/record-demo/recordProgram/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="1581" column="57" selection-start-line="1581" selection-start-column="57" selection-end-line="1581" selection-end-column="57" />
+        <state relative-caret-position="242">
+          <caret line="235" column="1" lean-forward="true" selection-start-line="235" selection-start-column="1" selection-end-line="235" selection-end-column="1" />
         </state>
       </provider>
     </entry>
