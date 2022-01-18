@@ -1526,7 +1526,7 @@ function beginRecord() {
                 gifImgBtn.style.backgroundColor = 'skyblue'
 
                 shareRecord.style.display = "inline-block"
-                shareRecord.srcObject = event.stream.stream
+                shareRecord.srcObject = canvasStream || event.stream.stream
 
                 shareRecord.onloadedmetadata = function (e) {
                     shareRecord.play();
@@ -1579,7 +1579,7 @@ function beginRecord() {
 
 
                 canvasRecord.style.display = 'inline-block'
-                canvasRecord.srcObject = event.stream.stream
+                canvasRecord.srcObject = canvasStream || event.stream.stream
                 canvasRecord.onloadedmetadata = function (e) {
                     canvasRecord.play();
                 };

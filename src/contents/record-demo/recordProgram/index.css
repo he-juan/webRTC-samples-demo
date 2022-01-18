@@ -231,9 +231,9 @@ body{
     height: 100%;
 }
 
-/*.shareRecord, .canvasRecord, .gifVideo, .gifVideoOfAreaVideo, .shareLocalVideo{*/
-    /*object-fit: cover;*/
-/*}*/
+.shareRecord, .canvasRecord, .gifVideo, .gifVideoOfAreaVideo, .shareLocalVideo{
+    object-fit: inherit;
+}
 
 .shareCanvas{
     border-radius: 8px;

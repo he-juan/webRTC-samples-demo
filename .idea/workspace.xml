@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dec9322d-fd7a-48cf-a961-2f8945c4710d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/stackEditor_demo/icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/stackEditor_demo/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/stackEditor_demo/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/stackEditor_demo/js/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/stackEditor_demo/js/stackedit.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contents/record-demo/recordProgram/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/contents/record-demo/recordProgram/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contents/record-demo/recordProgram/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/contents/record-demo/recordProgram/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contents/record-demo/recordProgram/js/stream.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/contents/record-demo/recordProgram/js/stream.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contents/record-demo/updateRecorder/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/contents/record-demo/updateRecorder/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contents/record-demo/updateRecorder/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/contents/record-demo/updateRecorder/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contents/record-demo/updateRecorder/js/stream.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/contents/record-demo/updateRecorder/js/stream.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,7 +21,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="219">
@@ -35,32 +34,78 @@
         </entry>
       </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/contents/markdown_demo/stackEditor_demo/index.html">
+        <entry file="file://$PROJECT_DIR$/src/contents/record-demo/recordProgram/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="43" column="14" selection-start-line="43" selection-start-column="14" selection-end-line="43" selection-end-column="14" />
-              <folding>
-                <element signature="e#2317#2321#0" expanded="true" />
-                <element signature="e#2467#2471#0" expanded="true" />
-                <element signature="e#2471#2475#0" expanded="true" />
-                <element signature="e#2482#2486#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="378">
+              <caret line="110" column="90" lean-forward="true" selection-start-line="110" selection-start-column="90" selection-end-line="110" selection-end-column="90" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/contents/markdown_demo/stackEditor_demo/index.css">
+        <entry file="file://$PROJECT_DIR$/src/contents/record-demo/recordProgram/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="813">
-              <caret line="874" lean-forward="true" selection-start-line="874" selection-end-line="874" />
+            <state relative-caret-position="189">
+              <caret line="232" lean-forward="true" selection-start-line="232" selection-end-line="232" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="icon.svg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/contents/markdown_demo/stackEditor_demo/icon.svg">
-          <provider selected="true" editor-type-id="images" />
+      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/contents/record-demo/updateRecorder/index.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="234" column="13" lean-forward="true" selection-start-line="234" selection-start-column="13" selection-end-line="234" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="stream.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/contents/record-demo/updateRecorder/js/stream.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="263" column="53" selection-start-line="263" selection-start-column="53" selection-end-line="263" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="stream.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/contents/record-demo/recordProgram/js/stream.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="263" column="42" selection-start-line="263" selection-start-column="42" selection-end-line="263" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/contents/record-demo/recordProgram/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="402">
+              <caret line="1583" column="30" selection-start-line="1583" selection-start-column="30" selection-end-line="1583" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/contents/record-demo/updateRecorder/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="1581" column="57" selection-start-line="1581" selection-start-column="57" selection-end-line="1581" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/contents/enumerateDevices_demo/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor>
+                <caret column="9" selection-start-column="9" selection-end-column="9" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="stackedit.js" pinned="false" current-in-tab="false">
@@ -70,44 +115,6 @@
               <caret line="174" column="38" lean-forward="true" selection-start-line="174" selection-start-column="38" selection-end-line="174" selection-end-column="38" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/contents/markdown_demo/stackEditor_demo/js/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="20" column="22" lean-forward="true" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7047">
-              <caret line="261" column="29" selection-start-line="261" selection-start-column="29" selection-end-line="261" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="243">
-                <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/contents/IndexedDB_demo/indexedDB/demo/index.html">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -130,6 +137,8 @@
       <find>images</find>
       <find>image</find>
       <find>blockquote</find>
+      <find>markdown_demo</find>
+      <find>cover</find>
     </findStrings>
     <dirStrings>
       <dir>E:\webRTC-samples-demo\src\contents\jitsi_VirtualBackground_demo</dir>
@@ -141,13 +150,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/contents/PeerConnectionReplaceTrack/index.html" />
-        <option value="$PROJECT_DIR$/src/contents/switchShareScreenSource_demo/index.html" />
-        <option value="$PROJECT_DIR$/src/contents/switchShareScreenSource_demo/js/adapter-latest.js" />
-        <option value="$PROJECT_DIR$/src/contents/switchShareScreenSource_demo/index.css" />
-        <option value="$PROJECT_DIR$/src/contents/packetization_mode_demo/js/main.js" />
-        <option value="$PROJECT_DIR$/src/contents/iceRestart/iceRestart_demo/js/index.js" />
-        <option value="$PROJECT_DIR$/src/contents/switchShareScreenSource_demo/js/index.js" />
         <option value="$PROJECT_DIR$/src/contents/multiStreamPeerConnection_demo/index.html" />
         <option value="$PROJECT_DIR$/src/contents/multiStreamPeerConnection_demo/js/adapter.js" />
         <option value="$PROJECT_DIR$/src/contents/multiStreamPeerConnection_demo/js/ga.js" />
@@ -192,6 +194,13 @@
         <option value="$PROJECT_DIR$/src/contents/markdown_demo/stackEditor_demo/index.css" />
         <option value="$PROJECT_DIR$/src/contents/markdown_demo/stackEditor_demo/index.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/src/contents/enumerateDevices_demo/README.md" />
+        <option value="$PROJECT_DIR$/src/contents/record-demo/recordProgram/index.css" />
+        <option value="$PROJECT_DIR$/src/contents/record-demo/updateRecorder/index.css" />
+        <option value="$PROJECT_DIR$/src/contents/record-demo/updateRecorder/js/stream.js" />
+        <option value="$PROJECT_DIR$/src/contents/record-demo/recordProgram/js/stream.js" />
+        <option value="$PROJECT_DIR$/src/contents/record-demo/recordProgram/index.js" />
+        <option value="$PROJECT_DIR$/src/contents/record-demo/updateRecorder/index.js" />
       </list>
     </option>
   </component>
@@ -208,10 +217,9 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1001" />
-    <option name="height" value="1047" />
+    <option name="x" value="-89" />
+    <option name="width" value="1932" />
+    <option name="height" value="1042" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -243,6 +251,13 @@
               <item name="webRTC-samples-demo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="contents" type="462c0819:PsiDirectoryNode" />
+              <item name="enumerateDevices_demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webRTC-samples-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webRTC-samples-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="contents" type="462c0819:PsiDirectoryNode" />
               <item name="markdown_demo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -250,15 +265,41 @@
               <item name="webRTC-samples-demo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="contents" type="462c0819:PsiDirectoryNode" />
-              <item name="noiseDetection-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="record-demo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="webRTC-samples-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="webRTC-samples-demo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="contents" type="462c0819:PsiDirectoryNode" />
-              <item name="noiseDetection-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="rnnoise_wasm" type="462c0819:PsiDirectoryNode" />
+              <item name="record-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="recordProgram" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webRTC-samples-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webRTC-samples-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="contents" type="462c0819:PsiDirectoryNode" />
+              <item name="record-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="recordProgram" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webRTC-samples-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webRTC-samples-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="contents" type="462c0819:PsiDirectoryNode" />
+              <item name="record-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="updateRecorder" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webRTC-samples-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webRTC-samples-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="contents" type="462c0819:PsiDirectoryNode" />
+              <item name="record-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="updateRecorder" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -315,12 +356,12 @@
       <updated>1641633678336</updated>
       <workItem from="1641633684893" duration="7032000" />
       <workItem from="1641708448197" duration="8009000" />
-      <workItem from="1641973278008" duration="5968000" />
+      <workItem from="1641973278008" duration="8096000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30290000" />
+    <option name="totallyTimeSpent" value="32418000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -330,10 +371,10 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3293348" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32911393" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32824427" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -352,44 +393,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/contents/webCodecs-demo/samples/image-decoder/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contents/webCodecs-demo/samples/mp4-decode/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contents/webCodecs-demo/samples/webcam/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contents/webCodecs-demo/samples/webcam-in-worker/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contents/webCodecs-demo/webcodecpush/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="58" lean-forward="true" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contents/websocket_webrtc/README.md">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contents/peerConnection_demo/webRTC_framerate_demo/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1847" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contents/peerConnection_demo/webRTC_framerate_demo/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="623">
-          <caret line="306" lean-forward="true" selection-start-line="306" selection-end-line="306" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/contents/peerConnection_demo/webRTC_framerate_demo/sdp.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="623">
@@ -691,6 +694,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/enumerateDevices_demo/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret column="9" selection-start-column="9" selection-end-column="9" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="219">
@@ -698,6 +711,55 @@
           <folding>
             <element signature="n#style#0;n#li#5;n#ul#3;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/record-demo/recordProgram/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="110" column="90" lean-forward="true" selection-start-line="110" selection-start-column="90" selection-end-line="110" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/record-demo/recordProgram/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="232" lean-forward="true" selection-start-line="232" selection-end-line="232" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/record-demo/updateRecorder/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="234" column="13" lean-forward="true" selection-start-line="234" selection-start-column="13" selection-end-line="234" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/record-demo/updateRecorder/js/stream.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="263" column="53" selection-start-line="263" selection-start-column="53" selection-end-line="263" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/record-demo/recordProgram/js/stream.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="263" column="42" selection-start-line="263" selection-start-column="42" selection-end-line="263" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/record-demo/recordProgram/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="1583" column="30" selection-start-line="1583" selection-start-column="30" selection-end-line="1583" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/record-demo/updateRecorder/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="1581" column="57" selection-start-line="1581" selection-start-column="57" selection-end-line="1581" selection-end-column="57" />
         </state>
       </provider>
     </entry>
