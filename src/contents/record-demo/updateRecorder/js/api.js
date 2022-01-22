@@ -423,14 +423,14 @@ Record.prototype.videoRecord = function(data){
 
     if(This.currentRecoderType === 'audio'){
         options = {
-            mimeType: 'audio/webm;codecs=opus;',
+            mimeType: 'audio/webm',
             audioBitsPerSecond : 128000,  // 音频码率
             videoBitsPerSecond : 500000,  // 视频码率
             ignoreMutedMedia: true
         };
     }else{
         options = {
-            mimeType: 'video/webm;codecs=vp9;',
+            mimeType: 'video/webm',
             audioBitsPerSecond : 128000,  // 音频码率
             videoBitsPerSecond : 500000,  // 视频码率
             ignoreMutedMedia: true

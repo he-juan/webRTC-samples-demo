@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dec9322d-fd7a-48cf-a961-2f8945c4710d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/contents/record-demo/video-plus-screen-recording/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/contents/record-demo/video-plus-screen-recording/js/RecordRTC.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/contents/record-demo/video-plus-screen-recording/js/common.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contents/record-demo/recordProgram/js/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/contents/record-demo/recordProgram/js/api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contents/record-demo/updateRecorder/js/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/contents/record-demo/updateRecorder/js/api.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -32,7 +30,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/contents/record-demo/recordProgram/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="81">
@@ -41,11 +39,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/contents/record-demo/video-plus-screen-recording/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="181" column="20" lean-forward="true" selection-start-line="181" selection-start-column="20" selection-end-line="181" selection-end-column="20" />
+            <state relative-caret-position="-3324">
+              <caret line="55" column="59" lean-forward="true" selection-start-line="55" selection-start-column="59" selection-end-line="55" selection-end-column="59" />
               <folding>
                 <element signature="n#style#0;n#video#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -57,8 +55,26 @@
       <file leaf-file-name="RecordRTC.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/contents/record-demo/video-plus-screen-recording/js/RecordRTC.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="395">
-              <caret line="4885" column="42" lean-forward="true" selection-start-line="4885" selection-start-column="42" selection-end-line="4885" selection-end-column="42" />
+            <state relative-caret-position="314">
+              <caret line="4966" column="33" lean-forward="true" selection-start-line="4966" selection-start-column="33" selection-end-line="4966" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="api.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/contents/record-demo/updateRecorder/js/api.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-766">
+              <caret line="431" column="19" lean-forward="true" selection-start-line="431" selection-start-column="19" selection-end-line="431" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="api.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/contents/record-demo/recordProgram/js/api.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="206">
+              <caret line="425" column="35" lean-forward="true" selection-start-line="425" selection-start-column="35" selection-end-line="425" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -97,15 +113,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="512">
-              <caret line="261" column="29" selection-start-line="261" selection-start-column="29" selection-end-line="261" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -119,7 +126,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>subscribeStreamEvents</find>
       <find>gotRemoteStream</find>
       <find>remoteVideo</find>
       <find>getSelectVaule</find>
@@ -146,8 +152,10 @@
       <find>_config</find>
       <find>arrayOfMediaStreams</find>
       <find>GetRecorderType</find>
-      <find>videos</find>
       <find>canvas</find>
+      <find>videos</find>
+      <find>recorder</find>
+      <find>recorde</find>
     </findStrings>
     <dirStrings>
       <dir>E:\webRTC-samples-demo\src\contents\jitsi_VirtualBackground_demo</dir>
@@ -159,8 +167,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/contents/peerConnection_demo/fileUploadPeerConnection_demo/js/adapter.js" />
-        <option value="$PROJECT_DIR$/src/contents/peerConnection_demo/fileUploadPeerConnection_demo/js/common.js" />
         <option value="$PROJECT_DIR$/src/contents/peerConnection_demo/fileUploadPeerConnection_demo/js/getScreenId.js" />
         <option value="$PROJECT_DIR$/src/contents/peerConnection_demo/fileUploadPeerConnection_demo/js/main.js" />
         <option value="$PROJECT_DIR$/src/contents/peerConnection_demo/fileUploadPeerConnection_demo/css/index.css" />
@@ -207,9 +213,11 @@
         <option value="$PROJECT_DIR$/src/contents/record-demo/video-plus-screen-recording/js/common.js" />
         <option value="$PROJECT_DIR$/src/contents/record-demo/video-plus-screen-recording/js/RTC.js" />
         <option value="$PROJECT_DIR$/src/contents/record-demo/multipleStreamsRecorder/js/multiStreamRecorder.js" />
-        <option value="$PROJECT_DIR$/src/contents/record-demo/video-plus-screen-recording/js/RecordRTC.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/src/contents/record-demo/video-plus-screen-recording/index.html" />
+        <option value="$PROJECT_DIR$/src/contents/record-demo/video-plus-screen-recording/js/RecordRTC.js" />
+        <option value="$PROJECT_DIR$/src/contents/record-demo/updateRecorder/js/api.js" />
+        <option value="$PROJECT_DIR$/src/contents/record-demo/recordProgram/js/api.js" />
       </list>
     </option>
   </component>
@@ -308,6 +316,32 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="contents" type="462c0819:PsiDirectoryNode" />
               <item name="record-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="recordProgram" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webRTC-samples-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webRTC-samples-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="contents" type="462c0819:PsiDirectoryNode" />
+              <item name="record-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="updateRecorder" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webRTC-samples-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webRTC-samples-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="contents" type="462c0819:PsiDirectoryNode" />
+              <item name="record-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="updateRecorder" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webRTC-samples-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webRTC-samples-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="contents" type="462c0819:PsiDirectoryNode" />
+              <item name="record-demo" type="462c0819:PsiDirectoryNode" />
               <item name="video-plus-screen-recording" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -379,20 +413,20 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84971000" />
+    <option name="totallyTimeSpent" value="85618000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20231824" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20231824" />
       <window_info anchor="bottom" id="TODO" order="9" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="17" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.3293348" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32824427" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32824427" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -443,20 +477,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/contents/ApplyConstraintsAPI_demo/js/applyConstraints.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6534">
-          <caret line="242" selection-start-line="242" selection-end-line="242" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contents/ApplyConstraintsAPI_demo/js/applyConstraintsTest.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1350">
-          <caret line="50" selection-start-line="50" selection-end-line="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/contents/webAudio/mixingstream_demo/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4671">
@@ -732,13 +752,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/contents/record-demo/recordProgram/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="147" column="62" selection-start-line="147" selection-start-column="62" selection-end-line="147" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/contents/record-demo/multipleStreamsRecorder/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1647">
@@ -776,13 +789,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/contents/record-demo/video-plus-screen-recording/js/RecordRTC.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="4885" column="42" lean-forward="true" selection-start-line="4885" selection-start-column="42" selection-end-line="4885" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="327">
@@ -795,12 +801,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/contents/record-demo/video-plus-screen-recording/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="181" column="20" lean-forward="true" selection-start-line="181" selection-start-column="20" selection-end-line="181" selection-end-column="20" />
+        <state relative-caret-position="-3324">
+          <caret line="55" column="59" lean-forward="true" selection-start-line="55" selection-start-column="59" selection-end-line="55" selection-end-column="59" />
           <folding>
             <element signature="n#style#0;n#video#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/record-demo/video-plus-screen-recording/js/RecordRTC.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="4966" column="33" lean-forward="true" selection-start-line="4966" selection-start-column="33" selection-end-line="4966" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/record-demo/updateRecorder/js/api.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-766">
+          <caret line="431" column="19" lean-forward="true" selection-start-line="431" selection-start-column="19" selection-end-line="431" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/record-demo/recordProgram/js/api.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="425" column="35" lean-forward="true" selection-start-line="425" selection-start-column="35" selection-end-line="425" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/record-demo/recordProgram/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="147" column="62" selection-start-line="147" selection-start-column="62" selection-end-line="147" selection-end-column="62" />
         </state>
       </provider>
     </entry>
