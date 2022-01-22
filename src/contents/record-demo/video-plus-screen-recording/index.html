@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Video+Screen recording using RecordRTC</title>
+    <style>
+        html, body {
+            margin: 0!important;
+            padding: 0!important;
+            text-align: center;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+            font-size: 1em;
+        }
+
+        video {
+            width: 30%;
+            border-radius: 5px;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+
+
+    <h1>
+        Video+Screen recording using RecordRTC
+    </h1>
+
+
+    <button id="button" onclick="handleCapture()">开始录制</button>
+    <p>It will recorder video and screen, please click button start the recording.</p>
+    <!--<p>It will record 10-seconds video and automatically stop the recording.</p>-->
+
+    <video controls autoplay playsinline style="width: 40%;"></video>
+    <!--<video controls autoplay playsinline style="width: 60%;" id="copyVideo"></video>-->
+
+    <script src="js/RecordRTC.js"></script>
+    <script>
+        if(!navigator.getDisplayMedia && !navigator.mediaDevices.getDisplayMedia) {
+            var error = 'Your browser does NOT supports getDisplayMedia API.';
+            document.querySelector('h1').innerHTML = error;
+
+            document.querySelector('video').style.display = 'none';
+            document.getElementById('btn-start-recording').style.display = 'none';
+            document.getElementById('btn-stop-recording').style.display = 'none';
+            throw new Error(error);
+        }
+        let button = document.getElementById("button");
+        var recorder;
+        let screenStream;
+        let cameraStream;
+
+        function invokeGetDisplayMedia(success, error) {
+            var displaymediastreamconstraints = {
+                video: {
+                    displaySurface: 'monitor', // monitor, window, application, browser
+                    logicalSurface: true,
+                    cursor: 'always' // never, always, motion
+                }
+            };
+
+            // above constraints are NOT supported YET
+            // that's why overridnig them
+            displaymediastreamconstraints = {
+                video: true
+            };
+
+            if(navigator.mediaDevices.getDisplayMedia) {
+                navigator.mediaDevices.getDisplayMedia(displaymediastreamconstraints).then(success).catch(error);
+            }
+            else {
+                navigator.getDisplayMedia(displaymediastreamconstraints).then(success).catch(error);
+            }
+        }
+
+
+
+        function captureScreen(callback) {
+            invokeGetDisplayMedia(function(screen) {
+                addStreamStopListener(screen, function() {
+                    if(window.stopCallback) {
+                        window.stopCallback();
+                    }
+
+                });
+                callback(screen);
+            }, function(error) {
+                console.error(error);
+                alert('Unable to capture your screen. Please check console logs.\n' + error);
+            });
+        }
+
+        function captureCamera(cb) {
+            navigator.mediaDevices.getUserMedia({audio: true, video: true}).then(cb);
+        }
+
+        function keepStreamActive(stream) {
+            var video = document.createElement('video');
+            (document.body || document.documentElement).appendChild(video);
+            video.muted = true;
+            video.srcObject = stream;
+            video.style.display = 'none';
+            video.play()
+        }
+
+        function handleCapture(){
+
+            if(button.textContent === '开始录制'){
+                button.textContent = '停止录制'
+                captureScreen(function(screen) {
+                    screenStream = screen
+                    keepStreamActive(screen);
+                    captureCamera(function(camera) {
+                        cameraStream = camera
+                        keepStreamActive(camera);
+                        console.warn("screen:",screen)
+                        console.warn("camera:",camera)
+                        screen.width = window.screen.width;
+                        screen.height = window.screen.height;
+                        screen.fullcanvas = true;
+
+                        camera.width = 320;
+                        camera.height = 240;
+                        camera.top = screen.height - camera.height;
+                        camera.left = screen.width - camera.width;
+
+                        recorder = RecordRTC([screen, camera], {
+                            type: 'video',
+                            mimeType: 'video/webm',
+                            previewStream: function(s) {
+                                console.warn("video_s:",s)
+                                document.querySelector('video').muted = true;
+                                document.querySelector('video').srcObject = s;
+                            }
+                        });
+
+                        recorder.startRecording();
+                    });
+                });
+            }else if(button.textContent === '停止录制'){
+
+                window.stopCallback = function() {
+                    window.stopCallback = null;
+                    console.warn("screenStream:",screenStream)
+                    console.warn("cameraStream:",cameraStream)
+
+                    recorder.stopRecording(function() {
+                        var blob = recorder.getBlob();
+                        document.querySelector('video').srcObject = null;
+                        document.querySelector('video').src = URL.createObjectURL(blob);
+                        document.querySelector('video').muted = false;
+
+                        [screenStream, cameraStream].forEach(function(stream) {
+                            stream.getTracks().forEach(function(track) {
+                                track.stop();
+                            });
+                        });
+                    });
+                    button.textContent = '开始录制'
+                };
+                window.stopCallback()
+            }
+        }
+
+
+        function addStreamStopListener(stream, callback) {
+            stream.addEventListener('ended', function() {
+                callback();
+                callback = function() {};
+            }, false);
+            stream.addEventListener('inactive', function() {
+                callback();
+                callback = function() {};
+            }, false);
+            stream.getTracks().forEach(function(track) {
+                track.addEventListener('ended', function() {
+                    callback();
+                    callback = function() {};
+                }, false);
+                track.addEventListener('inactive', function() {
+                    callback();
+                    callback = function() {};
+                }, false);
+            });
+        }
+    </script>
+
+    <footer style="margin-top: 20px; text-align: left;"><small id="send-message"></small></footer>
+    <script src="js/common.js"></script>
+    <!--<script src="https://www.webrtc-experiment.com/common.js"></script>-->
+
+</body>
+</html>
