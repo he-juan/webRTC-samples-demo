@@ -162,6 +162,18 @@
             }
         }
 
+       if(screenStream || cameraStream){
+           screenStream.oninactive = function () {
+               log.warn('user clicks the bottom share bar to stop sharing')
+               window.stopCallback()
+           }
+
+           cameraStream.getTracks[0].onended = function() {
+               log.warn('user clicks the bottom share bar to stop sharing')
+               window.stopCallback()
+           }
+       }
+
 
         function addStreamStopListener(stream, callback) {
             stream.addEventListener('ended', function() {

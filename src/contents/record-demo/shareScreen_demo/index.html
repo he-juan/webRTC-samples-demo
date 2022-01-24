@@ -57,13 +57,17 @@
     let stream
     let video
     let timer
+    let format = 'video/webm'
     let allChunks = [];
+    let recording = false
 
     let startBtn = document.getElementById("startBtn")
     let pauseBtn = document.getElementById("pauseBtn")
     let resumeBtn = document.getElementById("resumeBtn")
     let stopBtn = document.getElementById("stopBtn")
     let downLoadBtn = document.getElementById("downLoadBtn")
+
+
 
 
     btn.onclick = async function startCapture() {
@@ -102,39 +106,40 @@
 
             if(stream){
                 video = document.createElement('video')
+                document.body.appendChild(video)
+                video.style.display = "none"
                 video.srcObject = stream
                 video.play()
                 btn.textContent = '关闭共享'
                 startBtn.disabled = false
+                video.ontimeupdate = function(ev) {
+                    CropFrame(ev, stream, video)
+                }
             }
 
-            video.onloadedmetadata = function(e){
-                console.warn("video: "+ video.videoWidth + "  * " + video.videoHeight)
-                let attribute = document.getElementsByClassName("p-video_recorder_canvas__container")[0].getAttribute('class').split(" ")
-                if(attribute.length <= 1){
-                    document.getElementsByClassName("p-video_recorder_canvas__container")[0].classList.add('p-video_recorder_canvas__container--screen_share')
-                }
-                drawCanvas()
-            }
-            function drawCanvas(){
-                ctx.drawImage(video, 0, 0, canvas.width, canvas.height);
-                timer = window.requestAnimationFrame(() => {
-                    drawCanvas()
-                })
-            }
+            // video.onloadedmetadata = function(e){
+            //     console.warn("video: "+ video.videoWidth + "  * " + video.videoHeight)
+            //     let attribute = document.getElementsByClassName("p-video_recorder_canvas__container")[0].getAttribute('class').split(" ")
+            //     if(attribute.length <= 1){
+            //         document.getElementsByClassName("p-video_recorder_canvas__container")[0].classList.add('p-video_recorder_canvas__container--screen_share')
+            //     }
+            // }
             setRecorder();
             setFormatSelect('video/webm;codecs=vp9')
         }else{
-            video.pause()
             btn.textContent = '开启共享'
             closeStream(stream)
-            ctx.clearRect(0, 0, canvas.width, canvas.height)
-            window.cancelAnimationFrame(timer)
             startBtn.disabled = true;
             pauseBtn.disabled = false;
             resumeBtn.disabled = true;
             stopBtn.disabled = false;
         }
+    }
+
+    function CropFrame(ev, stream, video, callback){
+        callback = callback || function() {};
+        ctx.drawImage(video, 0, 0, canvas.width, canvas.height);
+        callback(canvas.toDataURL("image/jpeg"));
     }
 
     function closeStream(stream){
@@ -158,6 +163,7 @@
     }
 
     function setRecorder(format) {
+        recording = true
         const canvasStream = canvas.captureStream(60); // 60 FPS recording
         console.warn("canvasStream:",canvasStream)
         const recorder = new MediaRecorder(canvasStream, {
@@ -190,6 +196,9 @@
             pauseBtn.disabled = true;
             resumeBtn.disabled = true;
             stopBtn.disabled = true;
+
+            /***关闭video流****/
+            video.srcObject.getTracks().forEach(track => track.stop())
 
             /**停止录制后需要关闭流**/
             let tracks = recorderVideo.srcObject.getTracks();

@@ -115,20 +115,20 @@
 
         // We need to scale down the image or else we get HTTP 414 Errors
         // Also we scale down because of RTC message length restriction
-        var scanvas = document.createElement('canvas');
-        scanvas.width = _canvas.width;
-        scanvas.height = _canvas.height;
+        // var scanvas = document.createElement('canvas');
+        // scanvas.width = _canvas.width;
+        // scanvas.height = _canvas.height;
+        //
+        // var wRatio = _canvas.width / 320;
+        // var hRatio = _canvas.height / 240;
+        // var maxRatio = Math.max(wRatio, hRatio);
+        // if (maxRatio > 1) {
+        //     scanvas.width = _canvas.width / maxRatio;
+        //     scanvas.height = _canvas.height / maxRatio;
+        // }
+        // scanvas.getContext('2d').drawImage(_canvas, 0, 0, scanvas.width, scanvas.height);
 
-        var wRatio = _canvas.width / 320;
-        var hRatio = _canvas.height / 240;
-        var maxRatio = Math.max(wRatio, hRatio);
-        if (maxRatio > 1) {
-            scanvas.width = _canvas.width / maxRatio;
-            scanvas.height = _canvas.height / maxRatio;
-        }
-        scanvas.getContext('2d').drawImage(_canvas, 0, 0, scanvas.width, scanvas.height);
-
-        callback(scanvas.toDataURL("image/jpeg"));
+        // callback(scanvas.toDataURL("image/jpeg"));
     }
 
     var recorder;
@@ -155,6 +155,7 @@
 
     document.querySelector('#btn-start-recording').onclick = function() {
         document.querySelector('#btn-start-recording').style.display = 'none';
+        // document.querySelector('#btn-stop-recording').style.display = 'block';
 
         getScreenStream(function(screen) {
             var inited = false;
@@ -185,32 +186,51 @@
             recorder = new MediaRecorder (captureStream, {
                 type: 'video'
             });
-            recorder.startRecording();
+            recorder.recordedBlobs =[]
 
-            document.querySelector('#btn-stop-recording').style.display = 'inline';
+            recorder.start();
+            recorder.ondataavailable = handleDataAvailable;
+            recorder.onstop = handleStop;
+
+            document.querySelector('#btn-stop-recording').style.display = 'inline-block';
         });
     };
 
     document.querySelector('#btn-stop-recording').onclick = function() {
         document.querySelector('#btn-stop-recording').style.display = 'none';
 
-        recorder.stopRecording(function() {
-            var blob = recorder.getBlob();
-
-            document.querySelector('#edit-panel').style.display = 'none';
-            mediaElement.style.display = 'block';
-
-            mediaElement.srcObject = null;
-            mediaElement.src = URL.createObjectURL(blob);
-
-            if (mediaElement.screen && mediaElement.screen.getVideoTracks) {
-                mediaElement.screen.stop();
-                mediaElement.screen = null;
-            }
-
-            document.querySelector('#btn-start-recording').style.display = 'inline';
-        });
+        recorder.stop();
     };
+
+    function handleDataAvailable(event){
+        if (event.data && event.data.size > 0) {
+            recorder.recordedBlobs.push(event.data);
+        }
+    }
+
+    function handleStop(){
+        /**停止录制后需要关闭流**/
+        let tracks = mediaElement.srcObject.getTracks();
+        tracks.forEach(track => {
+            track.stop()
+        });
+
+        let blob = new Blob(recorder.recordedBlobs, {'type': 'video/webm'});
+
+        document.querySelector('#edit-panel').style.display = 'none';
+        mediaElement.style.display = 'block';
+
+        mediaElement.srcObject = null;
+        mediaElement.src = URL.createObjectURL(blob);
+        mediaElement.play()
+
+        // if (mediaElement.screen && mediaElement.screen.getVideoTracks) {
+        //     mediaElement.screen.stop();
+        //     mediaElement.screen = null;
+        // }
+
+        document.querySelector('#btn-start-recording').style.display = 'inline-block';
+    }
 
     function addStreamStopListener(stream, callback) {
         stream.addEventListener('ended', function() {

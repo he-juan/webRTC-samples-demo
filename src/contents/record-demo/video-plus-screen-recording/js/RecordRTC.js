@@ -2039,6 +2039,8 @@ function isMediaRecorderCompatible() {
  */
 
 function MediaStreamRecorder(mediaStream, config) {
+    console.warn("MediaStreamRecorder_mediaStream:",mediaStream)
+    console.warn("config_mediaStream:",config)
     var self = this;
 
     if (typeof mediaStream === 'undefined') {
