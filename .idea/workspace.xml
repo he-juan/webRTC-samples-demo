@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dec9322d-fd7a-48cf-a961-2f8945c4710d" name="Default" comment="" />
+    <list default="true" id="dec9322d-fd7a-48cf-a961-2f8945c4710d" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/contents/record-demo/gif-recorder/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/record-demo/gif-recorder/js/RecordRTC.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/record-demo/gif-recorder/js/common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -23,21 +29,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/contents/record-demo/updateRecorder/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="39987">
-              <caret line="1481" column="35" selection-start-line="1481" selection-start-column="35" selection-end-line="1481" selection-end-column="35" />
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/contents/record-demo/recordProgram/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="352">
+                <caret line="44" column="11" selection-end-line="57" selection-end-column="160" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/contents/record-demo/recordProgram/README.md">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/contents/record-demo/updateRecorder/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="307">
-                <caret line="44" column="43" selection-start-line="44" selection-start-column="43" selection-end-line="44" selection-end-column="43" />
+              <first_editor relative-caret-position="731">
+                <caret line="42" column="6" lean-forward="true" selection-start-line="42" selection-start-column="6" selection-end-line="42" selection-end-column="6" />
               </first_editor>
               <second_editor />
             </state>
@@ -47,19 +56,30 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/contents/record-demo/recordProgram/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="1603" column="39" lean-forward="true" selection-start-line="1603" selection-start-column="39" selection-end-line="1603" selection-end-column="39" />
+            <state relative-caret-position="240">
+              <caret line="1607" column="65" lean-forward="true" selection-start-line="1607" selection-start-column="65" selection-end-line="1607" selection-end-column="65" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/contents/record-demo/video-plus-screen-recording/index.html">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="96" column="17" selection-start-line="96" selection-start-column="17" selection-end-line="96" selection-end-column="17" />
+            <state relative-caret-position="426">
+              <caret line="179" lean-forward="true" selection-start-line="179" selection-end-line="179" />
               <folding>
-                <element signature="n#style#0;n#video#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#5;n#ul#3;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/contents/record-demo/gif-recorder/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="237">
+              <caret line="69" column="38" lean-forward="true" selection-start-line="69" selection-start-column="38" selection-end-line="69" selection-end-column="38" />
+              <folding>
                 <element signature="n#style#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
@@ -67,44 +87,33 @@
         </entry>
       </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/contents/record-demo/screenRecorder_demo/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="263" column="10" lean-forward="true" selection-start-line="263" selection-start-column="10" selection-end-line="263" selection-end-column="10" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/src/contents/record-demo/recorderVideoToVideo/index.html">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/contents/noiseDetection-demo/jitsi-noiseDetection-demo/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-811" />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/contents/noiseDetection-demo/jitsi-noiseDetection-demo/main.js">
+      <file leaf-file-name="RecordRTC.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/contents/record-demo/video-plus-screen-recording/js/RecordRTC.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="233">
-              <caret line="200" lean-forward="true" selection-start-line="200" selection-end-line="200" />
+              <caret line="5978" column="29" selection-start-line="5978" selection-start-column="29" selection-end-line="5978" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/contents/record-demo/screen_demo/index.html">
+      <file leaf-file-name="common.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/contents/record-demo/video-plus-screen-recording/js/common.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3213">
-              <caret line="119" selection-start-line="119" selection-end-line="119" />
+            <state relative-caret-position="561">
+              <caret line="33" column="34" lean-forward="true" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/contents/record-demo/shareScreen_demo/index.html">
+      <file leaf-file-name="common.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/contents/record-demo/gif-recorder/js/common.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="242" column="40" lean-forward="true" selection-start-line="242" selection-start-column="40" selection-end-line="242" selection-end-column="40" />
+            <state relative-caret-position="378">
+              <caret line="14" column="5" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -115,8 +124,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -163,9 +172,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/contents/peerConnection_demo/fileUploadPeerConnection_demo/js/main.js" />
-        <option value="$PROJECT_DIR$/src/contents/peerConnection_demo/fileUploadPeerConnection_demo/css/index.css" />
-        <option value="$PROJECT_DIR$/src/contents/peerConnection_demo/fileUploadPeerConnection_demo/css/main.css" />
         <option value="$PROJECT_DIR$/src/contents/peerConnection_demo/fileUploadPeerConnection_demo/index.html" />
         <option value="$PROJECT_DIR$/src/contents/jitsi_VirtualBackground_demo/js/tflite.wasm.js" />
         <option value="$PROJECT_DIR$/src/contents/jitsi_VirtualBackground_demo/main.css" />
@@ -206,7 +212,6 @@
         <option value="$PROJECT_DIR$/src/contents/record-demo/video-plus-screen-recording/js/common.js" />
         <option value="$PROJECT_DIR$/src/contents/record-demo/video-plus-screen-recording/js/RTC.js" />
         <option value="$PROJECT_DIR$/src/contents/record-demo/multipleStreamsRecorder/js/multiStreamRecorder.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/src/contents/record-demo/updateRecorder/js/api.js" />
         <option value="$PROJECT_DIR$/src/contents/record-demo/recordProgram/js/api.js" />
         <option value="$PROJECT_DIR$/src/contents/record-demo/video-plus-screen-recording/index.html" />
@@ -214,6 +219,10 @@
         <option value="$PROJECT_DIR$/src/contents/record-demo/screenRecorder_demo/index.html" />
         <option value="$PROJECT_DIR$/src/contents/record-demo/shareScreen_demo/index.html" />
         <option value="$PROJECT_DIR$/src/contents/record-demo/recordProgram/index.js" />
+        <option value="$PROJECT_DIR$/src/contents/record-demo/recordProgram/README.md" />
+        <option value="$PROJECT_DIR$/src/contents/record-demo/updateRecorder/README.md" />
+        <option value="$PROJECT_DIR$/src/contents/record-demo/gif-recorder/index.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -287,7 +296,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="contents" type="462c0819:PsiDirectoryNode" />
               <item name="record-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="recorderVideoToVideo" type="462c0819:PsiDirectoryNode" />
+              <item name="gif-recorder" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="webRTC-samples-demo" type="b2602c69:ProjectViewProjectNode" />
@@ -295,15 +304,8 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="contents" type="462c0819:PsiDirectoryNode" />
               <item name="record-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="recordProgram" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webRTC-samples-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webRTC-samples-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="contents" type="462c0819:PsiDirectoryNode" />
-              <item name="record-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="screen_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="gif-recorder" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="webRTC-samples-demo" type="b2602c69:ProjectViewProjectNode" />
@@ -354,19 +356,19 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\webRTC-samples-demo\src\contents\record-demo\gif-recorder" />
+      <recent name="E:\webRTC-samples-demo\src\contents\markdown_demo\stackEditor_demo" />
+      <recent name="E:\webRTC-samples-demo\src\contents\CryptoJS" />
+      <recent name="E:\webRTC-samples-demo\src\contents\IndexedDB_demo\logExport" />
+      <recent name="E:\webRTC-samples-demo\src\contents\jitsi_VirtualBackground_demo\js" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\webRTC-samples-demo\src\contents\markdown_demo\stackEditor_demo\js" />
       <recent name="C:\Users\lenovo\Desktop\webRTC-samples-demo\src\contents\bandWith\bandWith_demo\css" />
       <recent name="C:\Users\lenovo\Desktop\webRTC-samples-demo\src\contents\peerConnection_demo" />
       <recent name="C:\Users\lenovo\Desktop\webRTC-samples-demo\src\contents\webCodecs-demo\samples\webcam-in-worker" />
       <recent name="C:\Users\lenovo\Desktop\webRTC-samples-demo\src\contents\webCodecs-demo\samples\webcam" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\webRTC-samples-demo\src\contents\markdown_demo\stackEditor_demo" />
-      <recent name="E:\webRTC-samples-demo\src\contents\CryptoJS" />
-      <recent name="E:\webRTC-samples-demo\src\contents\IndexedDB_demo\logExport" />
-      <recent name="E:\webRTC-samples-demo\src\contents\jitsi_VirtualBackground_demo\js" />
-      <recent name="C:\Users\lenovo\Desktop\webRTC-samples-demo\src\contents\jitsi_VirtualBackground_demo\js" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -399,7 +401,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103067000" />
+    <option name="totallyTimeSpent" value="104703000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -412,7 +414,7 @@
       <window_info anchor="bottom" id="Run" order="4" />
       <window_info anchor="bottom" id="Version Control" order="14" weight="0.3293348" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="16" visible="true" weight="0.32824427" />
+      <window_info anchor="bottom" id="Terminal" order="16" visible="true" weight="0.27480915" />
       <window_info anchor="bottom" id="Debug" order="5" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -462,38 +464,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/contents/ApplyConstraintsAPI_demo/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7263">
-          <caret line="275" selection-start-line="275" selection-end-line="275" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contents/ApplyConstraintsAPI_demo/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1296">
-          <caret line="48" selection-start-line="48" selection-end-line="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contents/webAudio/mixingstream_demo/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1539">
-          <caret line="57" column="1" selection-start-line="57" selection-start-column="1" selection-end-line="57" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contents/IndexedDB_demo/logExport/indexeddb/debug.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contents/IndexedDB_demo/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/contents/IndexedDB_demo/logExport/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="295">
@@ -685,14 +655,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/contents/record-demo/updateRecorder/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/contents/record-demo/multipleStreamsRecorder/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
@@ -708,20 +670,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/contents/record-demo/video-plus-screen-recording/js/common.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="891">
-          <caret line="33" column="34" lean-forward="true" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4644">
-          <caret line="172" selection-start-line="172" selection-end-line="172" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/contents/record-demo/updateRecorder/js/api.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="11637">
@@ -733,13 +681,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="11475">
           <caret line="425" column="35" lean-forward="true" selection-start-line="425" selection-start-column="35" selection-end-line="425" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contents/record-demo/video-plus-screen-recording/js/RecordRTC.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="5978" column="29" selection-start-line="5978" selection-start-column="29" selection-end-line="5978" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -785,20 +726,86 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/contents/record-demo/recordProgram/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="1603" column="39" lean-forward="true" selection-start-line="1603" selection-start-column="39" selection-end-line="1603" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/contents/record-demo/recordProgram/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="307">
-            <caret line="44" column="43" selection-start-line="44" selection-start-column="43" selection-end-line="44" selection-end-column="43" />
+          <first_editor relative-caret-position="352">
+            <caret line="44" column="11" selection-end-line="57" selection-end-column="160" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/noiseDetection-demo/jitsi-noiseDetection-demo/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-811" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/record-demo/updateRecorder/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="731">
+            <caret line="42" column="6" lean-forward="true" selection-start-line="42" selection-start-column="6" selection-end-line="42" selection-end-column="6" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/record-demo/recordProgram/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="1607" column="65" lean-forward="true" selection-start-line="1607" selection-start-column="65" selection-end-line="1607" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/noiseDetection-demo/jitsi-noiseDetection-demo/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="200" lean-forward="true" selection-start-line="200" selection-end-line="200" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/record-demo/recorderVideoToVideo/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/record-demo/video-plus-screen-recording/js/RecordRTC.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="5978" column="29" selection-start-line="5978" selection-start-column="29" selection-end-line="5978" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/record-demo/video-plus-screen-recording/js/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="34" lean-forward="true" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/record-demo/gif-recorder/js/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="179" lean-forward="true" selection-start-line="179" selection-end-line="179" />
+          <folding>
+            <element signature="n#style#0;n#li#5;n#ul#3;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/record-demo/gif-recorder/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="69" column="38" lean-forward="true" selection-start-line="69" selection-start-column="38" selection-end-line="69" selection-end-column="38" />
+          <folding>
+            <element signature="n#style#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
