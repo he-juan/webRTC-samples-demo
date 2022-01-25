@@ -26,8 +26,17 @@
  
   2. 混合录制：
      - 主要是两个屏幕的摆放位置问题以及开启视频和开启摄像头来回切换的逻辑处理流程； 
-     - 主要是如何对获取到的流放到固定的canvas中且像素保持不变或者画质清晰     
- 
+     - 主要是如何对获取到的流放到固定的canvas中且像素保持不变或者画质清晰   
+       
+  3. 关于录制中采用captureStream获取画面存在的问题：
+     - 场景： 录制整个windows发现，切换不同的页面或者应用不能录制成功，只能显示在当前页面；
+     - 解决方案： 通过getDisplayMedia获取到流放在video中，对video转化为canvas时需要ontimeupdate 事件处理
+
+```javascript
+        virtualVideo.ontimeupdate = function(){
+            playCanvas(virtualVideo, shareCanvas, ctx, sx, sy, rangeW, rangeH, canvasX, canvasY, text);
+        }
+```     
  
  -------------
  
@@ -45,4 +54,5 @@
   3. demo地址：[demo 图片获取颜色](https://he-juan.github.io/RecordVideo/getPosition/demo5.html)
   4. demo地址：[demo 截取视频图片](https://he-juan.github.io/RecordVideo/webReal/videoScreenshots/vss.html)
   5. demo地址：[webrtc-demo](https://www.webrtc-experiment.com/RecordRTC/simple-demos/)
-  6. 扫描分辨率地址：[resolution-demo](https://udta.github.io/WCRS/)
+  6. 扫描分辨率官方demo地址：[resolution-demo](https://udta.github.io/WCRS/)
+  7. 关于官方录制demo： [不同场景下录制demo](https://www.webrtc-experiment.com/)和[30+ Simple Demos using RecordRTC](https://www.webrtc-experiment.com/RecordRTC/simple-demos/)
