@@ -29,6 +29,15 @@
 <script src="js/common.js"></script>
 <script>
     var image = document.querySelector('img');
+    if(!navigator.getDisplayMedia && !navigator.mediaDevices.getDisplayMedia) {
+        var error = 'Your browser does NOT supports getDisplayMedia API.';
+        document.querySelector('h1').innerHTML = error;
+
+        document.querySelector('video').style.display = 'none';
+        document.getElementById('btn-start-recording').style.display = 'none';
+        document.getElementById('btn-stop-recording').style.display = 'none';
+        throw new Error(error);
+    }
 
     function captureCamera(callback) {
         navigator.mediaDevices.getDisplayMedia({ video: true }).then(function(camera) {
