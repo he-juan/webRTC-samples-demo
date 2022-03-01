@@ -65,7 +65,7 @@
     </style>
 </head>
 <body id="edit">
-<div>
+<div id="downloadButton">
     <button id="download" class="button">下载html</button>
     <button class="button" id="downloadPdf">下载PDF</button>
 </div>
@@ -107,6 +107,9 @@
 
 
     $("#download").click(e=>{
+        $('#content').hide()
+        $('#downloadButton').hide()
+        $('#show').css("width", '100%')
         var tpl = new Template($('#tpl').html());
         var s = tpl.render({
             title: "markdown",
@@ -147,6 +150,9 @@
     }
 
     $("#downloadPdf").click(e=>{
+        $('#content').hide()
+        $('#downloadButton').hide()
+        $('#show').css("width", '100%')
         html2canvas(document.body, {
             onrendered:function(canvas) {
 
