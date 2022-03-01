@@ -150,10 +150,10 @@
     }
 
     $("#downloadPdf").click(e=>{
-        $('#content').hide()
-        $('#downloadButton').hide()
-        $('#show').css("width", '100%')
-        html2canvas(document.body, {
+        // $('#content').hide()
+        // $('#downloadButton').hide()
+        // $('#show').css("width", '100%')
+        html2canvas(document.getElementById('show'), {
             onrendered:function(canvas) {
 
                 var contentWidth = canvas.width;
