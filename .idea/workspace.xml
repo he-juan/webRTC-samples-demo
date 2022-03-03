@@ -2,7 +2,415 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dec9322d-fd7a-48cf-a961-2f8945c4710d" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/SequenceDiagrams_demo/css/danielbd.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/SequenceDiagrams_demo/css/sequence-diagram-min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/SequenceDiagrams_demo/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/SequenceDiagrams_demo/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/SequenceDiagrams_demo/images/body-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/SequenceDiagrams_demo/images/grammar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/SequenceDiagrams_demo/images/header-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/SequenceDiagrams_demo/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/SequenceDiagrams_demo/js/ace.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/SequenceDiagrams_demo/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/SequenceDiagrams_demo/js/mode-asciidoc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/SequenceDiagrams_demo/js/sequence-diagram-snap-min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/SequenceDiagrams_demo/js/snap.svg-min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/SequenceDiagrams_demo/js/svginnerhtml.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/SequenceDiagrams_demo/js/theme-crimson_editor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/SequenceDiagrams_demo/js/underscore-min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/SequenceDiagrams_demo/js/webfont.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/css/editormd.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/css/editormd.logo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/css/editormd.preview.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/help.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/editormd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/editormd.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/fonts/editormd-logo.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/fonts/editormd-logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/fonts/editormd-logo.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/fonts/editormd-logo.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/images/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/images/loading@2x.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/images/loading@3x.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/images/logos/editormd-favicon-16x16.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/images/logos/editormd-favicon-24x24.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/images/logos/editormd-favicon-32x32.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/images/logos/editormd-favicon-48x48.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/images/logos/editormd-favicon-64x64.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/images/logos/editormd-logo-114x114.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/images/logos/editormd-logo-120x120.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/images/logos/editormd-logo-144x144.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/images/logos/editormd-logo-16x16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/images/logos/editormd-logo-180x180.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/images/logos/editormd-logo-240x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/images/logos/editormd-logo-24x24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/images/logos/editormd-logo-320x320.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/images/logos/editormd-logo-32x32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/images/logos/editormd-logo-48x48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/images/logos/editormd-logo-57x57.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/images/logos/editormd-logo-64x64.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/images/logos/editormd-logo-72x72.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/images/logos/editormd-logo-96x96.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/images/logos/vi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/js/require.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/js/sea.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/js/seajs-main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/js/zepto.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/AUTHORS" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/addon/comment/comment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/addon/comment/continuecomment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/addon/dialog/dialog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/addon/dialog/dialog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/addon/display/fullscreen.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/addon/display/fullscreen.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/addon/display/panel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/addon/display/placeholder.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/addon/display/rulers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/addon/edit/closebrackets.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/addon/edit/closetag.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/addon/edit/continuelist.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/addon/edit/matchbrackets.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/addon/edit/matchtags.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/addon/edit/trailingspace.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/addon/fold/brace-fold.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/addon/fold/comment-fold.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/addon/fold/foldcode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/addon/fold/foldgutter.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/addon/fold/foldgutter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/addon/fold/indent-fold.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/addon/fold/markdown-fold.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/addon/fold/xml-fold.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/addon/hint/anyword-hint.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/addon/hint/css-hint.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/addon/hint/html-hint.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/addon/hint/javascript-hint.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/addon/hint/show-hint.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/addon/hint/show-hint.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/addon/hint/sql-hint.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/addon/hint/xml-hint.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/addon/lint/coffeescript-lint.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/addon/lint/css-lint.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/addon/lint/javascript-lint.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/addon/lint/json-lint.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/addon/lint/lint.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/addon/lint/lint.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/addon/lint/yaml-lint.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/addon/merge/merge.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/addon/merge/merge.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/addon/mode/loadmode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/addon/mode/multiplex.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/addon/mode/multiplex_test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/addon/mode/overlay.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/addon/mode/simple.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/addon/runmode/colorize.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/addon/runmode/runmode-standalone.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/addon/runmode/runmode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/addon/runmode/runmode.node.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/addon/scroll/annotatescrollbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/addon/scroll/scrollpastend.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/addon/scroll/simplescrollbars.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/addon/scroll/simplescrollbars.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/addon/search/match-highlighter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/addon/search/matchesonscrollbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/addon/search/matchesonscrollbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/addon/search/search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/addon/search/searchcursor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/addon/selection/active-line.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/addon/selection/mark-selection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/addon/selection/selection-pointer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/addon/tern/tern.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/addon/tern/tern.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/addon/tern/worker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/addon/wrap/hardwrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/addons.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/codemirror.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/codemirror.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/lib/codemirror.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/lib/codemirror.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/apl/apl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/apl/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/asterisk/asterisk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/asterisk/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/clike/clike.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/clike/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/clike/scala.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/clojure/clojure.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/clojure/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/cobol/cobol.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/cobol/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/coffeescript/coffeescript.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/coffeescript/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/commonlisp/commonlisp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/commonlisp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/css/css.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/css/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/css/less.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/css/less_test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/css/scss.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/css/scss_test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/css/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/cypher/cypher.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/cypher/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/d/d.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/d/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/dart/dart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/dart/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/diff/diff.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/diff/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/django/django.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/django/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/dockerfile/dockerfile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/dockerfile/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/dtd/dtd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/dtd/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/dylan/dylan.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/dylan/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/ebnf/ebnf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/ebnf/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/ecl/ecl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/ecl/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/eiffel/eiffel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/eiffel/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/erlang/erlang.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/erlang/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/forth/forth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/forth/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/fortran/fortran.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/fortran/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/gas/gas.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/gas/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/gfm/gfm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/gfm/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/gfm/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/gherkin/gherkin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/gherkin/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/go/go.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/go/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/groovy/groovy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/groovy/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/haml/haml.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/haml/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/haml/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/haskell/haskell.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/haskell/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/haxe/haxe.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/haxe/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/htmlembedded/htmlembedded.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/htmlembedded/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/htmlmixed/htmlmixed.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/htmlmixed/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/http/http.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/http/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/idl/idl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/idl/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/jade/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/jade/jade.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/javascript/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/javascript/javascript.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/javascript/json-ld.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/javascript/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/javascript/typescript.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/jinja2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/jinja2/jinja2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/julia/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/julia/julia.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/kotlin/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/kotlin/kotlin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/livescript/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/livescript/livescript.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/lua/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/lua/lua.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/markdown/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/markdown/markdown.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/markdown/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/meta.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/mirc/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/mirc/mirc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/mllike/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/mllike/mllike.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/modelica/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/modelica/modelica.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/nginx/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/nginx/nginx.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/ntriples/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/ntriples/ntriples.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/octave/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/octave/octave.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/pascal/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/pascal/pascal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/pegjs/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/pegjs/pegjs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/perl/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/perl/perl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/php/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/php/php.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/php/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/pig/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/pig/pig.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/properties/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/properties/properties.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/puppet/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/puppet/puppet.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/python/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/python/python.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/q/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/q/q.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/r/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/r/r.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/rpm/changes/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/rpm/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/rpm/rpm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/rst/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/rst/rst.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/ruby/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/ruby/ruby.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/ruby/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/rust/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/rust/rust.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/sass/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/sass/sass.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/scheme/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/scheme/scheme.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/shell/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/shell/shell.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/shell/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/sieve/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/sieve/sieve.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/slim/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/slim/slim.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/slim/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/smalltalk/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/smalltalk/smalltalk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/smarty/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/smarty/smarty.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/smartymixed/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/smartymixed/smartymixed.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/solr/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/solr/solr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/soy/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/soy/soy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/sparql/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/sparql/sparql.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/spreadsheet/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/spreadsheet/spreadsheet.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/sql/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/sql/sql.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/stex/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/stex/stex.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/stex/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/stylus/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/stylus/stylus.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/tcl/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/tcl/tcl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/textile/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/textile/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/textile/textile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/tiddlywiki/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/tiddlywiki/tiddlywiki.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/tiddlywiki/tiddlywiki.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/tiki/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/tiki/tiki.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/tiki/tiki.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/toml/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/toml/toml.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/tornado/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/tornado/tornado.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/turtle/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/turtle/turtle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/vb/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/vb/vb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/vbscript/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/vbscript/vbscript.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/velocity/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/velocity/velocity.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/verilog/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/verilog/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/verilog/verilog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/xml/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/xml/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/xml/xml.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/xquery/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/xquery/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/xquery/xquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/yaml/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/yaml/yaml.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/z80/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/mode/z80/z80.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/modes.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/theme/3024-day.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/theme/3024-night.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/theme/ambiance-mobile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/theme/ambiance.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/theme/base16-dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/theme/base16-light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/theme/blackboard.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/theme/cobalt.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/theme/colorforth.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/theme/eclipse.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/theme/elegant.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/theme/erlang-dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/theme/lesser-dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/theme/mbo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/theme/mdn-like.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/theme/midnight.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/theme/monokai.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/theme/neat.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/theme/neo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/theme/night.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/theme/paraiso-dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/theme/paraiso-light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/theme/pastel-on-dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/theme/rubyblue.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/theme/solarized.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/theme/the-matrix.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/theme/tomorrow-night-bright.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/theme/tomorrow-night-eighties.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/theme/twilight.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/theme/vibrant-ink.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/theme/xq-dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/theme/xq-light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/theme/zenburn.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/flowchart.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/jquery.flowchart.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/marked.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/prettify.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/raphael.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/sequence-diagram.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/underscore.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/plugins/code-block-dialog/code-block-dialog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/plugins/emoji-dialog/emoji-dialog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/plugins/emoji-dialog/emoji.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/plugins/goto-line-dialog/goto-line-dialog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/plugins/help-dialog/help-dialog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/plugins/help-dialog/help.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/plugins/html-entities-dialog/html-entities-dialog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/plugins/html-entities-dialog/html-entities.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/plugins/image-dialog/image-dialog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/plugins/link-dialog/link-dialog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/plugins/plugin-template.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/plugins/preformatted-text-dialog/preformatted-text-dialog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/plugins/reference-link-dialog/reference-link-dialog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/plugins/table-dialog/table-dialog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/plugins/test-plugin/test-plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/style/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contents/markdown_demo/stackEditor_demo/demo.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contents/markdown_demo/stackEditor_demo/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/contents/markdown_demo/stackEditor_demo/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,85 +424,91 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="dbExport.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/contents/IndexedDB_demo/indexedDB/demo/js/dbExport.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2376">
-              <caret line="88" column="1" selection-start-line="88" selection-start-column="1" selection-end-line="88" selection-end-column="1" />
-            </state>
-          </provider>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/index.html">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7182">
-              <caret line="266" column="7" selection-start-line="266" selection-end-line="266" selection-end-column="7" />
+            <state relative-caret-position="360">
+              <caret line="70" column="86" selection-start-line="70" selection-start-column="86" selection-end-line="70" selection-end-column="86" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="demo.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/contents/markdown_demo/SequenceDiagrams_demo/demo.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2403">
+              <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/contents/markdown_demo/htmlToPDF/index.html">
+        <entry file="file://$PROJECT_DIR$/src/contents/markdown_demo/SequenceDiagrams_demo/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="491">
-              <caret line="163" column="33" lean-forward="true" selection-start-line="163" selection-start-column="33" selection-end-line="163" selection-end-column="33" />
+            <state relative-caret-position="-1053" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="demo.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/contents/markdown_demo/stackEditor_demo/demo.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-3393">
+              <caret line="21" column="44" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/contents/markdown_demo/stackEditor_demo/index.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/contents/jitsi_VirtualBackground_demo/index.html">
+        <entry file="file://$PROJECT_DIR$/src/contents/markdown_demo/stackEditor_demo/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="24" column="54" selection-start-line="24" selection-start-column="54" selection-end-line="24" selection-end-column="54" />
+            <state relative-caret-position="-162">
+              <caret line="12" column="77" selection-start-line="12" selection-start-column="77" selection-end-line="12" selection-end-column="77" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/contents/jitsi_VirtualBackground_demo/js/main.js">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/contents/markdown_demo/stackEditor_demo/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3699">
-              <caret line="137" column="47" selection-start-line="137" selection-start-column="47" selection-end-line="137" selection-end-column="47" />
+            <state relative-caret-position="378">
+              <caret line="14" column="39" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="39" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gsrtc.streamBackgroundEffect.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/contents/jitsi_VirtualBackground_demo/js/gsrtc.streamBackgroundEffect.js">
+      <file leaf-file-name="lib.es6.d.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es6.d.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="732">
-              <caret line="265" column="56" selection-start-line="265" selection-start-column="56" selection-end-line="265" selection-end-column="56" />
+            <state relative-caret-position="200">
+              <caret line="10369" column="4" selection-start-line="10369" selection-start-column="4" selection-end-line="10369" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/contents/enumerateDevices_demo/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="297">
-                <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-              </first_editor>
-              <second_editor />
+      <file leaf-file-name="stackedit.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/contents/markdown_demo/stackEditor_demo/js/stackedit.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="263">
+              <caret line="114" column="54" selection-start-line="114" selection-start-column="30" selection-end-line="114" selection-end-column="54" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/contents/IndexedDB_demo/indexedDB/index.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/contents/IndexedDB_demo/indexedDB/demo/index.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="debug.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/contents/IndexedDB_demo/indexedDB/demo/js/debug.js">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -110,7 +524,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>image</find>
       <find>blockquote</find>
       <find>markdown_demo</find>
       <find>cover</find>
@@ -140,6 +553,7 @@
       <find>getVideo</find>
       <find>appendStreams</find>
       <find>addStreams</find>
+      <find>Stackedit</find>
     </findStrings>
     <dirStrings>
       <dir>E:\webRTC-samples-demo\src\contents\jitsi_VirtualBackground_demo</dir>
@@ -151,8 +565,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/contents/jitsi_VirtualBackground_demo/main.css" />
-        <option value="$PROJECT_DIR$/src/contents/jitsi_VirtualBackground_demo/js/ff.js" />
         <option value="$PROJECT_DIR$/src/contents/jitsi_VirtualBackground_demo/index.html" />
         <option value="$PROJECT_DIR$/src/contents/jitsi_VirtualBackground_demo/js/tflite.js" />
         <option value="$PROJECT_DIR$/src/contents/webCodecs-demo/samples/image-decoder/index.html" />
@@ -177,7 +589,6 @@
         <option value="$PROJECT_DIR$/src/contents/markdown_demo/stackEditor_demo/stackedit.js" />
         <option value="$PROJECT_DIR$/src/contents/markdown_demo/stackEditor_demo/index.js" />
         <option value="$PROJECT_DIR$/src/contents/markdown_demo/stackEditor_demo/index.css" />
-        <option value="$PROJECT_DIR$/src/contents/markdown_demo/stackEditor_demo/index.html" />
         <option value="$PROJECT_DIR$/src/contents/record-demo/updateRecorder/js/stream.js" />
         <option value="$PROJECT_DIR$/src/contents/record-demo/recordProgram/js/stream.js" />
         <option value="$PROJECT_DIR$/src/contents/record-demo/updateRecorder/index.js" />
@@ -199,9 +610,12 @@
         <option value="$PROJECT_DIR$/src/contents/record-demo/updateRecorder/README.md" />
         <option value="$PROJECT_DIR$/src/contents/record-demo/gif-recorder/index.html" />
         <option value="$PROJECT_DIR$/src/contents/record-demo/updateRecorder/index.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/src/contents/enumerateDevices_demo/README.md" />
         <option value="$PROJECT_DIR$/src/contents/markdown_demo/htmlToPDF/index.html" />
+        <option value="$PROJECT_DIR$/src/contents/IndexedDB_demo/README.md" />
+        <option value="$PROJECT_DIR$/src/contents/markdown_demo/stackEditor_demo/index2.html" />
+        <option value="$PROJECT_DIR$/src/contents/markdown_demo/stackEditor_demo/index.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -214,6 +628,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
       <path value="$PROJECT_DIR$/src/contents/GUM_demo/getDisplayMedia_demo/package.json" />
+      <path value="$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/public/lib/codemirror/package.json" />
       <path value="$PROJECT_DIR$/src/contents/websocket_webrtc/package.json" />
     </packageJsonPaths>
   </component>
@@ -253,36 +668,31 @@
               <item name="webRTC-samples-demo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="contents" type="462c0819:PsiDirectoryNode" />
-              <item name="enumerateDevices_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="markdown_demo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="webRTC-samples-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="webRTC-samples-demo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="contents" type="462c0819:PsiDirectoryNode" />
-              <item name="jitsi_VirtualBackground_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="markdown_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="editormd_demo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="webRTC-samples-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="webRTC-samples-demo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="contents" type="462c0819:PsiDirectoryNode" />
-              <item name="jitsi_VirtualBackground_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="markdown_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="SequenceDiagrams_demo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="webRTC-samples-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="webRTC-samples-demo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="contents" type="462c0819:PsiDirectoryNode" />
-              <item name="soundDetection-demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webRTC-samples-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webRTC-samples-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="contents" type="462c0819:PsiDirectoryNode" />
-              <item name="switchShareScreenSource_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="markdown_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="stackEditor_demo" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -300,19 +710,19 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\webRTC-samples-demo\src\contents\markdown_demo" />
+      <recent name="E:\webRTC-samples-demo\src\contents\markdown_demo\editormd_demo" />
+      <recent name="E:\webRTC-samples-demo\src\contents\record-demo\gif-recorder" />
+      <recent name="E:\webRTC-samples-demo\src\contents\markdown_demo\stackEditor_demo" />
+      <recent name="E:\webRTC-samples-demo\src\contents\CryptoJS" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\webRTC-samples-demo\src\contents\markdown_demo\stackEditor_demo\js" />
       <recent name="C:\Users\lenovo\Desktop\webRTC-samples-demo\src\contents\bandWith\bandWith_demo\css" />
       <recent name="C:\Users\lenovo\Desktop\webRTC-samples-demo\src\contents\peerConnection_demo" />
       <recent name="C:\Users\lenovo\Desktop\webRTC-samples-demo\src\contents\webCodecs-demo\samples\webcam-in-worker" />
       <recent name="C:\Users\lenovo\Desktop\webRTC-samples-demo\src\contents\webCodecs-demo\samples\webcam" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\webRTC-samples-demo\src\contents\record-demo\gif-recorder" />
-      <recent name="E:\webRTC-samples-demo\src\contents\markdown_demo\stackEditor_demo" />
-      <recent name="E:\webRTC-samples-demo\src\contents\CryptoJS" />
-      <recent name="E:\webRTC-samples-demo\src\contents\IndexedDB_demo\logExport" />
-      <recent name="E:\webRTC-samples-demo\src\contents\jitsi_VirtualBackground_demo\js" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -344,15 +754,15 @@
       <workItem from="1644887812543" duration="2869000" />
       <workItem from="1645168967645" duration="594000" />
       <workItem from="1646116668554" duration="6999000" />
-      <workItem from="1646189872893" duration="871000" />
+      <workItem from="1646189872893" duration="4162000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="116837000" />
+    <option name="totallyTimeSpent" value="120128000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20126449" />
@@ -402,135 +812,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/contents/record-demo/updateRecorder/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="239" column="5" selection-start-line="239" selection-start-column="5" selection-end-line="239" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contents/record-demo/recordProgram/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="235" column="1" lean-forward="true" selection-start-line="235" selection-start-column="1" selection-end-line="235" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contents/record-demo/recordAera/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contents/record-demo/audio-recorder/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contents/record-demo/audio-recorder/README">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="261" column="29" selection-start-line="261" selection-start-column="29" selection-end-line="261" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contents/record-demo/multipleStreamsRecorder/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contents/record-demo/video-plus-screen-recording/js/RTC.js" />
-    <entry file="file://$PROJECT_DIR$/src/contents/record-demo/multipleStreamsRecorder/js/multiStreamRecorder.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="35667">
-          <caret line="1321" column="9" selection-start-line="1321" selection-start-column="9" selection-end-line="1321" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contents/record-demo/updateRecorder/js/api.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11637">
-          <caret line="431" column="19" lean-forward="true" selection-start-line="431" selection-start-column="19" selection-end-line="431" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contents/record-demo/recordProgram/js/api.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11475">
-          <caret line="425" column="35" lean-forward="true" selection-start-line="425" selection-start-column="35" selection-end-line="425" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contents/record-demo/video-plus-screen-recording/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="96" column="17" selection-start-line="96" selection-start-column="17" selection-end-line="96" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contents/record-demo/screenRecorder_demo/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="263" column="10" lean-forward="true" selection-start-line="263" selection-start-column="10" selection-end-line="263" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contents/record-demo/multipleStreamsRecorder/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contents/record-demo/shareScreen_demo/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="242" column="40" lean-forward="true" selection-start-line="242" selection-start-column="40" selection-end-line="242" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contents/record-demo/screen_demo/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3213">
-          <caret line="119" selection-start-line="119" selection-end-line="119" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contents/record-demo/recordProgram/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="352">
-            <caret line="44" column="11" selection-end-line="57" selection-end-column="160" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contents/noiseDetection-demo/jitsi-noiseDetection-demo/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-811" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contents/record-demo/updateRecorder/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1134">
-            <caret line="42" column="6" lean-forward="true" selection-start-line="42" selection-start-column="6" selection-end-line="42" selection-end-column="6" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contents/record-demo/recordProgram/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="1607" column="65" lean-forward="true" selection-start-line="1607" selection-start-column="65" selection-end-line="1607" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contents/noiseDetection-demo/jitsi-noiseDetection-demo/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="200" lean-forward="true" selection-start-line="200" selection-end-line="200" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/contents/record-demo/recorderVideoToVideo/index.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -622,38 +903,6 @@
     <entry file="file://$PROJECT_DIR$/src/contents/record-demo/UploadFileshare_demo/index.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/contents/IndexedDB_demo/debugExportLog/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contents/IndexedDB_demo/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contents/IndexedDB_demo/logExport/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1188">
-          <caret line="44" column="35" selection-start-line="44" selection-start-column="35" selection-end-line="44" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contents/IndexedDB_demo/logExport/indexeddb/indexedDB.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3267">
-          <caret line="121" column="42" selection-start-line="121" selection-start-column="24" selection-end-line="121" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contents/IndexedDB_demo/indexedDB/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/contents/IndexedDB_demo/indexedDB/demo/index.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -664,13 +913,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2376">
           <caret line="88" column="1" selection-start-line="88" selection-start-column="1" selection-end-line="88" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7182">
-          <caret line="266" column="7" selection-start-line="266" selection-end-line="266" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -709,6 +951,172 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3699">
           <caret line="137" column="47" selection-start-line="137" selection-start-column="47" selection-end-line="137" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/IndexedDB_demo/logExport/indexeddb/debug.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" column="300" selection-start-line="1" selection-start-column="300" selection-end-line="1" selection-end-column="300" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/IndexedDB_demo/logExport/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="44" column="35" selection-start-line="44" selection-start-column="35" selection-end-line="44" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/IndexedDB_demo/logExport/indexeddb/indexedDB.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3537">
+          <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/IndexedDB_demo/indexedDB/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-537">
+          <caret line="134" column="13" selection-start-line="134" selection-start-column="13" selection-end-line="134" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/IndexedDB_demo/debugExportLog/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/IndexedDB_demo/debugExportLog/src/indexedDB.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5794">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/IndexedDB_demo/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SECOND">
+          <first_editor relative-caret-position="304">
+            <caret line="257" column="12" selection-start-line="257" selection-start-column="12" selection-end-line="257" selection-end-column="12" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/Camera_Resolution_Scan_demo/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/Camera_Resolution_Scan_demo/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="74" column="39" selection-start-line="74" selection-start-column="39" selection-end-line="74" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/Camera_Resolution_Scan_demo/js/adapter-latest.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="3332" column="16" selection-start-line="3332" selection-start-column="16" selection-end-line="3332" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/Camera_Resolution_Scan_demo/js/resolutionScan.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1266">
+          <caret line="604" column="30" selection-start-line="604" selection-start-column="30" selection-end-line="604" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/css/editormd.preview.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/css/editormd.logo.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/css/editormd.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/markdown_demo/SequenceDiagrams_demo/js/ace.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-1215" />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/markdown_demo/SequenceDiagrams_demo/demo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2403">
+          <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/markdown_demo/SequenceDiagrams_demo/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1053" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/markdown_demo/stackEditor_demo/demo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3393">
+          <caret line="21" column="44" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es6.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10369" column="4" selection-start-line="10369" selection-start-column="4" selection-end-line="10369" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/markdown_demo/stackEditor_demo/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="39" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="39" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/markdown_demo/stackEditor_demo/js/stackedit.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="114" column="54" selection-start-line="114" selection-start-column="30" selection-end-line="114" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/markdown_demo/stackEditor_demo/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-162">
+          <caret line="12" column="77" selection-start-line="12" selection-start-column="77" selection-end-line="12" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/markdown_demo/stackEditor_demo/icon.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/markdown_demo/stackEditor_demo/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="70" column="86" selection-start-line="70" selection-start-column="86" selection-end-line="70" selection-end-column="86" />
         </state>
       </provider>
     </entry>

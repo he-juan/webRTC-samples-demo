@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+
+    <!-- Begin Jekyll SEO tag v2.5.0 -->
+    <title>Introduction | stackedit.js</title>
+    <meta name="generator" content="Jekyll v3.7.3" />
+    <meta property="og:title" content="Introduction" />
+    <meta property="og:locale" content="en_US" />
+    <meta name="description" content="Add StackEdit to any website" />
+    <meta property="og:description" content="Add StackEdit to any website" />
+    <link rel="canonical" href="https://benweet.github.io/stackedit.js/" />
+    <meta property="og:url" content="https://benweet.github.io/stackedit.js/" />
+    <meta property="og:site_name" content="stackedit.js" />
+    <script type="application/ld+json">
+{"@type":"WebSite","url":"https://benweet.github.io/stackedit.js/","name":"stackedit.js","headline":"Introduction","description":"Add StackEdit to any website","@context":"http://schema.org"}</script>
+    <!-- End Jekyll SEO tag -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#157878">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<section class="page-header">
+    <h1 class="project-name">stackedit.js</h1>
+    <h2 class="project-tagline">Add StackEdit to any website</h2>
+
+    <a href="https://github.com/benweet/stackedit.js" class="btn">View on GitHub</a>
+
+
+    <a href="https://github.com/benweet/stackedit.js/zipball/master" class="btn">Download .zip</a>
+    <a href="https://github.com/benweet/stackedit.js/tarball/master" class="btn">Download .tar.gz</a>
+
+</section>
+
+<section class="main-content">
+    <h1 id="introduction">Introduction</h1>
+
+    <p><strong>stackedit.js</strong> makes it easy to bind StackEdit to a <code class="highlighter-rouge">textarea</code>.</p>
+
+    <blockquote>
+        <textarea>Hello **Markdown** writer!</textarea>
+    </blockquote>
+
+    <p>Because it runs StackEdit in an iframe, <strong>stackedit.js</strong> is lightweight and has no dependency.</p>
+
+    <h1 id="getting-started">Getting started</h1>
+
+    <h2 id="import">Import</h2>
+
+    <p>Add the script to your web page.</p>
+
+    <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"https://unpkg.com/stackedit-js@1.0.7/docs/lib/stackedit.min.js"</span><span class="nt">&gt;&lt;/script&gt;</span>
+</code></pre></div></div>
+
+    <p>Or include it in your project</p>
+
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>npm install stackedit-js
+</code></pre></div></div>
+
+    <p>and import it into your script.</p>
+
+    <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">import</span> <span class="nx">Stackedit</span> <span class="k">from</span> <span class="s1">'stackedit-js'</span><span class="p">;</span>
+</code></pre></div></div>
+
+    <h2 id="usage">Usage</h2>
+
+    <p>To open StackEdit, create a <code class="highlighter-rouge">Stackedit</code> object and call <code class="highlighter-rouge">openFile()</code>.</p>
+
+    <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="kd">const</span> <span class="nx">el</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">querySelector</span><span class="p">(</span><span class="s1">'textarea'</span><span class="p">);</span>
+  <span class="kd">const</span> <span class="nx">stackedit</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Stackedit</span><span class="p">();</span>
+
+  <span class="c1">// Open the iframe</span>
+  <span class="nx">stackedit</span><span class="p">.</span><span class="nx">openFile</span><span class="p">({</span>
+    <span class="na">name</span><span class="p">:</span> <span class="s1">'Filename'</span><span class="p">,</span> <span class="c1">// with an optional filename</span>
+    <span class="na">content</span><span class="p">:</span> <span class="p">{</span>
+      <span class="na">text</span><span class="p">:</span> <span class="nx">el</span><span class="p">.</span><span class="nx">value</span> <span class="c1">// and the Markdown content.</span>
+    <span class="p">}</span>
+  <span class="p">});</span>
+
+  <span class="c1">// Listen to StackEdit events and apply the changes to the textarea.</span>
+  <span class="nx">stackedit</span><span class="p">.</span><span class="nx">on</span><span class="p">(</span><span class="s1">'fileChange'</span><span class="p">,</span> <span class="p">(</span><span class="nx">file</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
+    <span class="nx">el</span><span class="p">.</span><span class="nx">value</span> <span class="o">=</span> <span class="nx">file</span><span class="p">.</span><span class="nx">content</span><span class="p">.</span><span class="nx">text</span><span class="p">;</span>
+  <span class="p">});</span>
+</code></pre></div></div>
+
+    <h2 id="events">Events</h2>
+
+    <p><code class="highlighter-rouge">Stackedit</code> objects will emit the following events:</p>
+
+    <ul>
+        <li>
+            <p><code class="highlighter-rouge">fileChange</code> whenever a change happens to the file and its content,</p>
+        </li>
+        <li>
+            <p><code class="highlighter-rouge">close</code> once the iframe is closed.</p>
+
+            <p><strong>Tip:</strong> Call <code class="highlighter-rouge">stackedit.close()</code> to force close the iframe.</p>
+        </li>
+    </ul>
+
+    <h2 id="conversion-service">Conversion service</h2>
+
+    <p>Duly sanitized HTML will be returned as <code class="highlighter-rouge">file.content.html</code> in the <code class="highlighter-rouge">fileChange</code> event so that you can print the formatted output into your page.</p>
+
+    <blockquote>
+        <div class="html"></div>
+    </blockquote>
+
+    <p><strong>Tip:</strong> Use the silent mode to convert Markdown to HTML on page load:</p>
+
+    <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">stackedit</span><span class="p">.</span><span class="nx">openFile</span><span class="p">({</span>
+  <span class="na">name</span><span class="p">:</span> <span class="s1">'Filename'</span><span class="p">,</span>
+  <span class="na">content</span><span class="p">:</span> <span class="p">{</span> <span class="na">text</span><span class="p">:</span> <span class="s1">'Hello **Markdown** writer!'</span> <span class="p">}</span>
+<span class="p">},</span> <span class="kc">true</span> <span class="cm">/* silent mode */</span><span class="p">);</span>
+
+<span class="c1">// In silent mode, the `fileChange` event is emitted only once.</span>
+<span class="nx">stackedit</span><span class="p">.</span><span class="nx">on</span><span class="p">(</span><span class="s1">'fileChange'</span><span class="p">,</span> <span class="p">(</span><span class="nx">file</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
+  <span class="nx">divEl</span><span class="p">.</span><span class="nx">innerHTML</span> <span class="o">=</span> <span class="nx">file</span><span class="p">.</span><span class="nx">content</span><span class="p">.</span><span class="nx">html</span><span class="p">;</span>
+<span class="p">});</span>
+</code></pre></div></div>
+
+    <h2 id="custom-properties">Custom properties</h2>
+
+    <p>Pass file properties to configure the Markdown engine. To open a CommonMark file for example:</p>
+
+    <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">stackedit</span><span class="p">.</span><span class="nx">openFile</span><span class="p">({</span>
+  <span class="na">name</span><span class="p">:</span> <span class="s1">'Filename'</span><span class="p">,</span>
+  <span class="na">content</span><span class="p">:</span> <span class="p">{</span>
+    <span class="na">text</span><span class="p">:</span> <span class="s1">'Hello **CommonMark** writer!'</span><span class="p">,</span>
+    <span class="na">properties</span><span class="p">:</span> <span class="p">{</span>
+      <span class="na">extensions</span><span class="p">:</span> <span class="p">{</span>
+        <span class="na">preset</span><span class="p">:</span> <span class="s1">'commonmark'</span>
+      <span class="p">}</span>
+    <span class="p">}</span>
+  <span class="p">}</span>
+<span class="p">});</span>
+</code></pre></div></div>
+
+    <h2 id="custom-stackedit-url">Custom StackEdit URL</h2>
+
+    <p><strong>stackedit.js</strong> uses <a href="https://stackedit.io/app">https://stackedit.io/app</a> as the default StackEdit URL. Though you can provide a custom URL to the <code class="highlighter-rouge">Stackedit</code> constructor.</p>
+
+    <div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">const</span> <span class="nx">stackedit</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Stackedit</span><span class="p">({</span>
+  <span class="na">url</span><span class="p">:</span> <span class="s1">'https://hostname/app'</span>
+<span class="p">});</span>
+</code></pre></div></div>
+
+    <script src="js/stackedit.js"></script>
+    <script src="js/index.js"></script>
+
+
+
+    <footer class="site-footer">
+
+        <span class="site-footer-owner"><a href="https://github.com/benweet/stackedit.js">stackedit.js</a> is maintained by <a href="https://github.com/benweet">benweet</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a>.</span>
+    </footer>
+</section>
+
+
+</body>
+</html>
