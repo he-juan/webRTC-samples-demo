@@ -2,22 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dec9322d-fd7a-48cf-a961-2f8945c4710d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/contents/peerConnection_demo/packetization_mode_demo/M_packetization-mode/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/contents/peerConnection_demo/packetization_mode_demo/packetization_mode_0/css/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/contents/peerConnection_demo/packetization_mode_demo/packetization_mode_0/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/contents/peerConnection_demo/packetization_mode_demo/packetization_mode_0/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/contents/peerConnection_demo/packetization_mode_demo/packetization_mode_0/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/contents/peerConnection_demo/packetization_mode_demo/packetization_mode_0/js/sdp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/contents/peerConnection_demo/packetization_mode_demo/packetization_mode_0/js/sdp_tools.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contents/peerConnection_demo/packetization_mode_demo/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/contents/peerConnection_demo/packetization_mode_demo/M_packetization-mode/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contents/peerConnection_demo/packetization_mode_demo/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/contents/peerConnection_demo/packetization_mode_demo/M_packetization-mode/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contents/peerConnection_demo/packetization_mode_demo/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/contents/peerConnection_demo/packetization_mode_demo/M_packetization-mode/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contents/peerConnection_demo/packetization_mode_demo/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/contents/peerConnection_demo/packetization_mode_demo/M_packetization-mode/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contents/peerConnection_demo/packetization_mode_demo/js/sdp.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/contents/peerConnection_demo/packetization_mode_demo/M_packetization-mode/js/sdp.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contents/peerConnection_demo/packetization_mode_demo/js/sdp_tools.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/contents/peerConnection_demo/packetization_mode_demo/M_packetization-mode/js/sdp_tools.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contents/peerConnection_demo/profile-level-id/WebRTC_profile-level-id/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/contents/peerConnection_demo/profile-level-id/WebRTC_profile-level-id/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contents/peerConnection_demo/packetization_mode_demo/M_packetization-mode/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/contents/peerConnection_demo/packetization_mode_demo/M_packetization-mode/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -31,32 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="238" column="13" lean-forward="true" selection-start-line="213" selection-start-column="7" selection-end-line="238" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/contents/peerConnection_demo/packetization_mode_demo/M_packetization-mode/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="77">
-              <caret line="46" column="35" selection-start-line="46" selection-start-column="35" selection-end-line="46" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/contents/peerConnection_demo/packetization_mode_demo/M_packetization-mode/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="405">
-                <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-              </first_editor>
-              <second_editor />
+            <state relative-caret-position="-666">
+              <caret line="222" column="94" selection-start-line="222" selection-start-column="94" selection-end-line="222" selection-end-column="94" />
             </state>
           </provider>
         </entry>
@@ -78,30 +42,21 @@
       </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/contents/peerConnection_demo/profile-level-id/profile-level-id_demo/index.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/contents/peerConnection_demo/packetization_mode_demo/M_packetization-mode/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="95" column="41" selection-start-line="95" selection-start-column="41" selection-end-line="95" selection-end-column="41" />
-            </state>
+            <state relative-caret-position="-324" />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sdp.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/contents/peerConnection_demo/packetization_mode_demo/M_packetization-mode/js/sdp.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="209" column="42" selection-start-line="209" selection-start-column="42" selection-end-line="209" selection-end-column="42" />
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/contents/peerConnection_demo/packetization_mode_demo/M_packetization-mode/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="306">
+                <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/contents/peerConnection_demo/packetization_mode_demo/packetization_mode_0/index.html">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
@@ -153,7 +108,6 @@
       <find>Stackedit</find>
       <find>log</find>
       <find>getLocalSDP</find>
-      <find />
       <find>juanhejuanhejuanhejuaneh</find>
       <find>console.console</find>
     </findStrings>
@@ -220,9 +174,9 @@
         <option value="$PROJECT_DIR$/src/contents/peerConnection_demo/packetization_mode_demo/M_packetization-mode/js/sdp_tools.js" />
         <option value="$PROJECT_DIR$/src/contents/peerConnection_demo/packetization_mode_demo/M_packetization-mode/js/main.js" />
         <option value="$PROJECT_DIR$/src/contents/peerConnection_demo/packetization_mode_demo/M_packetization-mode/index.html" />
-        <option value="$PROJECT_DIR$/src/contents/peerConnection_demo/packetization_mode_demo/M_packetization-mode/README.md" />
         <option value="$PROJECT_DIR$/src/contents/peerConnection_demo/packetization_mode_demo/M_packetization-mode/js/sdp.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/src/contents/peerConnection_demo/packetization_mode_demo/M_packetization-mode/README.md" />
       </list>
     </option>
   </component>
@@ -358,25 +312,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="contents" type="462c0819:PsiDirectoryNode" />
               <item name="peerConnection_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="packetization_mode_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="M_packetization-mode" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webRTC-samples-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webRTC-samples-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="contents" type="462c0819:PsiDirectoryNode" />
-              <item name="peerConnection_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="packetization_mode_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="packetization_mode_0" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webRTC-samples-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webRTC-samples-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="contents" type="462c0819:PsiDirectoryNode" />
-              <item name="peerConnection_demo" type="462c0819:PsiDirectoryNode" />
               <item name="PeerConnection_simulcast_demo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -463,10 +398,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="137581000" />
+    <option name="totallyTimeSpent" value="137625000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20126449" />
       <window_info anchor="bottom" id="TODO" order="10" />
@@ -476,15 +412,26 @@
       <window_info anchor="bottom" id="Run" order="4" />
       <window_info anchor="bottom" id="Version Control" order="14" weight="0.3293348" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="16" visible="true" weight="0.31733915" />
+      <window_info anchor="bottom" id="Terminal" order="16" visible="true" weight="0.4623773" />
       <window_info anchor="bottom" id="Debug" order="5" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20126449" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="bottom" id="Version Control" order="14" weight="0.3293348" />
+      <window_info anchor="bottom" id="Run" order="4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32824427" />
+      <window_info anchor="bottom" id="Debug" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="15" side_tool="true" />
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="16" visible="true" weight="0.31733915" />
+      <window_info id="Favorites" order="2" side_tool="true" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -685,13 +632,7 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/contents/peerConnection_demo/iceRestart/iceRestart_demo/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/contents/peerConnection_demo/packetization_mode_demo/M_packetization-mode/js/sdp_tools.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -736,22 +677,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/contents/peerConnection_demo/profile-level-id/profile-level-id_demo/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-324" />
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/contents/peerConnection_demo/packetization_mode_demo/M_packetization-mode/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="77">
           <caret line="46" column="35" selection-start-line="46" selection-start-column="35" selection-end-line="46" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contents/peerConnection_demo/packetization_mode_demo/M_packetization-mode/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="405">
-            <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -764,8 +697,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="238" column="13" lean-forward="true" selection-start-line="213" selection-start-column="7" selection-end-line="238" selection-end-column="13" />
+        <state relative-caret-position="-666">
+          <caret line="222" column="94" selection-start-line="222" selection-start-column="94" selection-end-line="222" selection-end-column="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/peerConnection_demo/packetization_mode_demo/M_packetization-mode/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="306">
+            <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
