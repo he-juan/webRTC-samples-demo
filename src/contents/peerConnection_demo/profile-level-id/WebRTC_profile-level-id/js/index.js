@@ -332,10 +332,7 @@ function createPeerConnection() {
 
 
             // log.info(`remotePeerConnection setRemoteDescription 1: \n${offer.sdp}`);
-            console.warn("juanhejuanhejuanhejuaneh")
             remotePeerConnection.setRemoteDescription(offer).then(function () {
-                console.warn("ihhuihuhuh")
-                // console.warn("22222he:",offer.sdp)
                 let parseSdp = SDPTools.parseSDP(offer.sdp)
                 console.warn("parseSdp:",parseSdp)
                 for(let i = 0; i < parseSdp.media.length; i++){
