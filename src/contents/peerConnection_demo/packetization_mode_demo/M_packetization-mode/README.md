@@ -130,6 +130,17 @@
 - 根据以上得出的结论是：
    - 在firefox浏览器中，同一个pt 本端的打包模式和远端的打包模式不一样，导致流存在问题；这属于浏览器的行为问题。
    - chrome不存在此问题
+## 三、关于抓包查看的情形
+
+```
+      wave                                                                                    UCM                                                                                      GDS
+       |-------(main:pt=126 packetization-mode=1; slides:pt=126 packetization-mode=1)  ------>|--------(main:pt=99 packetization-mode=1; slides:pt=99 packetization-mode=1)------------->|
+       |<-------(main:pt=126 packetization-mode=0; slides:pt=126 packetization-mode=1)  ------|<--------(main:pt=99 packetization-mode=0; slides:pt=99 packetization-mode=1)-------------|
+```
+
+            
+
+
 - 解决方案：
   - wave这边针对H264所得pt的打包模式放开，至少存在一个pt的打包模式为0，一个pt的打包模式为1 的情况；
   - ucm 或者其他产品根据pt和打包模式来协商处理；
