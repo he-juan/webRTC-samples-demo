@@ -188,12 +188,6 @@ const grammar = {
             format: 'ice-ufrag:%s'
         },
         {
-            // a=record:off
-            name: 'record',
-            reg: /^record:(\S*)/,
-            format: 'record:%s'
-        },
-        {
             // a=ice-pwd:x9cml/YzichV2+XlhiMu8g
             name: 'icePwd',
             reg: /^ice-pwd:(\S*)/,
@@ -938,7 +932,6 @@ let SDPTools = {
                 }
             }
         })
-
         // 保存保留编码pt关联的的rtx行
         codecPtList.map(item => {
             mediaSession.fmtp.forEach(itemIn => {
@@ -952,82 +945,6 @@ let SDPTools = {
         });
 
         this.removeCodecByPayload(session, index, payloads)
-    },
-
-    removeInvalidCode: function(sdp){
-        let parsedSdp = SDPTools.parseSDP(sdp)
-        let payloadUpdate = false
-
-        for (let i = 0; i < parsedSdp.media.length; i++){
-            let media = parsedSdp.media[i]
-            let removePayloads = []
-
-            if(media.type === 'video'){
-                if(media.payloads && media.payloads.split){  // There is no split if only one PT
-                    let mediaPayloads = media.payloads.split(' ')
-
-                    // 1.If fmtp or apt payload does not exist in m-section, delete fmtp and apt
-                    if(media.fmtp && media.fmtp.length){
-                        for(let j = 0; j<media.fmtp.length; j++){
-                            let fmtpPT = String(media.fmtp[j].payload)
-                            let aptPT
-                            if(media.fmtp[j].config && media.fmtp[j].config.match('apt=')){
-                                aptPT = media.fmtp[j].config.split('=')[1]
-                            }
-
-                            if((aptPT && mediaPayloads.indexOf(aptPT) < 0) || mediaPayloads.indexOf(fmtpPT) < 0){
-                                if(aptPT){
-                                    console.log('invalid apt payload: ', aptPT)
-                                    removePayloads.push(aptPT)
-                                }
-                                removePayloads.push(fmtpPT)
-                                console.log('invalid fmtp payload: ', fmtpPT)
-                            }
-                        }
-                    }
-
-                    // 2.If rtp does not exist, delete
-                    if(media.rtp && media.rtp.length){
-                        for(let K = 0; K<media.rtp.length; K++){
-                            let rtpPT = String(media.rtp[K].payload)
-                            if(mediaPayloads.indexOf(rtpPT) < 0){
-                                console.log('invalid rtp payload: ', rtpPT)
-                                removePayloads.push(rtpPT)
-                            }
-                        }
-                    }
-
-                    // 3.If rtcpFb does not exist, delete
-                    if(media.rtcpFb && media.rtcpFb.length){
-                        for(let K = 0; K<media.rtcpFb.length; K++){
-                            let rtcpFbPT = String(media.rtcpFb[K].payload)
-                            if(mediaPayloads.indexOf(rtcpFbPT) < 0){
-                                console.log('invalid rtcpFb payload: ', rtcpFbPT)
-                                removePayloads.push(rtcpFbPT)
-                            }
-                        }
-                    }
-                }
-
-                if(removePayloads.length){
-                    removePayloads = (function(){
-                        return Array.from(new Set(removePayloads))
-                    })()
-                    for(let k = 0; k<removePayloads.length; k++){
-                        removePayloads[k] = parseInt(removePayloads[k])  // need int type payload
-                    }
-
-                    console.log("Delete invalid payload ", removePayloads)
-                    this.removeCodecByPayload(parsedSdp, i, removePayloads)
-                    payloadUpdate = true
-                }
-            }
-        }
-
-        if(payloadUpdate){
-            sdp = SDPTools.writeSDP(parsedSdp)
-        }
-        return sdp
     },
 
     /**
@@ -1047,30 +964,8 @@ let SDPTools = {
         }
         /* Define the static rtp payload mappings */
         let staticPayloads = {
-            '0': 'PCMU',
-            '3': 'GSM',
-            '4': 'G723',
-            '5': 'DVI4',
-            '6': 'DVI4',
-            '7': 'LPC',
-            '8': 'PCMA',
-            '9': 'G722',
-            '10': 'L16',
-            '11': 'L16',
-            '12': 'QCELP',
-            '13': 'CN',
-            '14': 'MPA',
-            '15': 'G728',
-            '16': 'DVI4',
-            '17': 'DVI4',
-            '18': 'G729',
-            '25': 'CelB',
-            '26': 'JPEG',
-            '28': 'nv',
-            '31': 'H261',
-            '32': 'MPV',
-            '33': 'MP2T',
-            '34': 'H263',
+            '0': 'PCMU', '3': 'GSM', '4': 'G723', '8': 'PCMA', '9': 'G722',
+            '15': 'G728', '18': 'G729', '31': 'H261', '34': 'H263',
         }
 
         let capabilities = { haveAudio: false, haveVideo: false }
@@ -1089,20 +984,19 @@ let SDPTools = {
                     if (media.rtp && media.rtp.length) {
                         for (let j = 0; j < media.rtp.length; j++) {
                             let rtp = media.rtp[j]
-                            // get audio dynamic encoding
                             if (rtp.codec && !excludeList.includes(rtp.codec) && !capabilities.audioCodecs.includes(rtp.codec)) {
                                 capabilities.audioCodecs.push(rtp.codec)
                             }
                         }
                     }
 
-                    if(media.payloads && media.payloads.split){
+                    if(!capabilities.audioCodecs.length){
                         let payloads = media.payloads && media.payloads.split(' ')
                         if(payloads && payloads.length){
                             console.info('find static payloads')
                             payloads.forEach(function(pt){
-                                // get audio static coding: Only static payload a=fmtp can be defaulted width SIP compression head
-                                if(pt<96 && !capabilities.audioCodecs.includes(staticPayloads[pt])){
+                                // todo: Only static payload a=fmtp can be defaulted
+                                if(pt<96){
                                     capabilities.audioCodecs.push(staticPayloads[pt])
                                 }
                             })
@@ -1117,7 +1011,6 @@ let SDPTools = {
                     if (media.rtp && media.rtp.length) {
                         for (let j = 0; j < media.rtp.length; j++) {
                             let rtp = media.rtp[j]
-                            // get video dynamic coding
                             if (rtp.codec && !excludeList.includes(rtp.codec) && !capabilities.videoCodecs.includes(rtp.codec)) {
                                 capabilities.videoCodecs.push(rtp.codec)
                             }
@@ -1148,6 +1041,7 @@ let SDPTools = {
         let mediaSession = session.media[index]
 
         /*Get payloads by names*/
+        console.warn("mediaSession:",mediaSession)
         mediaSession.rtp.forEach(item => {
             codecList.forEach(codec => {
                 if (item.codec === codec) {
