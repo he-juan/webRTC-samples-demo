@@ -253,11 +253,9 @@ function dealWithSdp(desc){
     for(let i = 0; i < parsedSdp.media.length; i++){
         if(parsedSdp.media[i].type == 'video') {
             let codec = ['VP9','VP8']
-            console.warn("删除VP8、VP9编码")
             SDPTools.removeCodecByName(parsedSdp, i, codec)
             // SDPTools.setXgoogleBitrate(parsedSdp, ASBitrate, i)
             SDPTools.removeRembAndTransportCC(parsedSdp, i)
-            console.warn("修改后的SDP:",parsedSdp)
 
             /*修改level-id*/
             var profile_Idc = document.getElementById('profileIdc').value;

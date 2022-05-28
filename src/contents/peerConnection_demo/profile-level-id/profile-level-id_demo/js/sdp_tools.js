@@ -1366,7 +1366,6 @@ let SDPTools = {
         }
         let media = session.media[index]
         if(media.direction == 'inactive' || media.direction == 'recvonly' ){
-            console.warn("come in")
             media.direction = 'sendrecv'
         }
     },

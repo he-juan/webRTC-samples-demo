@@ -307,38 +307,13 @@ function createPeerConnection() {
                 console.error(error)
             })
 
-            // console.warn("22222:",offer.sdp)
-            // let parseSdp = SDPTools.parseSDP(offer.sdp)
-            // console.warn("parseSdp:",parseSdp)
-            // for(let i = 0; i < parseSdp.media.length; i++){
-            //     /*修改profile-level-id*/
-            //     var levelIdc = document.getElementById('setLevelId').value
-            //     console.warn("offer_level-id:",levelIdc)
-            //     if(!levelIdc){
-            //         console.warn("empty string")
-            //         return
-            //     }
-            //     console.warn("设置的offer_profile-level-id为:",levelIdc)
-            //     SDPTools.modifyProfilelevelId(parseSdp,i,levelIdc)
-            //     console.warn("vp8_parseSdp:",parseSdp)
-            //     /*删除vp8 vp9*/
-            //     let codec = ['VP9','VP8']
-            //     console.warn("删除VP8、VP9编码")
-            //     SDPTools.removeCodecByName(parseSdp, i, codec)
-            //     console.warn("parseSdp:",parseSdp)
-            // }
-            // offer.sdp = SDPTools.writeSDP(parseSdp)
-            // console.warn("juanhe:",offer.sdp)
-
 
             // log.info(`remotePeerConnection setRemoteDescription 1: \n${offer.sdp}`);
             remotePeerConnection.setRemoteDescription(offer).then(function () {
                 let parseSdp = SDPTools.parseSDP(offer.sdp)
-                console.warn("parseSdp:",parseSdp)
                 for(let i = 0; i < parseSdp.media.length; i++){
                     /*修改profile-level-id*/
                     var levelIdc = document.getElementById('setLevelId').value
-                    console.warn("offer_level-id:",levelIdc)
                     if(!levelIdc){
                         console.warn("empty string")
                         return
@@ -348,27 +323,10 @@ function createPeerConnection() {
                     console.warn("vp8_parseSdp:",parseSdp)
                     /*删除vp8 vp9*/
                     let codec = ['VP9','VP8']
-                    console.warn("删除VP8、VP9编码")
                     SDPTools.removeCodecByName(parseSdp, i, codec)
-                    // console.warn("parseSdp:",parseSdp)
-
-                    // 修改端口
-                    // let type = parseSdp.media[i]
-                    // console.warn("type:",type)
-                    // if (type.content === 'main' ){
-                    //     console.warn("111111")
-                    //     if (type.port === 0){
-                    //         console.warn("lalalal  lalal")
-                    //         parseSdp.media[i].port = 9
-                    //     }
-                    //     if (type.setup === 'actpass') {
-                    //         parseSdp.media[i].setup = 'passive'
-                    //     }
-                    // }
-
                 }
                 offer.sdp = SDPTools.writeSDP(parseSdp)
-                log.info('remotePeerConnection setRemoteDescription success')
+                log.info('remotePeerConnection setRemoteDescription success: \r\n ',offer.sdp )
             }).catch(function (err) {
                 log.error(err)
             })
@@ -381,23 +339,12 @@ function createPeerConnection() {
                         for(let i = 0; i < parsedSdp.media.length; i++){
                             let media = parsedSdp.media[i]
                             let codec = ['VP9','VP8']
-                            console.warn("准备删除VP8、VP9编码")
                             var ASBitrate= document.getElementById('ASBitrate').value
                             ASBitrate = ASBitrate || 4096
                             SDPTools.removeCodecByName(parsedSdp, i, codec)
                             SDPTools.setXgoogleBitrate(parsedSdp, ASBitrate, i)
                             SDPTools.removeRembAndTransportCC(parsedSdp, i)
                             media.payloads = media.payloads.trim()
-
-                            // /*修改profile-level-id*/
-                            // var levelIdc = document.getElementById('setLevelId').value
-                            // console.warn("answer_level-id:",levelIdc)
-                            // if(!levelIdc){
-                            //     console.warn("empty string")
-                            //     return
-                            // }
-                            // console.warn("设置的answer_profile-level-id为： ", levelIdc)
-                            // SDPTools.modifyProfilelevelId(parsedSdp,i,levelIdc)
                         }
                         answer.sdp = SDPTools.writeSDP(parsedSdp)
                         log.info('setLocalDescription success')
@@ -409,7 +356,6 @@ function createPeerConnection() {
                     for(let i = 0; i < parsedSdp.media.length; i++){
                         let media = parsedSdp.media[i]
                         let codec = ['VP9','VP8']
-                        console.warn("VP8、VP9编码后")
                         var ASBitrate= document.getElementById('ASBitrate').value
                         ASBitrate = ASBitrate || 4096
                         SDPTools.removeCodecByName(parsedSdp, i, codec)
@@ -428,18 +374,14 @@ function createPeerConnection() {
                         SDPTools.modifyProfilelevelId(parsedSdp,i,levelIdc)
                     }
                     answer.sdp = SDPTools.writeSDP(parsedSdp)
-                    // console.warn("local remote sdp:",answer.sdp)
 
                     // log.warn(`localPeerConnection setRemoteDescription:\n${answer.sdp}`);
                     localPeerConnection.setRemoteDescription(answer).then(function () {
                         let parseSdp = SDPTools.parseSDP(answer.sdp)
                         for(let i = 0; i < parseSdp.media.length; i++){
                             let type = parseSdp.media[i]
-                            console.warn("type:",type)
                             if (type.content === 'main' ){
-                                console.warn("111111")
                                 if (type.port === 0){
-                                    console.warn("lalalal  lalal")
                                     parseSdp.media[i].port = 9
                                 }
                                 if (type.setup === 'actpass') {
@@ -449,10 +391,7 @@ function createPeerConnection() {
 
                         }
                         answer.sdp = SDPTools.writeSDP(parsedSdp)
-                        console.warn("local remote sdp:",answer.sdp)
-
-
-                        log.info('localPeerConnection setRemoteDescription success')
+                        log.info('localPeerConnection setRemoteDescription success: \r\n',answer.sdp )
                     }).catch(function (err) {
                         log.error(err)
                     })

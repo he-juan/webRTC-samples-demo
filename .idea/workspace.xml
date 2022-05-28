@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dec9322d-fd7a-48cf-a961-2f8945c4710d" name="Default" comment="" />
+    <list default="true" id="dec9322d-fd7a-48cf-a961-2f8945c4710d" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contents/peerConnection_demo/profile-level-id/WebRTC_profile-level-id/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/contents/peerConnection_demo/profile-level-id/WebRTC_profile-level-id/js/index.js" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -17,8 +20,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5994">
-              <caret line="222" column="94" selection-start-line="222" selection-start-column="94" selection-end-line="222" selection-end-column="94" />
+            <state relative-caret-position="228">
+              <caret line="77" column="52" selection-start-line="77" selection-start-column="52" selection-end-line="77" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -26,70 +29,56 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/contents/peerConnection_demo/profile-level-id/WebRTC_profile-level-id/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2106">
-              <caret line="78" column="20" selection-start-line="78" selection-start-column="20" selection-end-line="78" selection-end-column="20" />
+            <state relative-caret-position="456">
+              <caret line="78" column="24" selection-start-line="78" selection-start-column="24" selection-end-line="78" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/contents/peerConnection_demo/profile-level-id/WebRTC_profile-level-id/js/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="328" column="93" selection-start-line="328" selection-start-column="93" selection-end-line="328" selection-end-column="93" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/contents/peerConnection_demo/profile-level-id/WebRTC_profile-level-id/js/index.js">
+        <entry file="file://$PROJECT_DIR$/src/contents/peerConnection_demo/PeerConnectionReplaceTrack/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7317">
-              <caret line="271" column="29" selection-start-line="271" selection-start-column="29" selection-end-line="271" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/contents/peerConnection_demo/profile-level-id/profile-level-id_demo/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor />
-              <second_editor />
+            <state relative-caret-position="2470">
+              <caret line="136" column="51" selection-start-line="136" selection-start-column="51" selection-end-line="136" selection-end-column="51" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/contents/peerConnection_demo/profile-level-id/profile-level-id_demo/index.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/contents/peerConnection_demo/packetization_mode_demo/M_packetization-mode/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="108">
-                <caret line="37" column="14" lean-forward="true" selection-end-line="135" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/contents/peerConnection_demo/packetization_mode_demo/M_packetization-mode/css/main.css">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/contents/peerConnection_demo/packetization_mode_demo/M_packetization-mode/index.html">
+        <entry file="file://$PROJECT_DIR$/src/contents/peerConnection_demo/webRTC_encodec_demo/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="39" column="33" lean-forward="true" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="33" />
+            <state relative-caret-position="570">
+              <caret line="30" column="51" selection-start-line="30" selection-start-column="51" selection-end-line="30" selection-end-column="51" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/contents/peerConnection_demo/packetization_mode_demo/packetization_mode_0/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="243">
-                <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-              </first_editor>
-              <second_editor />
+      <file leaf-file-name="newP2p.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/contents/peerConnection_demo/webRTC_encodec_demo/js/newP2p.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/contents/peerConnection_demo/webRTC_encodec_demo/js/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2584">
+              <caret line="136" column="9" selection-start-line="136" selection-start-column="9" selection-end-line="136" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -97,8 +86,17 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/contents/peerConnection_demo/multiStreamPeerConnection_demo/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1917">
-              <caret line="71" column="47" selection-start-line="71" selection-start-column="47" selection-end-line="71" selection-end-column="47" />
+            <state relative-caret-position="1330">
+              <caret line="70" column="42" selection-start-line="70" selection-start-column="42" selection-end-line="70" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/contents/peerConnection_demo/multiStreamPeerConnection_demo/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2793">
+              <caret line="147" selection-start-line="147" selection-end-line="147" />
             </state>
           </provider>
         </entry>
@@ -109,20 +107,25 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
+      <find>blockquote</find>
+      <find>markdown_demo</find>
+      <find>cover</find>
+      <find>multi-streams-mixer</find>
+      <find>addStreamStopListener</find>
       <find>alert</find>
       <find>record</find>
       <find>getTracks</find>
       <find>MultiStreamRecorder</find>
       <find>videos</find>
       <find>MultiStreamsMixer</find>
-      <find />
+      <find>new MultiStreamsMixer</find>
       <find>ondataavailable</find>
       <find>setSrcObject</find>
       <find>previewStream</find>
@@ -140,21 +143,11 @@
       <find>getVideo</find>
       <find>appendStreams</find>
       <find>addStreams</find>
-      <find>Stackedit</find>
-      <find>log</find>
-      <find>getLocalSDP</find>
-      <find>juanhejuanhejuanhejuaneh</find>
-      <find>console.console</find>
-      <find>console</find>
+      <find>console.w</find>
     </findStrings>
-    <replaceStrings>
-      <replace>console</replace>
-      <replace>console.info</replace>
-    </replaceStrings>
     <dirStrings>
       <dir>E:\webRTC-samples-demo\src\contents\jitsi_VirtualBackground_demo</dir>
-      <dir>E:\private\webRTC-samples-demo\src\contents\peerConnection_demo\profile-level-id\WebRTC_profile-level-id\js</dir>
-      <dir>E:\private\webRTC-samples-demo\src\contents\peerConnection_demo\packetization_mode_demo\M_packetization-mode</dir>
+      <dir>D:\何娟资料文件夹\workspace-juan\webRTC-samples-demo\src\contents</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -163,6 +156,22 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/src/contents/peerConnection_demo/fileUploadPeerConnection_demo/css/index.css" />
+        <option value="$PROJECT_DIR$/src/contents/peerConnection_demo/fileUploadPeerConnection_demo/css/main.css" />
+        <option value="$PROJECT_DIR$/src/contents/peerConnection_demo/fileUploadPeerConnection_demo/index.html" />
+        <option value="$PROJECT_DIR$/src/contents/jitsi_VirtualBackground_demo/js/tflite.wasm.js" />
+        <option value="$PROJECT_DIR$/src/contents/jitsi_VirtualBackground_demo/main.css" />
+        <option value="$PROJECT_DIR$/src/contents/jitsi_VirtualBackground_demo/js/ff.js" />
+        <option value="$PROJECT_DIR$/src/contents/jitsi_VirtualBackground_demo/index.html" />
+        <option value="$PROJECT_DIR$/src/contents/jitsi_VirtualBackground_demo/js/tflite.js" />
+        <option value="$PROJECT_DIR$/src/contents/webCodecs-demo/samples/image-decoder/index.html" />
+        <option value="$PROJECT_DIR$/src/contents/peerConnection_demo/webRTC_framerate_demo/index.js" />
+        <option value="$PROJECT_DIR$/src/contents/peerConnection_demo/webRTC_framerate_demo/sdp.js" />
+        <option value="$PROJECT_DIR$/src/contents/bandWith/bandWith_demo/js/mediaDevice.js" />
+        <option value="$PROJECT_DIR$/src/contents/bandWith/bandWith_demo/js/sdp_tools.js" />
+        <option value="$PROJECT_DIR$/src/contents/bandWith/bandWith_demo/index.css" />
+        <option value="$PROJECT_DIR$/src/contents/bandWith/bandWith_demo/js/bitrateControl.js" />
+        <option value="$PROJECT_DIR$/src/contents/bandWith/bandWith_demo/js/index.js" />
         <option value="$PROJECT_DIR$/src/contents/bandWith/bandWith_demo/css/main.css" />
         <option value="$PROJECT_DIR$/src/contents/bandWith/bandWith_demo/index.html" />
         <option value="$PROJECT_DIR$/src/contents/bandWith/BitrateControl_demo/index.html" />
@@ -177,6 +186,8 @@
         <option value="$PROJECT_DIR$/src/contents/markdown_demo/stackEditor_demo/stackedit.js" />
         <option value="$PROJECT_DIR$/src/contents/markdown_demo/stackEditor_demo/index.js" />
         <option value="$PROJECT_DIR$/src/contents/markdown_demo/stackEditor_demo/index.css" />
+        <option value="$PROJECT_DIR$/src/contents/markdown_demo/stackEditor_demo/index.html" />
+        <option value="$PROJECT_DIR$/src/contents/enumerateDevices_demo/README.md" />
         <option value="$PROJECT_DIR$/src/contents/record-demo/updateRecorder/js/stream.js" />
         <option value="$PROJECT_DIR$/src/contents/record-demo/recordProgram/js/stream.js" />
         <option value="$PROJECT_DIR$/src/contents/record-demo/updateRecorder/index.js" />
@@ -187,6 +198,7 @@
         <option value="$PROJECT_DIR$/src/contents/record-demo/video-plus-screen-recording/js/common.js" />
         <option value="$PROJECT_DIR$/src/contents/record-demo/video-plus-screen-recording/js/RTC.js" />
         <option value="$PROJECT_DIR$/src/contents/record-demo/multipleStreamsRecorder/js/multiStreamRecorder.js" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/src/contents/record-demo/updateRecorder/js/api.js" />
         <option value="$PROJECT_DIR$/src/contents/record-demo/recordProgram/js/api.js" />
         <option value="$PROJECT_DIR$/src/contents/record-demo/video-plus-screen-recording/index.html" />
@@ -194,26 +206,7 @@
         <option value="$PROJECT_DIR$/src/contents/record-demo/screenRecorder_demo/index.html" />
         <option value="$PROJECT_DIR$/src/contents/record-demo/shareScreen_demo/index.html" />
         <option value="$PROJECT_DIR$/src/contents/record-demo/recordProgram/index.js" />
-        <option value="$PROJECT_DIR$/src/contents/record-demo/recordProgram/README.md" />
-        <option value="$PROJECT_DIR$/src/contents/record-demo/updateRecorder/README.md" />
-        <option value="$PROJECT_DIR$/src/contents/record-demo/gif-recorder/index.html" />
-        <option value="$PROJECT_DIR$/src/contents/record-demo/updateRecorder/index.html" />
-        <option value="$PROJECT_DIR$/src/contents/enumerateDevices_demo/README.md" />
-        <option value="$PROJECT_DIR$/src/contents/markdown_demo/htmlToPDF/index.html" />
-        <option value="$PROJECT_DIR$/src/contents/IndexedDB_demo/README.md" />
-        <option value="$PROJECT_DIR$/src/contents/markdown_demo/stackEditor_demo/index2.html" />
-        <option value="$PROJECT_DIR$/src/contents/markdown_demo/stackEditor_demo/index.html" />
-        <option value="$PROJECT_DIR$/gulpfile.js" />
-        <option value="$PROJECT_DIR$/src/contents/markdown_demo/SequenceDiagrams_demo/index.html" />
-        <option value="$PROJECT_DIR$/src/contents/webAudio/README.md" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/contents/peerConnection_demo/packetization_mode_demo/packetization_mode_0/index.html" />
-        <option value="$PROJECT_DIR$/src/contents/peerConnection_demo/packetization_mode_demo/M_packetization-mode/js/sdp_tools.js" />
-        <option value="$PROJECT_DIR$/src/contents/peerConnection_demo/packetization_mode_demo/M_packetization-mode/js/main.js" />
-        <option value="$PROJECT_DIR$/src/contents/peerConnection_demo/packetization_mode_demo/M_packetization-mode/index.html" />
-        <option value="$PROJECT_DIR$/src/contents/peerConnection_demo/packetization_mode_demo/M_packetization-mode/js/sdp.js" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/src/contents/peerConnection_demo/packetization_mode_demo/M_packetization-mode/README.md" />
+        <option value="$PROJECT_DIR$/src/contents/peerConnection_demo/profile-level-id/WebRTC_profile-level-id/js/index.js" />
       </list>
     </option>
   </component>
@@ -230,10 +223,9 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1001" />
-    <option name="height" value="1047" />
+    <option name="x" value="-89" />
+    <option name="width" value="1932" />
+    <option name="height" value="1042" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -265,99 +257,7 @@
               <item name="webRTC-samples-demo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="contents" type="462c0819:PsiDirectoryNode" />
-              <item name="bandwith" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webRTC-samples-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webRTC-samples-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="contents" type="462c0819:PsiDirectoryNode" />
-              <item name="GUM_demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webRTC-samples-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webRTC-samples-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="contents" type="462c0819:PsiDirectoryNode" />
               <item name="peerConnection_demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webRTC-samples-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webRTC-samples-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="contents" type="462c0819:PsiDirectoryNode" />
-              <item name="peerConnection_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="iceRestart" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webRTC-samples-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webRTC-samples-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="contents" type="462c0819:PsiDirectoryNode" />
-              <item name="peerConnection_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="iceRestart" type="462c0819:PsiDirectoryNode" />
-              <item name="iceRestart_demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webRTC-samples-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webRTC-samples-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="contents" type="462c0819:PsiDirectoryNode" />
-              <item name="peerConnection_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="iceRestart" type="462c0819:PsiDirectoryNode" />
-              <item name="iceRestart_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webRTC-samples-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webRTC-samples-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="contents" type="462c0819:PsiDirectoryNode" />
-              <item name="peerConnection_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="multiStreamPeerConnection_demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webRTC-samples-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webRTC-samples-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="contents" type="462c0819:PsiDirectoryNode" />
-              <item name="peerConnection_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="multiStreamPeerConnection_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webRTC-samples-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webRTC-samples-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="contents" type="462c0819:PsiDirectoryNode" />
-              <item name="peerConnection_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="packetization_mode_demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webRTC-samples-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webRTC-samples-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="contents" type="462c0819:PsiDirectoryNode" />
-              <item name="peerConnection_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="packetization_mode_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="M_packetization-mode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webRTC-samples-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webRTC-samples-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="contents" type="462c0819:PsiDirectoryNode" />
-              <item name="peerConnection_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="packetization_mode_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="packetization_mode_0" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webRTC-samples-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webRTC-samples-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="contents" type="462c0819:PsiDirectoryNode" />
-              <item name="peerConnection_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="PeerConnection_simulcast_demo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="webRTC-samples-demo" type="b2602c69:ProjectViewProjectNode" />
@@ -366,15 +266,6 @@
               <item name="contents" type="462c0819:PsiDirectoryNode" />
               <item name="peerConnection_demo" type="462c0819:PsiDirectoryNode" />
               <item name="profile-level-id" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webRTC-samples-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webRTC-samples-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="contents" type="462c0819:PsiDirectoryNode" />
-              <item name="peerConnection_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="profile-level-id" type="462c0819:PsiDirectoryNode" />
-              <item name="profile-level-id_demo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="webRTC-samples-demo" type="b2602c69:ProjectViewProjectNode" />
@@ -394,6 +285,22 @@
               <item name="profile-level-id" type="462c0819:PsiDirectoryNode" />
               <item name="WebRTC_profile-level-id" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webRTC-samples-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webRTC-samples-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="contents" type="462c0819:PsiDirectoryNode" />
+              <item name="peerConnection_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="webRTC_encodec_demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webRTC-samples-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webRTC-samples-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="contents" type="462c0819:PsiDirectoryNode" />
+              <item name="peerConnection_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="webRTC_framerate_demo" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -406,25 +313,25 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="editorconfig.notification" value="t.editorconfigrue" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="E:/workspace/program/getDisplayMedia-video-generated-gif-picture" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\private\webRTC-samples-demo\src\contents\peerConnection_demo\packetization_mode_demo\packetization_mode_0" />
-      <recent name="E:\private\webRTC-samples-demo\src\contents\peerConnection_demo\packetization_mode_demo\packetization-mode_0" />
       <recent name="E:\webRTC-samples-demo\src\contents\markdown_demo\stackEditor_demo\js" />
       <recent name="C:\Users\lenovo\Desktop\webRTC-samples-demo\src\contents\bandWith\bandWith_demo\css" />
       <recent name="C:\Users\lenovo\Desktop\webRTC-samples-demo\src\contents\peerConnection_demo" />
+      <recent name="C:\Users\lenovo\Desktop\webRTC-samples-demo\src\contents\webCodecs-demo\samples\webcam-in-worker" />
+      <recent name="C:\Users\lenovo\Desktop\webRTC-samples-demo\src\contents\webCodecs-demo\samples\webcam" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\private\webRTC-samples-demo\src\contents\peerConnection_demo\packetization_mode_demo\M_packetization-mode" />
-      <recent name="E:\private\webRTC-samples-demo\src\contents\peerConnection_demo\packetization_mode_demo\packetization_mode_0" />
-      <recent name="E:\webRTC-samples-demo\src\contents\noiseSuppression_demo" />
-      <recent name="E:\webRTC-samples-demo\src\contents\webAudio" />
-      <recent name="E:\webRTC-samples-demo\src\contents\markdown_demo" />
+      <recent name="E:\webRTC-samples-demo\src\contents\markdown_demo\stackEditor_demo" />
+      <recent name="E:\webRTC-samples-demo\src\contents\CryptoJS" />
+      <recent name="E:\webRTC-samples-demo\src\contents\IndexedDB_demo\logExport" />
+      <recent name="E:\webRTC-samples-demo\src\contents\jitsi_VirtualBackground_demo\js" />
+      <recent name="C:\Users\lenovo\Desktop\webRTC-samples-demo\src\contents\jitsi_VirtualBackground_demo\js" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -453,24 +360,18 @@
       <workItem from="1641708448197" duration="8009000" />
       <workItem from="1641973278008" duration="11823000" />
       <workItem from="1642830112722" duration="13809000" />
-      <workItem from="1644887812543" duration="2869000" />
-      <workItem from="1645168967645" duration="594000" />
-      <workItem from="1646116668554" duration="6999000" />
-      <workItem from="1646189872893" duration="4852000" />
-      <workItem from="1646300478816" duration="9373000" />
-      <workItem from="1653532560063" duration="6580000" />
-      <workItem from="1653642572940" duration="732000" />
+      <workItem from="1653744628605" duration="964000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="138433000" />
+    <option name="totallyTimeSpent" value="103498000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20126449" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20211361" />
       <window_info anchor="bottom" id="TODO" order="10" />
       <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="15" side_tool="true" />
@@ -478,15 +379,25 @@
       <window_info anchor="bottom" id="Version Control" order="14" weight="0.3293348" />
       <window_info anchor="bottom" id="Run" order="4" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="16" visible="true" weight="0.31733915" />
+      <window_info anchor="bottom" id="Terminal" order="16" visible="true" weight="0.4317862" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="5" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20231824" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="bottom" id="Version Control" order="14" weight="0.3293348" />
+      <window_info anchor="bottom" id="Run" order="4" />
+      <window_info anchor="bottom" id="Debug" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="15" side_tool="true" />
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="16" visible="true" weight="0.32824427" />
+      <window_info id="Favorites" order="2" side_tool="true" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -517,266 +428,282 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/css/editormd.logo.css" />
-    <entry file="file://$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/css/editormd.css" />
-    <entry file="file://$PROJECT_DIR$/src/contents/markdown_demo/SequenceDiagrams_demo/js/ace.js" />
-    <entry file="file://$PROJECT_DIR$/src/contents/markdown_demo/SequenceDiagrams_demo/demo.html" />
-    <entry file="file://$PROJECT_DIR$/src/contents/markdown_demo/stackEditor_demo/demo.html" />
-    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es6.d.ts">
+    <entry file="file://$PROJECT_DIR$/src/contents/ApplyConstraintsAPI_demo/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279612">
-          <caret line="10369" column="4" selection-start-line="10369" selection-start-column="4" selection-end-line="10369" selection-end-column="4" />
+        <state relative-caret-position="7263">
+          <caret line="275" selection-start-line="275" selection-end-line="275" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/contents/markdown_demo/stackEditor_demo/js/index.js" />
-    <entry file="file://$PROJECT_DIR$/src/contents/markdown_demo/stackEditor_demo/js/stackedit.js" />
-    <entry file="file://$PROJECT_DIR$/src/contents/markdown_demo/stackEditor_demo/index.html" />
-    <entry file="file://$PROJECT_DIR$/src/contents/markdown_demo/stackEditor_demo/icon.svg" />
-    <entry file="file://$PROJECT_DIR$/src/contents/markdown_demo/stackEditor_demo/index.css" />
-    <entry file="file://$USER_HOME$/Desktop/a.html">
+    <entry file="file://$PROJECT_DIR$/src/contents/ApplyConstraintsAPI_demo/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-110587" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js" />
-    <entry file="file://$PROJECT_DIR$/package-lock.json" />
-    <entry file="file://$PROJECT_DIR$/src/contents/markdown_demo/SequenceDiagrams_demo/index.html" />
-    <entry file="file://$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/index.html" />
-    <entry file="file://$PROJECT_DIR$/src/contents/markdown_demo/editormd_demo/README.md" />
-    <entry file="file://$PROJECT_DIR$/src/contents/webAudio/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="811">
-            <caret line="261" column="88" selection-start-line="261" selection-start-column="88" selection-end-line="261" selection-end-column="88" />
-          </first_editor>
-          <second_editor />
+        <state relative-caret-position="1296">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/contents/webCodecs-demo/Insertable streams.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contents/webCodecs-demo/webCodecs.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contents/noiseDetection-demo/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contents/noiseSuppression_demo/index.html">
+    <entry file="file://$PROJECT_DIR$/src/contents/webAudio/mixingstream_demo/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2808">
-          <caret line="104" column="56" selection-start-line="104" selection-start-column="56" selection-end-line="104" selection-end-column="56" />
+        <state relative-caret-position="1539">
+          <caret line="57" column="1" selection-start-line="57" selection-start-column="1" selection-end-line="57" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/contents/noiseSuppression_demo/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="270">
-            <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contents/soundDetection-demo/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="811">
-            <caret line="133" column="22" selection-start-line="133" selection-start-column="22" selection-end-line="133" selection-end-column="22" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contents/GUM_demo/getDsiplayMediaConstraints/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-648" />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contents/GUM_demo/getDisplayMedia_demo/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contents/enumerateDevices_demo/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-4887">
-            <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contents/canvas_demo/tableModify/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contents/canvas_demo/play-video-canvas/index.html">
+    <entry file="file://$PROJECT_DIR$/src/contents/IndexedDB_demo/logExport/indexeddb/debug.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="398">
-            <caret line="52" selection-start-line="52" selection-end-line="52" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contents/GUM_demo/getDisplayMedia_demo/index.html">
+    <entry file="file://$PROJECT_DIR$/src/contents/IndexedDB_demo/README.md" />
+    <entry file="file://$PROJECT_DIR$/src/contents/IndexedDB_demo/logExport/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="536">
-          <caret line="126" column="28" selection-start-line="126" selection-start-column="28" selection-end-line="126" selection-end-column="28" />
+        <state relative-caret-position="295">
+          <caret line="38" column="47" lean-forward="true" selection-start-line="38" selection-start-column="47" selection-end-line="38" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/contents/peerConnection_demo/PeerConnection_simulcast_demo/index.html">
+    <entry file="file://$PROJECT_DIR$/src/contents/CryptoJS/crypto-js.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="12" column="49" lean-forward="true" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
+        <state relative-caret-position="270">
+          <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/contents/peerConnection_demo/profile-level-id/level_id_demo/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contents/noiseSuppression_demo/js/main.js">
+    <entry file="file://$PROJECT_DIR$/src/contents/CryptoJS/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="108" column="32" selection-start-line="108" selection-start-column="32" selection-end-line="108" selection-end-column="32" />
+        <state relative-caret-position="27">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/contents/record-demo/recordProgram/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contents/peerConnection_demo/iceRestart/iceRestart_demo/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contents/peerConnection_demo/iceRestart/iceRestart_demo/js/index.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contents/peerConnection_demo/packetization_mode_demo/M_packetization-mode/js/sdp_tools.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="956" column="4" selection-start-line="956" selection-start-column="4" selection-end-line="956" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contents/peerConnection_demo/multiStreamPeerConnection_demo/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="297" lean-forward="true" selection-start-line="297" selection-end-line="307" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contents/peerConnection_demo/multiStreamPeerConnection_demo/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1917">
-          <caret line="71" column="47" selection-start-line="71" selection-start-column="47" selection-end-line="71" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contents/peerConnection_demo/packetization_mode_demo/M_packetization-mode/js/main.js">
+    <entry file="file://$PROJECT_DIR$/src/contents/jitsi_VirtualBackground_demo/js/gsrtc.streamBackgroundEffect.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1971">
-          <caret line="73" column="75" selection-start-line="73" selection-start-column="75" selection-end-line="73" selection-end-column="75" />
+          <caret line="73" column="40" selection-start-line="73" selection-start-column="40" selection-end-line="73" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/contents/peerConnection_demo/packetization_mode_demo/packetization_mode_0/index.html">
+    <entry file="file://$PROJECT_DIR$/src/contents/jitsi_VirtualBackground_demo/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3267">
+          <caret line="121" column="30" lean-forward="true" selection-start-line="121" selection-start-column="30" selection-end-line="121" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/jitsi_VirtualBackground_demo/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1404">
+          <caret line="52" column="45" selection-start-line="52" selection-start-column="40" selection-end-line="52" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/IndexedDB_demo/indexedDB/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2133">
+          <caret line="79" column="14" lean-forward="true" selection-start-line="79" selection-start-column="8" selection-end-line="79" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/IndexedDB_demo/indexedDB/demo/index.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/contents/peerConnection_demo/profile-level-id/WebRTC_profile-level-id/index.html">
+    <entry file="file://$PROJECT_DIR$/README.md" />
+    <entry file="file://$PROJECT_DIR$/src/contents/soundDetection-demo/README.md" />
+    <entry file="file://$PROJECT_DIR$/src/contents/noiseDetection-demo/README.md" />
+    <entry file="file://$PROJECT_DIR$/src/contents/markdown_demo/stackEditor_demo/icon.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/markdown_demo/stackEditor_demo/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2106">
-          <caret line="78" column="20" selection-start-line="78" selection-start-column="20" selection-end-line="78" selection-end-column="20" />
+        <state relative-caret-position="813">
+          <caret line="874" lean-forward="true" selection-start-line="874" selection-end-line="874" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/contents/peerConnection_demo/profile-level-id/profile-level-id_demo/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/web-forms.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="321" column="16" selection-start-line="321" selection-start-column="16" selection-end-line="321" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/contents/peerConnection_demo/profile-level-id/profile-level-id_demo/index.html">
+    <entry file="file://$PROJECT_DIR$/src/contents/markdown_demo/stackEditor_demo/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="43" column="14" selection-start-line="43" selection-start-column="14" selection-end-line="43" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/markdown_demo/stackEditor_demo/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="20" column="22" lean-forward="true" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/markdown_demo/stackEditor_demo/js/stackedit.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="174" column="38" lean-forward="true" selection-start-line="174" selection-start-column="38" selection-end-line="174" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/enumerateDevices_demo/README.md" />
+    <entry file="file://$PROJECT_DIR$/src/contents/record-demo/updateRecorder/js/stream.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="263" column="53" selection-start-line="263" selection-start-column="53" selection-end-line="263" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/record-demo/recordProgram/js/stream.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="263" column="42" selection-start-line="263" selection-start-column="42" selection-end-line="263" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/record-demo/updateRecorder/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39987">
+          <caret line="1481" column="35" selection-start-line="1481" selection-start-column="35" selection-end-line="1481" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/record-demo/updateRecorder/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="239" column="5" selection-start-line="239" selection-start-column="5" selection-end-line="239" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/record-demo/recordProgram/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="235" column="1" lean-forward="true" selection-start-line="235" selection-start-column="1" selection-end-line="235" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/record-demo/updateRecorder/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="162" column="64" lean-forward="true" selection-start-line="162" selection-start-column="64" selection-end-line="162" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/record-demo/recordAera/index.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/contents/peerConnection_demo/packetization_mode_demo/M_packetization-mode/js/sdp.js">
+    <entry file="file://$PROJECT_DIR$/src/contents/record-demo/UploadFileshare_demo/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/record-demo/audio-recorder/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/record-demo/audio-recorder/README">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="209" column="42" selection-start-line="209" selection-start-column="42" selection-end-line="209" selection-end-column="42" />
+        <state relative-caret-position="512">
+          <caret line="261" column="29" selection-start-line="261" selection-start-column="29" selection-end-line="261" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/record-demo/updateRecorder/README.md" />
+    <entry file="file://$PROJECT_DIR$/src/contents/record-demo/multipleStreamsRecorder/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/record-demo/video-plus-screen-recording/js/RTC.js" />
+    <entry file="file://$PROJECT_DIR$/src/contents/record-demo/multipleStreamsRecorder/js/multiStreamRecorder.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="35667">
+          <caret line="1321" column="9" selection-start-line="1321" selection-start-column="9" selection-end-line="1321" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/record-demo/video-plus-screen-recording/js/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="891">
+          <caret line="33" column="34" lean-forward="true" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5994">
-          <caret line="222" column="94" selection-start-line="222" selection-start-column="94" selection-end-line="222" selection-end-column="94" />
+        <state relative-caret-position="228">
+          <caret line="77" column="52" selection-start-line="77" selection-start-column="52" selection-end-line="77" selection-end-column="52" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/contents/peerConnection_demo/packetization_mode_demo/packetization_mode_0/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="243">
-            <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/src/contents/record-demo/updateRecorder/js/api.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11637">
+          <caret line="431" column="19" lean-forward="true" selection-start-line="431" selection-start-column="19" selection-end-line="431" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/contents/peerConnection_demo/packetization_mode_demo/M_packetization-mode/css/main.css">
+    <entry file="file://$PROJECT_DIR$/src/contents/record-demo/recordProgram/js/api.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11475">
+          <caret line="425" column="35" lean-forward="true" selection-start-line="425" selection-start-column="35" selection-end-line="425" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/record-demo/video-plus-screen-recording/js/RecordRTC.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="5978" column="29" selection-start-line="5978" selection-start-column="29" selection-end-line="5978" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/record-demo/video-plus-screen-recording/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="96" column="17" selection-start-line="96" selection-start-column="17" selection-end-line="96" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/record-demo/screenRecorder_demo/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="263" column="10" lean-forward="true" selection-start-line="263" selection-start-column="10" selection-end-line="263" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/record-demo/multipleStreamsRecorder/index.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/contents/peerConnection_demo/packetization_mode_demo/M_packetization-mode/index.html">
+    <entry file="file://$PROJECT_DIR$/src/contents/record-demo/shareScreen_demo/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="39" column="33" lean-forward="true" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="33" />
+        <state relative-caret-position="350">
+          <caret line="242" column="40" lean-forward="true" selection-start-line="242" selection-start-column="40" selection-end-line="242" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/contents/peerConnection_demo/packetization_mode_demo/M_packetization-mode/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="108">
-            <caret line="37" column="14" lean-forward="true" selection-end-line="135" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/src/contents/record-demo/screen_demo/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3213">
+          <caret line="119" selection-start-line="119" selection-end-line="119" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/record-demo/recordProgram/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="147" column="62" lean-forward="true" selection-start-line="147" selection-start-column="62" selection-end-line="147" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/record-demo/recordProgram/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="1603" column="39" lean-forward="true" selection-start-line="1603" selection-start-column="39" selection-end-line="1603" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/record-demo/recordProgram/README.md" />
   </component>
 </project>
