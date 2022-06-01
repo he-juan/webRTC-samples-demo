@@ -1,26 +1,7 @@
 function getLocalSDP(sdp){
-	let parsedSdp = SDPTools.parseSDP(sdp)
-	console.warn("parsedSdp:",parsedSdp)
-	trimCodec(parsedSdp)
-	SDPTools.increaseSessionVersion(parsedSdp)
-	// Set fingerprint/icePwd/iceUfrag to session level
-	parsedSdp.fingerprint = parsedSdp.fingerprint || parsedSdp.media[0].fingerprint
-	parsedSdp.icePwd = parsedSdp.icePwd || parsedSdp.media[0].icePwd
-	parsedSdp.iceUfrag = parsedSdp.iceUfrag || parsedSdp.media[0].iceUfrag
-	parsedSdp.setup = parsedSdp.setup || parsedSdp.media[0].setup
-
-	if(localStorage.packetizationMode === 'true'){
-		console.log('modified packetization-mode')
-		trimPacketizationMode(parsedSdp)
-	}
-
-	sdp = SDPTools.writeSDP(parsedSdp)
-	return sdp
-}
-
-function getRemoteSDP(sdp){
     let parsedSdp = SDPTools.parseSDP(sdp)
-    trimSlidesCodec(parsedSdp, '2')
+    console.warn("parsedSdp:",parsedSdp)
+    trimCodec(parsedSdp)
     SDPTools.increaseSessionVersion(parsedSdp)
     // Set fingerprint/icePwd/iceUfrag to session level
     parsedSdp.fingerprint = parsedSdp.fingerprint || parsedSdp.media[0].fingerprint
@@ -34,7 +15,25 @@ function getRemoteSDP(sdp){
     }
 
     sdp = SDPTools.writeSDP(parsedSdp)
-	console.warn("sdp sdp sdp :",sdp )
+    return sdp
+}
+
+function getRemoteSDP(sdp){
+    let parsedSdp = SDPTools.parseSDP(sdp)
+    trimSlidesCodec(parsedSdp, '2')
+    SDPTools.increaseSessionVersion(parsedSdp)
+    // Set fingerprint/icePwd/iceUfrag to session level
+    parsedSdp.fingerprint = parsedSdp.fingerprint || parsedSdp.media[0].fingerprint
+    parsedSdp.icePwd = parsedSdp.icePwd || parsedSdp.media[0].icePwd
+    parsedSdp.iceUfrag = parsedSdp.iceUfrag || parsedSdp.media[0].iceUfrag
+    parsedSdp.setup = parsedSdp.setup || parsedSdp.media[0].setup
+
+    // if(localStorage.packetizationMode === 'true'){
+    console.log('modified packetization-mode')
+    trimnoPacketizationMode(parsedSdp)
+    // }
+
+    sdp = SDPTools.writeSDP(parsedSdp)
     return sdp
 }
 
@@ -42,56 +41,57 @@ function getRemoteSDP(sdp){
  * modified packetization-mode of m-section with mid='1'
  */
 function trimPacketizationMode(parsedSdp){
-	for (let i = 0; i < parsedSdp.media.length; i++) {
-		let media = parsedSdp.media[i]
-		delete media.fingerprint
-		delete media.icePwd
-		delete media.iceUfrag
-		delete media.setup
+    for (let i = 0; i < parsedSdp.media.length; i++) {
+        let media = parsedSdp.media[i]
+        delete media.fingerprint
+        delete media.icePwd
+        delete media.iceUfrag
+        delete media.setup
 
-		if(parseInt(media.mid) === 1){
-			if(media.fmtp && media.fmtp.length){
-				for(let j = 0; j<media.fmtp.length; j++){
-					if(media.fmtp[j].config.match('packetization-mode')){
-						media.fmtp[j].config = media.fmtp[j].config.replace(/packetization-mode=[0, 1]/g, 'packetization-mode=0')
-						console.warn("Set the packetization-mode=0 of the m-section with mid='1'")
-					}
-				}
-			}
-		}
-	}
+        if(parseInt(media.mid) === 1){
+            if(media.fmtp && media.fmtp.length){
+                for(let j = 0; j<media.fmtp.length; j++){
+                    if(media.fmtp[j].config.match('packetization-mode')){
+                        media.fmtp[j].config = media.fmtp[j].config.replace(/packetization-mode=[0, 1]/g, 'packetization-mode=0')
+                        console.warn("Set the packetization-mode=0 of the m-section with mid='1'")
+                    }
+                }
+            }
+        }
+    }
+}
+
+/**
+ * add packetization-mode =1 of m-section with mid='1'
+ */
+function  trimnoPacketizationMode(parsedSdp) {
+    for (let i = 0; i < parsedSdp.media.length; i++) {
+        let media = parsedSdp.media[i]
+        // delete media.fingerprint
+        // delete media.icePwd
+        // delete media.iceUfrag
+        // delete media.setup
+
+        if(parseInt(media.mid) === 1){
+            if(media.fmtp && media.fmtp.length){
+                for(let j = 0; j<media.fmtp.length; j++){
+                    if(media.fmtp[j].config.match('profile-level-id')){
+                        if(media.fmtp[j].config.indexOf('packetization-mode') >=0){
+                            media.fmtp[j].config = media.fmtp[j].config.replace(/packetization-mode=[0, 1]/g, 'packetization-mode=1')
+                        }else{
+                            media.fmtp[j].config = media.fmtp[j].config + ';packetization-mode=1'
+                        }
+                        console.warn("Set remote sdp the packetization-mode=1 of the m-section with mid='1'")
+                    }
+                }
+            }
+        }
+    }
 }
 
 function trimCodec (parsedSdp){
-	if (parsedSdp.media && parsedSdp.media.length) {
-		for (let i = 0; i < parsedSdp.media.length; i++) {
-			let media = parsedSdp.media[i]
-			let codec = ['VP8', 'VP9', 'AV1']
-			if (media.type === 'audio') {
-				codec = ['G722', 'opus', 'PCMU', 'PCMA', 'telephone-event'] // only keep ['G722', 'opus', 'PCMU', 'PCMA', 'telephone-event']
-				SDPTools.removeCodecByName(parsedSdp, i, codec, true)
-			} else {
-				// move red_ulpfec
-				if (localStorage.getItem('test_red_ulpfec_enabled') !== 'true') {
-					console.info('move red && ulpfec')
-					codec.push('red', 'ulpfec')
-				}
-
-                media.payloads = media.payloads.split(" ").reverse().join(",").replace(/,/g," ")
-				trimH264Codec(parsedSdp, i)
-				console.warn("parsedSdp：",parsedSdp)
-				SDPTools.removeCodecByName(parsedSdp, i, codec)
-			}
-		}
-	} else {
-		console.warn('trimCodec error media: ' + parsedSdp.media)
-	}
-}
-
-function trimSlidesCodec (parsedSdp,index){
     if (parsedSdp.media && parsedSdp.media.length) {
-    	    let i = Number(index)
-        // for (let i = 0; i < parsedSdp.media.length; i++) {
+        for (let i = 0; i < parsedSdp.media.length; i++) {
             let media = parsedSdp.media[i]
             let codec = ['VP8', 'VP9', 'AV1']
             if (media.type === 'audio') {
@@ -105,9 +105,36 @@ function trimSlidesCodec (parsedSdp,index){
                 }
 
                 media.payloads = media.payloads.split(" ").reverse().join(",").replace(/,/g," ")
-                trimH264Codec(parsedSdp, i, true)
+                trimH264Codec(parsedSdp, i)
+                console.warn("parsedSdp：",parsedSdp)
                 SDPTools.removeCodecByName(parsedSdp, i, codec)
             }
+        }
+    } else {
+        console.warn('trimCodec error media: ' + parsedSdp.media)
+    }
+}
+
+function trimSlidesCodec (parsedSdp,index){
+    if (parsedSdp.media && parsedSdp.media.length) {
+        let i = Number(index)
+        // for (let i = 0; i < parsedSdp.media.length; i++) {
+        let media = parsedSdp.media[i]
+        let codec = ['VP8', 'VP9', 'AV1']
+        if (media.type === 'audio') {
+            codec = ['G722', 'opus', 'PCMU', 'PCMA', 'telephone-event'] // only keep ['G722', 'opus', 'PCMU', 'PCMA', 'telephone-event']
+            SDPTools.removeCodecByName(parsedSdp, i, codec, true)
+        } else {
+            // move red_ulpfec
+            if (localStorage.getItem('test_red_ulpfec_enabled') !== 'true') {
+                console.info('move red && ulpfec')
+                codec.push('red', 'ulpfec')
+            }
+
+            media.payloads = media.payloads.split(" ").reverse().join(",").replace(/,/g," ")
+            trimH264Codec(parsedSdp, i, true)
+            SDPTools.removeCodecByName(parsedSdp, i, codec)
+        }
         // }
     } else {
         console.warn('trimCodec error media: ' + parsedSdp.media)
@@ -115,9 +142,9 @@ function trimSlidesCodec (parsedSdp,index){
 }
 
 function trimH264Codec(parsedSdp, index, isExist){
-	let media = parsedSdp.media[index]
+    let media = parsedSdp.media[index]
 
-	if(!isExist){
+    if(!isExist){
         let priorityCodec = this.getExternalEncoder(media)
         console.warn("priorityCodec:",priorityCodec)
 
@@ -146,34 +173,34 @@ function trimH264Codec(parsedSdp, index, isExist){
             }
             // SDPTools.removeCodecByPayload(parsedSdp, index, removeList)
         }
-	}else{
+    }else{
         media.payloads = media.payloads.split(" ").reverse().join(",").replace(/,/g," ")
-		console.warn("media.payloads:",media)
+        console.warn("media.payloads:",media)
         SDPTools.removeCodecByPayload(parsedSdp, index, [127,126])
-	}
+    }
 }
 
 function getExternalEncoder(media){
-	let codec
-	if (media && media.fmtp && media.fmtp.length) {
-		for (let i = 0; i < media.fmtp.length; i++) {
-			let config = media.fmtp[i].config
-			if (config.indexOf('packetization-mode=1') >= 0 && config.indexOf('profile-level-id=42e0') >= 0) {
-				codec = media.fmtp[i].payload
-				break
-			}
-		}
-		if (!codec) {
-			for (let i = 0; i < media.fmtp.length; i++) {
-				let config = media.fmtp[i].config
-				if (config.indexOf('packetization-mode=1') >= 0 && config.indexOf('profile-level-id=4200') >= 0) {
-					codec = media.fmtp[i].payload
-					break
-				}
-			}
-		}
-	}
+    let codec
+    if (media && media.fmtp && media.fmtp.length) {
+        for (let i = 0; i < media.fmtp.length; i++) {
+            let config = media.fmtp[i].config
+            if (config.indexOf('packetization-mode=1') >= 0 && config.indexOf('profile-level-id=42e0') >= 0) {
+                codec = media.fmtp[i].payload
+                break
+            }
+        }
+        if (!codec) {
+            for (let i = 0; i < media.fmtp.length; i++) {
+                let config = media.fmtp[i].config
+                if (config.indexOf('packetization-mode=1') >= 0 && config.indexOf('profile-level-id=4200') >= 0) {
+                    codec = media.fmtp[i].payload
+                    break
+                }
+            }
+        }
+    }
 
-	return codec
+    return codec
 }
 
