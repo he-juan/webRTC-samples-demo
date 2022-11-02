@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            text-align: center;
+        }
+        .mb{
+            width: 100%;
+            height: 3128px;
+            background-color: rgba(14, 13, 13,0.2);
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        .xgg{
+            position: absolute;
+            top: 200px;
+            left: 500px;
+        }
+    </style>
+</head>
+<body>
+<div class="bg">
+    <img src="./bj.gif" alt="">
+</div>
+<!-- <div class="mb"></div>
+<div class="xgg"><img src="./pic.png" alt=""></div> -->
+</body>
+</html>
+<script>
+    var body_=document.getElementsByTagName('body')[0];
+    var timer;
+
+    function auto(){
+        var mb_=document.createElement('div');
+        mb_.className='mb';
+        var img_=document.createElement('img');
+        img_.src='./pic.gif';
+        img_.className='xgg';
+
+        body_.appendChild(mb_);
+        body_.appendChild(img_);
+
+        img_.onclick=function(){
+            body_.removeChild(mb_);
+            body_.removeChild(xgg_);
+
+        }
+
+
+
+    }
+    var timer=setTimeout(auto,3000)
+</script>
