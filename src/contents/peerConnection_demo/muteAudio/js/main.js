@@ -225,13 +225,23 @@ function dealWithSdp(desc,leveId= '42e028'){
     let parsedSdp = SDPTools.parseSDP(desc.sdp)
     for(let i = 0; i < parsedSdp.media.length; i++){
         let media = parsedSdp.media[i]
-        let codec = ['VP9','VP8']
         if (media.type === 'audio') {
-            console.warn("进来了吗？")
-            codec = ['PCMU', 'PCMA', 'CN'] // only keep ['G722', 'opus', 'PCMU', 'PCMA', 'telephone-event']
+            let codec = []
+            let opus = localStorage.getItem('opus')
+            let pcmu = localStorage.getItem('pcmu')
+            if(opus === 'true'){
+                codec.push('opus')
+                console.warn("存在opus")
+            }
+            if(pcmu === 'true'){
+                codec.push('PCMU')
+                console.warn("存在pcmu")
+            }
+            codec.push('CN')  // only keep ['G722', 'opus', 'PCMU', 'PCMA', 'telephone-event']
             SDPTools.removeCodecByName(parsedSdp, i, codec, true)
         }else if(media.type === 'video'){
             let media = parsedSdp.media[i]
+            let codec = ['VP9','VP8']
             SDPTools.removeCodecByName(parsedSdp, i, codec)
             SDPTools.setXgoogleBitrate(parsedSdp, 10240, i)
             SDPTools.setMediaBandwidth(parsedSdp, i, 2048)
