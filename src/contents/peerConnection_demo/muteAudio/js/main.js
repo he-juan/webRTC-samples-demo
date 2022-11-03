@@ -605,7 +605,7 @@ function handup(){
     }
 
     if(pc2.localStream){
-        closeStream(pc2.stream)
+        closeStream(pc2.localStream)
     }
 
     if(pc1.remoteStream ){
