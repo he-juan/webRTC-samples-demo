@@ -9,9 +9,12 @@
 </head>
 <body>
    <!----------------------------------复杂dataChannel的处理（双页面）--------------------------------------------->
+   <div style="text-align:center;">
+       <h2 style="text-align: center;">点对点demo 测试静音抑制问题</h2>
+       <button style="text-align: center; " onclick="handup()">disconnect</button>
+   </div>
     <div id="container_wrapper" style="width:100%; height:100%;">
-        <h2 style="text-align: center;">点对点demo 测试静音抑制问题</h2>
-        <button style="text-align: center; " onclick="close()">disconnect</button>
+
         <!--<div id="selectContent" style="text-align: center;">-->
             <!--<button class="opus" onclick="selectEncord('opus')">SELECT OPUS</button>-->
             <!--<button class="pcmu" onclick="selectEncord('pcmu')">SELECT PCMU</button>-->
@@ -43,7 +46,7 @@
         <div id="videoContrainter">
             <div style="margin-left:80px;margin-bottom:30px;" >
                 <video id="localVideo" style=" width:640px;height:320px; border:1px solid red; text-align: center; "></video>
-                <span style="margin-left:10px;display:block;">本地屏幕共享</span>
+                <span style="margin-left:10px;display:block;">本地音频</span>
                 <div id="presentHtml" ></div>
                 <div id="local_bytesSent"></div>
             </div>
@@ -51,7 +54,7 @@
             </hr>
             <div style="margin-left:80px; ">
                 <video id="remoteVideo" style="width:640px;height:320px;border:1px solid red; text-align: center;"></video>
-                <span style="margin-left:10px;display:block;">远端的屏幕共享</span>
+                <span style="margin-left:10px;display:block;">远端音频</span>
                 <div id="presentRemoteHtml" ></div>
                 <div id="remote_bytesSent"></div>
             </div>

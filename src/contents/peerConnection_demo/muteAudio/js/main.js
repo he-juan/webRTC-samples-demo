@@ -72,7 +72,7 @@ let constraints ={audio: true, video:false}
 
 function join(){
     function getSuccess(stream){
-        pc2.stream = stream
+        pc2.localStream = stream
         streamMuteSwitch({stream: stream, type: 'audio', mute: true})
         pc2.addStream(stream)
         var video = document.getElementById('localVideo')
@@ -118,7 +118,7 @@ async function createLocalOffer() {
     })
 
     async function getSuccess(stream){
-        pc1.stream = stream
+        pc1.localStream = stream
         streamMuteSwitch({stream: stream, type: 'audio', mute: true})
         // console.log("get stream success constraints: " + JSON.stringify(constraints, null, '  '))
         pc1.addStream(stream)
@@ -202,6 +202,7 @@ function handleOnconnection () {
 
 function handleOnaddstream (e) {
     console.log('handOnaddsteam, Got remote stream', e.stream)
+    pc1.remoteStream = e.stream
     let el = document.getElementById('remoteVideo')
     if(e.stream.getAudioTracks().length > 0){
         el =  handleReplaceElement('remoteVideo')
@@ -212,6 +213,7 @@ function handleOnaddstream (e) {
 
 function handleOnaddremotestream(event){
     console.log('handleOnaddremotestream, Got remote stream', event.stream)
+    pc2.remoteStream = event.stream
     let remoteVideo = document.getElementById('remoteVideo')
     if(event.stream.getAudioTracks().length > 0){
         remoteVideo = handleReplaceElement('remoteVideo')
@@ -594,9 +596,35 @@ function showRemoteStats(results) {
     });
 }
 
-function close(){
+function handup(){
+    console.warn("close peerConnection")
     pc1.close();
     pc2.close();
+    if(pc1.localStream ){
+       closeStream(pc1.localStream)
+    }
+
+    if(pc2.localStream){
+        closeStream(pc2.stream)
+    }
+
+    if(pc1.remoteStream ){
+        closeStream(pc1.remoteStream)
+    }
+
+    if(pc2.remoteStream){
+        closeStream(pc2.remoteStream)
+    }
+
+    function closeStream(stream){
+        let tracks = stream.getTracks()
+        for (let track in tracks) {
+            tracks[track].onended = null
+            console.info('close stream')
+            tracks[track].stop()
+        }
+    }
+
 }
 
 
