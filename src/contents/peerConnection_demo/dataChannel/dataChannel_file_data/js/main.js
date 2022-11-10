@@ -355,14 +355,10 @@ function handleGetMessage(dc,e){
             case 'isReceive':
                 let getReceive = data.message
                 if (getReceive) {
-                    if(data.num){
-                        for(let i in fileArray){
-                            if(Number(i) === Number(data.num)){
-                                sendFile(fileArray[i])
-                            }
+                    for(let i in fileArray){
+                        if(Number(i) === Number(data.num)){
+                            sendFile(fileArray[i])
                         }
-                    }else{
-                        sendFile(sendText)
                     }
                 } else {
                     fileArray.push(sendText)

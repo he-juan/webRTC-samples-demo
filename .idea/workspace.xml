@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dec9322d-fd7a-48cf-a961-2f8945c4710d" name="Default" comment="" />
+    <list default="true" id="dec9322d-fd7a-48cf-a961-2f8945c4710d" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/src/contents/peerConnection_demo/dataChannel/dataChannel_file_data/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/contents/peerConnection_demo/dataChannel/dataChannel_file_data/js/main.js" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -26,29 +28,8 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/contents/peerConnection_demo/dataChannel/dataChannel_file_data/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="333" column="57" selection-start-line="333" selection-start-column="53" selection-end-line="333" selection-end-column="57" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/contents/peerConnection_demo/iceRestart/answer_iceRestart_demo/js/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4104">
-              <caret line="152" column="1" selection-start-line="114" selection-end-line="152" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/contents/peerConnection_demo/fileUploadPeerConnection_demo/js/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="12825">
-              <caret line="481" column="9" selection-start-line="481" selection-start-column="9" selection-end-line="481" selection-end-column="9" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state relative-caret-position="241">
+              <caret line="355" column="45" lean-forward="true" selection-start-line="355" selection-start-column="45" selection-end-line="355" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -90,15 +71,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/contents/peerConnection_demo/dataChannel/dataChannel_file_data/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="12" column="72" selection-start-line="12" selection-start-column="72" selection-end-line="12" selection-end-column="72" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -112,13 +84,11 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>alert</find>
-      <find>record</find>
       <find>getTracks</find>
       <find>MultiStreamRecorder</find>
       <find>videos</find>
       <find>MultiStreamsMixer</find>
-      <find />
+      <find>new MultiStreamsMixer</find>
       <find>ondataavailable</find>
       <find>setSrcObject</find>
       <find>previewStream</find>
@@ -142,6 +112,8 @@
       <find>deal</find>
       <find>pc1.stream</find>
       <find>pc2.stream</find>
+      <find>isRE</find>
+      <find>isRe</find>
     </findStrings>
     <dirStrings>
       <dir>E:\webRTC-samples-demo\src\contents\jitsi_VirtualBackground_demo</dir>
@@ -154,7 +126,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/contents/peerConnection_demo/webRTC_framerate_demo/sdp.js" />
         <option value="$PROJECT_DIR$/src/contents/bandWith/bandWith_demo/js/mediaDevice.js" />
         <option value="$PROJECT_DIR$/src/contents/bandWith/bandWith_demo/js/sdp_tools.js" />
         <option value="$PROJECT_DIR$/src/contents/bandWith/bandWith_demo/index.css" />
@@ -205,6 +176,7 @@
         <option value="$PROJECT_DIR$/src/contents/peerConnection_demo/muteAudio/js/main.js" />
         <option value="$PROJECT_DIR$/src/contents/peerConnection_demo/dataChannel/dataChannel_file_data/index.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/src/contents/peerConnection_demo/dataChannel/dataChannel_file_data/js/main.js" />
       </list>
     </option>
   </component>
@@ -317,8 +289,8 @@
       <recent name="C:\Users\lenovo\Desktop\webRTC-samples-demo\src\contents\bandWith\bandWith_demo\css" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\private\webRTC-samples-demo\src\contents\peerConnection_demo\dataChannel\dataChannel_file_data" />
       <recent name="E:\private\webRTC-samples-demo\src\contents\peerConnection_demo\dataChannel" />
+      <recent name="E:\private\webRTC-samples-demo\src\contents\peerConnection_demo\dataChannel\dataChannel_file_data" />
       <recent name="E:\private\webRTC-samples-demo\src\contents\peerConnection_demo" />
       <recent name="E:\private\webRTC-samples-demo\src\contents\webrtcTest\webRTCH5\images" />
       <recent name="E:\webRTC-samples-demo\src\contents\markdown_demo\stackEditor_demo" />
@@ -356,24 +328,25 @@
       <workItem from="1666855206879" duration="1581000" />
       <workItem from="1667389274731" duration="6253000" />
       <workItem from="1667958364246" duration="778000" />
-      <workItem from="1668075006818" duration="676000" />
+      <workItem from="1668075006818" duration="1978000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="117480000" />
+    <option name="totallyTimeSpent" value="118782000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20179136" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20179136" />
       <window_info anchor="bottom" id="TODO" order="10" />
       <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="15" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="14" weight="0.3293348" />
       <window_info anchor="bottom" id="Run" order="4" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="16" visible="true" weight="0.29989094" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="16" visible="true" weight="0.29989094" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="5" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -413,12 +386,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/contents/record-demo/recordAera/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contents/record-demo/UploadFileshare_demo/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/contents/record-demo/audio-recorder/index.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -693,13 +660,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/contents/peerConnection_demo/dataChannel/dataChannel_file_data/dataChannel_file_data/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="358" column="46" lean-forward="true" selection-start-line="358" selection-start-column="46" selection-end-line="358" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
@@ -707,10 +667,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/peerConnection_demo/dataChannel/dataChannel_file_data/dataChannel_file_data/js/sdp_tools.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/peerConnection_demo/dataChannel/dataChannel_file_data/dataChannel_file_data/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="358" column="46" lean-forward="true" selection-start-line="358" selection-start-column="46" selection-end-line="358" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/peerConnection_demo/dataChannel/dataChannel_file_data/dataChannel_file_data/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/contents/peerConnection_demo/dataChannel/dataChannel_file_data/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="333" column="57" selection-start-line="333" selection-start-column="53" selection-end-line="333" selection-end-column="57" />
+        <state relative-caret-position="241">
+          <caret line="355" column="45" lean-forward="true" selection-start-line="355" selection-start-column="45" selection-end-line="355" selection-end-column="45" />
         </state>
       </provider>
     </entry>
