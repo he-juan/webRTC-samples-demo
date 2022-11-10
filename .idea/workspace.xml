@@ -1,26 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dec9322d-fd7a-48cf-a961-2f8945c4710d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/contents/peerConnection_demo/dataChannel/dataChannel_file_data/css/content.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/contents/peerConnection_demo/dataChannel/dataChannel_file_data/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/contents/peerConnection_demo/dataChannel/dataChannel_file_data/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/contents/peerConnection_demo/dataChannel/muteAudio/css/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/contents/peerConnection_demo/dataChannel/muteAudio/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/contents/peerConnection_demo/dataChannel/muteAudio/js/sdp_tools.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contents/peerConnection_demo/muteAudio/css/content.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/contents/peerConnection_demo/dataChannel/muteAudio/css/content.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contents/peerConnection_demo/muteAudio/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/contents/peerConnection_demo/dataChannel/dataChannel_file_data/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contents/peerConnection_demo/muteAudio/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/contents/peerConnection_demo/dataChannel/dataChannel_file_data/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contents/peerConnection_demo/muteAudio/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/contents/peerConnection_demo/dataChannel/muteAudio/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contents/peerConnection_demo/muteAudio/js/file-transfer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/contents/peerConnection_demo/dataChannel/muteAudio/js/file-transfer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contents/peerConnection_demo/muteAudio/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/contents/peerConnection_demo/dataChannel/muteAudio/js/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contents/peerConnection_demo/muteAudio/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/contents/peerConnection_demo/dataChannel/muteAudio/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contents/peerConnection_demo/muteAudio/js/sdp_tools.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/contents/peerConnection_demo/dataChannel/dataChannel_file_data/js/sdp_tools.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contents/peerConnection_demo/muteAudio/test/pic.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/contents/peerConnection_demo/dataChannel/muteAudio/test/pic.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contents/peerConnection_demo/muteAudio/test/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/contents/peerConnection_demo/dataChannel/muteAudio/test/test.html" afterDir="false" />
-    </list>
+    <list default="true" id="dec9322d-fd7a-48cf-a961-2f8945c4710d" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -36,8 +17,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="327">
-              <caret line="128" column="108" lean-forward="true" selection-start-line="128" selection-start-column="108" selection-end-line="128" selection-end-column="108" />
+            <state relative-caret-position="381">
+              <caret line="127" lean-forward="true" selection-start-line="127" selection-end-line="127" />
             </state>
           </provider>
         </entry>
@@ -241,10 +222,10 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="-335" />
+    <option name="y" value="109" />
+    <option name="width" value="1934" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -285,32 +266,6 @@
               <item name="contents" type="462c0819:PsiDirectoryNode" />
               <item name="peerConnection_demo" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="webRTC-samples-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webRTC-samples-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="contents" type="462c0819:PsiDirectoryNode" />
-              <item name="peerConnection_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="muteAudio" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webRTC-samples-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webRTC-samples-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="contents" type="462c0819:PsiDirectoryNode" />
-              <item name="peerConnection_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="muteAudio" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webRTC-samples-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webRTC-samples-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="contents" type="462c0819:PsiDirectoryNode" />
-              <item name="peerConnection_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="muteAudio" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -328,19 +283,19 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\private\webRTC-samples-demo\src\contents\peerConnection_demo\muteAudio\test" />
-      <recent name="E:\webRTC-samples-demo\src\contents\markdown_demo\stackEditor_demo\js" />
-      <recent name="C:\Users\lenovo\Desktop\webRTC-samples-demo\src\contents\bandWith\bandWith_demo\css" />
-      <recent name="C:\Users\lenovo\Desktop\webRTC-samples-demo\src\contents\peerConnection_demo" />
-      <recent name="C:\Users\lenovo\Desktop\webRTC-samples-demo\src\contents\webCodecs-demo\samples\webcam-in-worker" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\private\webRTC-samples-demo\src\contents\peerConnection_demo\dataChannel" />
       <recent name="E:\private\webRTC-samples-demo\src\contents\peerConnection_demo" />
       <recent name="E:\private\webRTC-samples-demo\src\contents\webrtcTest\webRTCH5\images" />
       <recent name="E:\webRTC-samples-demo\src\contents\markdown_demo\stackEditor_demo" />
       <recent name="E:\webRTC-samples-demo\src\contents\CryptoJS" />
-      <recent name="E:\webRTC-samples-demo\src\contents\IndexedDB_demo\logExport" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\private\webRTC-samples-demo\src\contents\peerConnection_demo\dataChannel" />
+      <recent name="E:\private\webRTC-samples-demo\src\contents\peerConnection_demo\muteAudio\test" />
+      <recent name="E:\webRTC-samples-demo\src\contents\markdown_demo\stackEditor_demo\js" />
+      <recent name="C:\Users\lenovo\Desktop\webRTC-samples-demo\src\contents\bandWith\bandWith_demo\css" />
+      <recent name="C:\Users\lenovo\Desktop\webRTC-samples-demo\src\contents\peerConnection_demo" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -374,12 +329,12 @@
       <workItem from="1666260950749" duration="1588000" />
       <workItem from="1666855206879" duration="1581000" />
       <workItem from="1667389274731" duration="6253000" />
-      <workItem from="1667958364246" duration="232000" />
+      <workItem from="1667958364246" duration="778000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="116026000" />
+    <option name="totallyTimeSpent" value="116804000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -724,8 +679,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="128" column="108" lean-forward="true" selection-start-line="128" selection-start-column="108" selection-end-line="128" selection-end-column="108" />
+        <state relative-caret-position="381">
+          <caret line="127" lean-forward="true" selection-start-line="127" selection-end-line="127" />
         </state>
       </provider>
     </entry>
