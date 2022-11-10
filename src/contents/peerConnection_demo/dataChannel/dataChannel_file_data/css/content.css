@@ -107,6 +107,12 @@ a.text-info:focus {
     color: #468847;
 }
 
+.text-mark{
+    text-align: center;
+    color: #c9ced1;
+    font-size: 14px;
+}
+
 a.text-success:hover,
 a.text-success:focus {
     color: #356635;
@@ -126,4 +132,7 @@ a.text-success:focus {
 
 p{
     font-weight: 300;
+}
+.isReceiveTips{
+    text-align:center;
 }

@@ -1,5 +1,20 @@
-let  createOrjoin = document.getElementsByClassName("createOrjoin")[0]
-let  containerWrapper = document.getElementById("container_wrapper")
+let mb= document.createElement('div');
+let body = document.getElementsByTagName('body')[0];
+let selectEncoding = document.getElementsByClassName("selectEncoding")[0]
+let createOrjoin = document.getElementsByClassName("createOrjoin")[0]
+let setSdp = document.getElementsByClassName("setSdp")[0]
+let isReceive = document.getElementsByClassName("isReceiveTips")[0]
+let isReceiveText = document.getElementsByClassName("isReceive")[0]
+let containerWrapper = document.getElementById("container_wrapper")
+
+let localVideo = document.getElementById('localVideo')
+let remoteVideo = document.getElementById('remoteVideo')
+let presentHtml = document.getElementById('presentHtml')
+let local_bytesSent = document.getElementById('local_bytesSent')
+
+let presentRemoteHtml = document.getElementById('presentRemoteHtml')
+let remote_bytesSent = document.getElementById('remote_bytesSent')
+
 
 let showLocalOffer = document.getElementById("showLocalOffer")
 let showLocalAnswer = document.getElementById("showLocalAnswer")
@@ -94,12 +109,14 @@ function join(){
         getFailed(e)
         console.warn("error:",e)
     })
+    setSdp.style.display = "none"
     createOrjoin.style.display = 'none'
     getRemoteOffer.style.display = 'block'
 }
 
 function create(){
     isCreateState = 'create'
+    setSdp.style.display = "none"
     createOrjoin.style.display = 'none'
     // containerWrapper.style.opacity = 1
     showLocalOffer.style.display = 'block'
@@ -328,19 +345,27 @@ function handleGetMessage(dc,e){
         console.warn("get method:",data.method)
         switch(data.method) {
             case 'notify':
-                let isConfirm = confirm(data.message);
-                ;
-                if (isConfirm) {
-                    dc.send(JSON.stringify({method: 'isReceive', message: true}))
-                } else {
-                    dc.send(JSON.stringify({method: 'isReceive', message: false}))
+                isReceiveText.innerHTML = data.message.text;
+                createOrjoin.style.display = 'block'
+                isReceive.style.display = "block"
+                if(data.message.file){
+                    receiveText = data.message.file
                 }
                 break;
             case 'isReceive':
                 let getReceive = data.message
                 if (getReceive) {
-                    sendFile(file)
+                    if(data.num){
+                        for(let i in fileArray){
+                            if(Number(i) === Number(data.num)){
+                                sendFile(fileArray[i])
+                            }
+                        }
+                    }else{
+                        sendFile(sendText)
+                    }
                 } else {
+                    fileArray.push(sendText)
                     alert("对端拒绝接受文件")
                 }
                 break;
@@ -363,13 +388,12 @@ function handleGetMessage(dc,e){
 
 
 function handleReceiveMessage(event){
-    console.warn("receive message:", event)
     onReceiveMessageCallback(event)
 }
 function onError(error) {
     if (sendChannel) {
         console.error('Error in sendChannel:', error);
-        return;
+        return;c
     }
     console.log('Error in sendChannel which is already closed:', error);
 }
@@ -431,6 +455,14 @@ function onIceStateChange(pc, event) {
     }
 }
 
+function getDc(){
+    if(isCreateState === 'join'){
+        return pc2DataChannel
+    }else if(isCreateState = 'create'){
+        return pc1DataChannel
+    }
+}
+
 function getName(pc) {
     return (pc === pc1) ? 'pc1' : 'pc2';
 }
@@ -447,12 +479,8 @@ function sendMessage () {
         receiveProgress.value = '';
         sendProgress.value = ''
 
-        if(isCreateState === 'join'){
-            pc2DataChannel.send(JSON.stringify({method: 'message', message: value,}))
-        }else if(isCreateState = 'create'){
-            pc1DataChannel.send(JSON.stringify({method: 'message', message: value,}))
-
-        }
+        let dc = getDc()
+        dc.send(JSON.stringify({method: 'message', message: value,}))
 
         writeToChatLog(value, 'text-success', true)
         messageTextBox.value = ''
@@ -600,21 +628,11 @@ function hangup(){
 
 
 /********************************************选择设置和初始化处理***************************************************/
-let mb= document.createElement('div');
-let body = document.getElementsByTagName('body')[0];
-let selectEncoding = document.getElementsByClassName("selectEncoding")[0]
-let setSdp = document.getElementsByClassName("setSdp")[0]
 
-let localVideo = document.getElementById('localVideo')
-let remoteVideo = document.getElementById('remoteVideo')
-let presentHtml = document.getElementById('presentHtml')
-let local_bytesSent = document.getElementById('local_bytesSent')
-
-let presentRemoteHtml = document.getElementById('presentRemoteHtml')
-let remote_bytesSent = document.getElementById('remote_bytesSent')
 window.onload = function(){
     console.log('页面刷新完成触发1111111111');
     setSdp.style.display = "none"
+    isReceive.style.display = "none"
     let opus = localStorage.getItem('opus')
     let pcmu = localStorage.getItem('pcmu')
     if(opus === 'true' || pcmu === 'true'){
@@ -671,6 +689,22 @@ function writeToChatLog (message, message_type, isLocal) {
     if(isLocal === false){
         document.getElementsByClassName(message_type)[0].style.textAlign = 'left'
     }
+
+    let textMark = document.getElementsByClassName('text-mark')
+    for (let i = 0; i < textMark.length; i++) {
+        var ul = document.getElementsByClassName('text-mark')[i];
+        let handler = function(event){
+            console.warn("event:",event)
+            var e = event || window.event;
+            var target = e.target || e.srcElement;
+            console.log(target.innerHTML);
+            let dc = getDc()
+            dc.send(JSON.stringify({method: 'isReceive', message:true, num: i}))
+        };
+        if (window.addEventListener){
+            ul.addEventListener("click",handler,false);
+        }
+    }
 }
 
 /*******************************************文件处理逻辑************************************************/
@@ -679,6 +713,7 @@ let statusMessage = document.querySelector('span#status');
 let bitrateDiv = document.querySelector('div#bitrate');
 let downloadAnchor = document.querySelector('a#download');
 
+let dataFile = document.getElementsByClassName("dataFile")[0]
 let receiveProgress = document.querySelector('progress#receiveProgress');
 let sendProgress = document.querySelector('progress#sendProgress');
 
@@ -690,17 +725,16 @@ let timestampStart;
 let statsInterval = null;
 let bitrateMax = 0;
 let receiveBuffer = []
-let name, type, size, file;
+let name, type, size, file,fileArray = [];
+let sendText, receiveText
 
 fileBtn.addEventListener("change",function () {
-    file = this.files[0]
-    console.log(`File is ${[file.name, file.size, file.type, file.lastModified].join(' ')}`);
-    if(isCreateState === 'join'){
-        pc2DataChannel.send(JSON.stringify({method:'notify', message:"准备发送内容，请确定"}))
-    }else if(isCreateState = 'create'){
-        pc1DataChannel.send(JSON.stringify({method:'notify', message:"准备发送内容，请确定"}))
-
-    }
+    // file = this.files[0]
+    sendText = this.files[0]
+    console.log(`File is ${[sendText.name, sendText.size, sendText.type, sendText.lastModified].join(' ')}`);
+    let dc = getDc()
+    let data = {name: sendText.name, type: sendText.type, size: sendText.size}
+    dc.send(JSON.stringify({method:'notify', message:{text:"对端准备发送内容，请确定是否接收", file: data}}))
 })
 
 function sendFile(data){
@@ -709,13 +743,8 @@ function sendFile(data){
     if(data.size){
         let fileData = {fileName: data.name, fileType: data.type, fileSize: data.size}
         console.warn("fileData:",fileData)
-        fileData = JSON.stringify({method: 'type', message:{fileName: data.name, fileType: data.type, fileSize: data.size}})
-        if(isCreateState === 'join'){
-            pc2DataChannel.send(fileData)
-
-        }else if(isCreateState = 'create'){
-            pc1DataChannel.send(fileData)
-        }
+        let dc = getDc()
+        dc.send(JSON.stringify({method: 'type', message:fileData}))
         sendProgress.max = data.size;
         // receiveProgress.max = data.size;
         fileReader = new FileReader();
@@ -731,11 +760,8 @@ function sendFile(data){
         fileReader.addEventListener('load', e => {
             console.log('FileRead.onload ', e);
             if(e.target.result){
-                if(isCreateState === 'join'){
-                    pc2DataChannel.send(e.target.result);
-                }else if(isCreateState = 'create'){
-                    pc1DataChannel.send(e.target.result);
-                }
+                let dc = getDc()
+                dc.send(e.target.result)
                 offset += e.target.result.byteLength;
             }
             sendProgress.value = offset;
@@ -749,12 +775,11 @@ function sendFile(data){
 }
 
 function onReceiveMessageCallback(event) {
-    console.warn("event:",event)
-    console.log(`Received Message ${event.data.byteLength}`);
+    // console.log(`Received Message ${event.data.byteLength}`);
     receiveBuffer.push(event.data);
     receivedSize += event.data.byteLength;
     receiveProgress.value = receivedSize;
-    receiveProgress.max = size;
+    // receiveProgress.max = size;
 
     // we are assuming that our signaling protocol told
     // about the expected file size (and name, hash, etc).
@@ -764,11 +789,22 @@ function onReceiveMessageCallback(event) {
         const received = new Blob(receiveBuffer);
         receiveBuffer = [];
 
-        downloadAnchor.href = URL.createObjectURL(received);
-        downloadAnchor.download = name
-        downloadAnchor.textContent =
-                `Click to download '${name}' (${size} bytes)`;
-        downloadAnchor.style.display = 'block';
+        if(downloadAnchor.href){
+            let a = document.createElement('a');
+            a.href = URL.createObjectURL(received);
+            a.download = name
+            a.textContent = `Click to download '${name}' (${size} bytes)`;
+            a.style.display = 'block';
+            dataFile.appendChild(a);
+            // a.click();
+        }else{
+            debugger
+            downloadAnchor.href = URL.createObjectURL(received);
+            downloadAnchor.download = name
+            downloadAnchor.textContent = `Click to download '${name}' (${size} bytes)`;
+            downloadAnchor.style.display = 'block';
+        }
+
 
         // const bitrate = Math.round(receivedSize * 8 /
         //     ((new Date()).getTime() - timestampStart));
@@ -783,4 +819,19 @@ function onReceiveMessageCallback(event) {
         // closeDataChannels();
     }
 }
+
+function isReceiveRemote(data){
+    createOrjoin.style.display = 'none'
+    isReceive.style.display = "none"
+    let dc = getDc()
+    if(Number(data) === 1){
+        dc.send(JSON.stringify({method: 'isReceive', message:true}))
+    }else{
+        let message = `对端尝试有给传输文件'${receiveText.name}' (${receiveText.size} bytes)，但没有接受...,如需要，请点击本字段。`
+        writeToChatLog(message, 'text-mark')
+        dc.send(JSON.stringify({method: 'isReceive', message:false}))
+    }
+}
+
+
 

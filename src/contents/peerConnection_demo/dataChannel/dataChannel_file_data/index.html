@@ -10,7 +10,7 @@
 <body>
    <!----------------------------------复杂dataChannel的处理（双页面）--------------------------------------------->
    <div style="text-align:center;">
-       <h2 style="text-align: center;">点对点demo 测试静音抑制问题以及dataChannel传输文件</h2>
+       <h2 style="text-align: center;">点对点demo 测试静音抑制问题以及dataChannel相关处理</h2>
        <button style="text-align: center; " onclick="hangup()">disconnect</button>
    </div>
 
@@ -47,9 +47,11 @@
                     <div class="label">Receive progress: </div>
                     <progress id="receiveProgress" max="0" value="0"></progress>
                 </div>
-                <div id="bitrate"></div>
-                <a id="download"></a>
-                <span id="status"></span>
+                <div class="dataFile">
+                    <div id="bitrate"></div>
+                    <a id="download"></a>
+                    <span id="status"></span>
+                </div>
             </section>
         </section>
         <!--#endregion-->
@@ -88,6 +90,13 @@
                 <div class="containerBtn" >
                     <button  class="join" onclick="join()" >join</button>
                     <button  class="create" onclick="create()">create</button>
+                </div>
+            </div>
+            <div class="isReceiveTips" style="display:none;">
+                <p class="isReceive"></p>
+                <div class="containerBtn" >
+                    <button  class="yes" onclick="isReceiveRemote(1)" >YES</button>
+                    <button  class="no" onclick="isReceiveRemote(0)">NO</button>
                 </div>
             </div>
         </div>
