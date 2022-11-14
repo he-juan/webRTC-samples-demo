@@ -344,7 +344,7 @@ function handleReceiveMessage(event){
 function onError(error) {
     if (sendChannel) {
         console.error('Error in sendChannel:', error);
-        return;c
+        return;
     }
     console.log('Error in sendChannel which is already closed:', error);
 }
