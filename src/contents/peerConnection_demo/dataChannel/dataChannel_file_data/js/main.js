@@ -85,7 +85,7 @@ function join(){
     function getSuccess(stream){
         pc2.localStream = stream
         streamMuteSwitch({stream: stream, type: 'audio', mute: true})
-        pc2.addStream(stream)
+        stream.getTracks().forEach(track => pc2.addTrack(track, stream))
         if(stream.getAudioTracks().length > 0){
             let video = handleReplaceElement('localVideo')
             video.srcObject = stream
@@ -160,7 +160,7 @@ async function createLocalOffer() {
     async function getSuccess(stream){
         pc1.localStream = stream
         streamMuteSwitch({stream: stream, type: 'audio', mute: true})
-        pc1.addStream(stream)
+        stream.getTracks().forEach(track => pc1.addTrack(track, stream))
         await setupDataChannel()
         if(stream.getAudioTracks().length > 0){
             let video = handleReplaceElement('localVideo')

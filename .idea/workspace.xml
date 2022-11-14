@@ -19,8 +19,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="354">
-              <caret line="133" lean-forward="true" selection-start-line="133" selection-end-line="133" />
+            <state relative-caret-position="435">
+              <caret line="136" column="99" selection-start-line="136" selection-start-column="99" selection-end-line="136" selection-end-column="99" />
             </state>
           </provider>
         </entry>
@@ -29,7 +29,7 @@
         <entry file="file://$PROJECT_DIR$/src/contents/peerConnection_demo/dataChannel/dataChannel_file_data/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="188">
-              <caret line="112" column="18" selection-start-line="112" selection-start-column="18" selection-end-line="112" selection-end-column="18" />
+              <caret line="87" column="72" selection-start-line="87" selection-start-column="72" selection-end-line="87" selection-end-column="72" />
             </state>
           </provider>
         </entry>
@@ -103,8 +103,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>videos</find>
-      <find>MultiStreamsMixer</find>
       <find>new MultiStreamsMixer</find>
       <find>ondataavailable</find>
       <find>setSrcObject</find>
@@ -133,6 +131,8 @@
       <find>isRe</find>
       <find>fileReader = new FileReade</find>
       <find>onadd</find>
+      <find>ona</find>
+      <find>addS</find>
     </findStrings>
     <dirStrings>
       <dir>E:\webRTC-samples-demo\src\contents\jitsi_VirtualBackground_demo</dir>
@@ -372,7 +372,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="126148000" />
+    <option name="totallyTimeSpent" value="126505000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -696,13 +696,6 @@
     <entry file="file://$PROJECT_DIR$/src/contents/peerConnection_demo/dataChannel/dataChannel_file_data/dataChannel_file_data/js/sdp_tools.js" />
     <entry file="file://$PROJECT_DIR$/src/contents/peerConnection_demo/dataChannel/dataChannel_file_data/dataChannel_file_data/js/main.js" />
     <entry file="file://$PROJECT_DIR$/src/contents/peerConnection_demo/dataChannel/dataChannel_file_data/dataChannel_file_data/index.html" />
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="133" lean-forward="true" selection-start-line="133" selection-end-line="133" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/contents/peerConnection_demo/dataChannel/dataChannel_file_sfu/js/peer.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -716,10 +709,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="136" column="99" selection-start-line="136" selection-start-column="99" selection-end-line="136" selection-end-column="99" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/contents/peerConnection_demo/dataChannel/dataChannel_file_data/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="188">
-          <caret line="112" column="18" selection-start-line="112" selection-start-column="18" selection-end-line="112" selection-end-column="18" />
+          <caret line="87" column="72" selection-start-line="87" selection-start-column="72" selection-end-line="87" selection-end-column="72" />
         </state>
       </provider>
     </entry>
