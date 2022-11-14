@@ -85,7 +85,7 @@ function join(){
     function getSuccess(stream){
         pc2.localStream = stream
         streamMuteSwitch({stream: stream, type: 'audio', mute: true})
-        stream.getTracks().forEach(track => pc2.addTrack(track, stream))
+        pc2.addStream(stream)
         if(stream.getAudioTracks().length > 0){
             let video = handleReplaceElement('localVideo')
             video.srcObject = stream
@@ -110,7 +110,7 @@ function join(){
     pc2.addEventListener('iceconnectionstatechange', e => onIceStateChange(pc2, e));
     pc2.addEventListener('icegatheringstatechange',e=> onicegatheringstatechange(pc2,e))
     pc2.addEventListener("signalingstatechange", e=>onsignalingstatechange(pc2,e))
-    pc2.ontrack = handleOnaddremotestream
+    pc2.onaddstream = handleOnaddremotestream
     pc2.ondatachannel =  function(e){
         var dataChannel = e.channel || e; // Chrome sends event, FF sends raw channel
         console.log('Received datachannel (pc2)', arguments)
@@ -160,7 +160,7 @@ async function createLocalOffer() {
     async function getSuccess(stream){
         pc1.localStream = stream
         streamMuteSwitch({stream: stream, type: 'audio', mute: true})
-        stream.getTracks().forEach(track => pc1.addTrack(track, stream))
+        pc1.addStream(stream)
         await setupDataChannel()
         if(stream.getAudioTracks().length > 0){
             let video = handleReplaceElement('localVideo')
@@ -215,7 +215,7 @@ async function createLocalOffer() {
     pc1.addEventListener('icegatheringstatechange', e => onicegatheringstatechange(pc1, e))
     pc1.addEventListener("signalingstatechange", e => onsignalingstatechange(pc1, e))
     pc1.onconnection = handleOnconnection
-    pc1.ontrack = handleOnaddstream
+    pc1.onaddstream = handleOnaddstream
 }
 
 async function handleOfferFromPC1 (offerDesc) {
@@ -344,7 +344,7 @@ function handleReceiveMessage(event){
 function onError(error) {
     if (sendChannel) {
         console.error('Error in sendChannel:', error);
-        return;
+        return;c
     }
     console.log('Error in sendChannel which is already closed:', error);
 }
