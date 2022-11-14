@@ -2,13 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dec9322d-fd7a-48cf-a961-2f8945c4710d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/contents/peerConnection_demo/dataChannel/dataChannel_file_sfu/css/content.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/contents/peerConnection_demo/dataChannel/dataChannel_file_sfu/css/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/contents/peerConnection_demo/dataChannel/dataChannel_file_sfu/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/contents/peerConnection_demo/dataChannel/dataChannel_file_sfu/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/contents/peerConnection_demo/dataChannel/dataChannel_file_sfu/js/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/contents/peerConnection_demo/dataChannel/dataChannel_file_sfu/js/peer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/contents/peerConnection_demo/dataChannel/dataChannel_file_data/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/contents/peerConnection_demo/dataChannel/dataChannel_file_data/js/main.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -26,8 +19,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="124" column="110" lean-forward="true" selection-start-line="124" selection-start-column="110" selection-end-line="124" selection-end-column="110" />
+            <state relative-caret-position="354">
+              <caret line="133" lean-forward="true" selection-start-line="133" selection-end-line="133" />
             </state>
           </provider>
         </entry>
@@ -35,8 +28,8 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/contents/peerConnection_demo/dataChannel/dataChannel_file_data/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="885" column="20" lean-forward="true" selection-start-line="885" selection-start-column="20" selection-end-line="885" selection-end-column="20" />
+            <state relative-caret-position="188">
+              <caret line="112" column="18" selection-start-line="112" selection-start-column="18" selection-end-line="112" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -54,7 +47,7 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/contents/peerConnection_demo/dataChannel/dataChannel_file_data/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
+            <state relative-caret-position="297">
               <caret line="11" column="35" lean-forward="true" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
             </state>
           </provider>
@@ -110,7 +103,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>MultiStreamRecorder</find>
       <find>videos</find>
       <find>MultiStreamsMixer</find>
       <find>new MultiStreamsMixer</find>
@@ -140,6 +132,7 @@
       <find>isRE</find>
       <find>isRe</find>
       <find>fileReader = new FileReade</find>
+      <find>onadd</find>
     </findStrings>
     <dirStrings>
       <dir>E:\webRTC-samples-demo\src\contents\jitsi_VirtualBackground_demo</dir>
@@ -299,6 +292,16 @@
               <item name="dataChannel" type="462c0819:PsiDirectoryNode" />
               <item name="dataChannel_file_sfu" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="webRTC-samples-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webRTC-samples-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="contents" type="462c0819:PsiDirectoryNode" />
+              <item name="peerConnection_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="dataChannel" type="462c0819:PsiDirectoryNode" />
+              <item name="dataChannel_file_sfu" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -369,28 +372,39 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="126125000" />
+    <option name="totallyTimeSpent" value="126148000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20179136" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20126449" />
       <window_info anchor="bottom" id="TODO" order="10" />
       <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="15" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="14" weight="0.3293348" />
       <window_info anchor="bottom" id="Run" order="4" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="16" visible="true" weight="0.29989094" />
+      <window_info anchor="bottom" id="Terminal" order="16" visible="true" weight="0.29661942" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="5" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20179136" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="bottom" id="Version Control" order="14" weight="0.3293348" />
+      <window_info anchor="bottom" id="Run" order="4" />
+      <window_info anchor="bottom" id="Debug" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="15" side_tool="true" />
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32824427" />
+      <window_info anchor="bottom" id="Terminal" order="16" visible="true" weight="0.29989094" />
+      <window_info id="Favorites" order="2" side_tool="true" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -684,8 +698,8 @@
     <entry file="file://$PROJECT_DIR$/src/contents/peerConnection_demo/dataChannel/dataChannel_file_data/dataChannel_file_data/index.html" />
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="124" column="110" lean-forward="true" selection-start-line="124" selection-start-column="110" selection-end-line="124" selection-end-column="110" />
+        <state relative-caret-position="354">
+          <caret line="133" lean-forward="true" selection-start-line="133" selection-end-line="133" />
         </state>
       </provider>
     </entry>
@@ -697,15 +711,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/contents/peerConnection_demo/dataChannel/dataChannel_file_data/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
+        <state relative-caret-position="297">
           <caret line="11" column="35" lean-forward="true" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/contents/peerConnection_demo/dataChannel/dataChannel_file_data/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="885" column="20" lean-forward="true" selection-start-line="885" selection-start-column="20" selection-end-line="885" selection-end-column="20" />
+        <state relative-caret-position="188">
+          <caret line="112" column="18" selection-start-line="112" selection-start-column="18" selection-end-line="112" selection-end-column="18" />
         </state>
       </provider>
     </entry>

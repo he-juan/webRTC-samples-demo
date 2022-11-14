@@ -110,7 +110,7 @@ function join(){
     pc2.addEventListener('iceconnectionstatechange', e => onIceStateChange(pc2, e));
     pc2.addEventListener('icegatheringstatechange',e=> onicegatheringstatechange(pc2,e))
     pc2.addEventListener("signalingstatechange", e=>onsignalingstatechange(pc2,e))
-    pc2.onaddstream = handleOnaddremotestream
+    pc2.ontrack = handleOnaddremotestream
     pc2.ondatachannel =  function(e){
         var dataChannel = e.channel || e; // Chrome sends event, FF sends raw channel
         console.log('Received datachannel (pc2)', arguments)
@@ -215,7 +215,7 @@ async function createLocalOffer() {
     pc1.addEventListener('icegatheringstatechange', e => onicegatheringstatechange(pc1, e))
     pc1.addEventListener("signalingstatechange", e => onsignalingstatechange(pc1, e))
     pc1.onconnection = handleOnconnection
-    pc1.onaddstream = handleOnaddstream
+    pc1.ontrack = handleOnaddstream
 }
 
 async function handleOfferFromPC1 (offerDesc) {
