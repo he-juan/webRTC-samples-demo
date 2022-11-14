@@ -35,10 +35,11 @@ let messageTextBox = document.getElementById("messageTextBox")
 let sendMessageBtn = document.getElementById("sendMessageBtn")
 
 let chatLog = document.getElementById('chatlog')
+
 let isCreateState
-
-
 let config ={}, RTCpeerConnectionOptional = {'optional': [{'DtlsSrtpKeyAgreement': true}]}
+let pc1, pc2, pc1DataChannel, pc2DataChannel
+let constraints ={audio: true, video:false}
 
 /**********************监听事件*************************/
 offerSentBtn.onclick = function(){
@@ -79,74 +80,94 @@ answerRecdBtn.onclick = function(){
 
 
 /****************创建peerConnection***********/
-let pc1 = new RTCPeerConnection(config, RTCpeerConnectionOptional);
-let pc2 = new RTCPeerConnection(config, RTCpeerConnectionOptional);
-let offerConstraints = {offerToReceiveAudio: false, offerToReceiveVideo: true};
-let pc1DataChannel, pc2DataChannel;
-let constraints ={audio: true, video:false}
 
 function join(){
-    isCreateState = 'join'
     function getSuccess(stream){
         pc2.localStream = stream
         streamMuteSwitch({stream: stream, type: 'audio', mute: true})
         pc2.addStream(stream)
-        var video = document.getElementById('localVideo')
         if(stream.getAudioTracks().length > 0){
-            video = handleReplaceElement('localVideo')
+            let video = handleReplaceElement('localVideo')
+            video.srcObject = stream
+            video.play()
         }
-        video.srcObject = stream
-        video.play()
+
         setInterval(function() {ReGetStats()},1000)
     }
 
     function getFailed(error){
         console.log('Error adding stream to pc2: ' + error)
     }
+
+    pc2 = new RTCPeerConnection(config, RTCpeerConnectionOptional);
     navigator.getUserMedia(constraints,function(stream){
         getSuccess(stream)
     },function(e){
         getFailed(e)
         console.warn("error:",e)
     })
+    pc2.addEventListener('icecandidate', e => onIceCandidate(pc2, e));
+    pc2.addEventListener('iceconnectionstatechange', e => onIceStateChange(pc2, e));
+    pc2.addEventListener('icegatheringstatechange',e=> onicegatheringstatechange(pc2,e))
+    pc2.addEventListener("signalingstatechange", e=>onsignalingstatechange(pc2,e))
+    pc2.onaddstream = handleOnaddremotestream
+    pc2.ondatachannel =  function(e){
+        var dataChannel = e.channel || e; // Chrome sends event, FF sends raw channel
+        console.log('Received datachannel (pc2)', arguments)
+        dataChannel.binaryType = 'arraybuffer';
+        pc2DataChannel = dataChannel
+        pc2DataChannel.onopen = function (e) {
+            console.log('(pc2dc) data channel connect')
+        }
+        pc2DataChannel.onmessage = function (e) {
+            handleGetMessage(this,e)
+            if(size){
+                receiveProgress.max = size;
+            }
+        }
+
+        receivedSize = 0;
+        bitrateMax = 0;
+        downloadAnchor.textContent = '';
+        downloadAnchor.removeAttribute('download');
+        if (downloadAnchor.href) {
+            URL.revokeObjectURL(downloadAnchor.href);
+            downloadAnchor.removeAttribute('href');
+        }
+    }
+
+    isCreateState = 'join'
     setSdp.style.display = "none"
     createOrjoin.style.display = 'none'
     getRemoteOffer.style.display = 'block'
+
 }
 
 function create(){
     isCreateState = 'create'
     setSdp.style.display = "none"
     createOrjoin.style.display = 'none'
-    // containerWrapper.style.opacity = 1
     showLocalOffer.style.display = 'block'
     createLocalOffer()
 }
 
 async function createLocalOffer() {
+
     function getFailed(error){
         console.log('Error adding stream to pc1: ' + error)
     }
-    navigator.getUserMedia(constraints,function(stream){
-        getSuccess(stream)
-    },function(e){
-        getFailed(e)
-        console.warn("error:",e)
-    })
 
     async function getSuccess(stream){
         pc1.localStream = stream
         streamMuteSwitch({stream: stream, type: 'audio', mute: true})
-        // console.log("get stream success constraints: " + JSON.stringify(constraints, null, '  '))
         pc1.addStream(stream)
         await setupDataChannel()
-
-        var video = document.getElementById('localVideo')
         if(stream.getAudioTracks().length > 0){
-            video = handleReplaceElement('localVideo')
+            let video = handleReplaceElement('localVideo')
+            video.srcObject = stream
+            video.play()
         }
-        video.srcObject = stream
-        video.play()
+
         try {
             let offer = await pc1.createOffer()
             await onCreateOfferSuccess(offer)
@@ -175,9 +196,26 @@ async function createLocalOffer() {
         console.info('setLocalDescription success ( ' + pc.type + ')')
         if (pc.iceGatheringState === 'complete') {
             console.info('onSetLocalDescriptionSuccess send invite( PC: ' + pc.type + ' )')
-            // this.onIceGatheringCompleted()
         }
     }
+
+    try{
+        pc1 = new RTCPeerConnection(config, RTCpeerConnectionOptional);
+        navigator.getUserMedia(constraints,function(stream){
+            getSuccess(stream)
+        },function(e){
+            getFailed(e)
+        })
+    }catch(e){
+        console.warn("create: create peerConnection error")
+    }
+
+    pc1.addEventListener('icecandidate', e => onIceCandidate(pc1, e));
+    pc1.addEventListener('iceconnectionstatechange', e => onIceStateChange(pc1, e));
+    pc1.addEventListener('icegatheringstatechange', e => onicegatheringstatechange(pc1, e))
+    pc1.addEventListener("signalingstatechange", e => onsignalingstatechange(pc1, e))
+    pc1.onconnection = handleOnconnection
+    pc1.onaddstream = handleOnaddstream
 }
 
 async function handleOfferFromPC1 (offerDesc) {
@@ -199,8 +237,6 @@ async function gotRemoteDescription(desc) {
 
 function handleAnswerFromPC2 (answerDesc) {
     console.log('Received remote answer: ', answerDesc)
-    // answerDesc = dealWithSdp(answerDesc,leveId)
-    // console.log('remote answer:',answerDesc.sdp.toString())
     setInterval(function() { ReGetStats()},1000)
     writeToChatLog('Received remote answer', 'text-success')
     pc1.setRemoteDescription(answerDesc)
@@ -209,13 +245,6 @@ function handleAnswerFromPC2 (answerDesc) {
 function handleOnconnection () {
     console.log('Datachannel connected')
     writeToChatLog('Datachannel connected', 'text-success')
-    // $('#waitForConnection').modal('hide')
-    // // If we didn't call remove() here, there would be a race on pc2:
-    // //   - first onconnection() hides the dialog, then someone clicks
-    // //     on answerSentBtn which shows it, and it stays shown forever.
-    // $('#waitForConnection').remove()
-    // $('#showLocalAnswer').modal('hide')
-    // $('#messageTextBox').focus()
 }
 
 function handleOnaddstream (e) {
@@ -290,102 +319,24 @@ function dealWithSdp(desc,leveId= '42e028'){
 /***********************************dataChannel相关处理*******************************/
 
 function setupDataChannel(){
-   try{
-       pc1DataChannel = pc1.createDataChannel('sendDataChannel', {reliable: true, ordered: true})
-       pc1DataChannel.binaryType = 'arraybuffer';
-       console.log("created dataChannel (PC1)")
-       pc1DataChannel.onopen = function(){
-           console.log('(pc1)data channel connect')
-       }
-       pc1DataChannel.onmessage = function(e){
-           console.log(`Got message (pc1) ${e.data}`)
-           handleGetMessage(this,e)
-           if(size){
-               receiveProgress.max = size;
-           }
-       }
-   }catch(e){
-       console.warn('No data channel (pc1)', e);
-   }
-}
-
-pc2.ondatachannel =  function(e){
-    var dataChannel = e.channel || e; // Chrome sends event, FF sends raw channel
-    console.log('Received datachannel (pc2)', arguments)
-    dataChannel.binaryType = 'arraybuffer';
-    pc2DataChannel = dataChannel
-    pc2DataChannel.onopen = function (e) {
-        console.log('(pc2dc) data channel connect')
-    }
-    pc2DataChannel.onmessage = function (e) {
-        handleGetMessage(this,e)
-        if(size){
-            receiveProgress.max = size;
+    try{
+        pc1DataChannel = pc1.createDataChannel('sendDataChannel', {reliable: true, ordered: true})
+        pc1DataChannel.binaryType = 'arraybuffer';
+        console.log("created dataChannel (PC1)")
+        pc1DataChannel.onopen = function(){
+            console.log('(pc1)data channel connect')
         }
-    }
-
-    receivedSize = 0;
-    bitrateMax = 0;
-    downloadAnchor.textContent = '';
-    downloadAnchor.removeAttribute('download');
-    if (downloadAnchor.href) {
-        URL.revokeObjectURL(downloadAnchor.href);
-        downloadAnchor.removeAttribute('href');
+        pc1DataChannel.onmessage = function(e){
+            console.log(`Got message (pc1) ${e.data}`)
+            handleGetMessage(this,e)
+            if(size){
+                receiveProgress.max = size;
+            }
+        }
+    }catch(e){
+        console.warn('No data channel (pc1)', e);
     }
 }
-
-function handleGetMessage(dc,e){
-    if(e.data.byteLength){
-        if(size){
-            receiveProgress.max = size;
-        }
-        handleReceiveMessage(e)
-    }else{
-        let data = JSON.parse(e.data)
-        console.warn("get method:",data.method)
-        switch(data.method) {
-            case 'notify':
-                isReceiveText.innerHTML = data.message.text;
-                createOrjoin.style.display = 'block'
-                isReceive.style.display = "block"
-                if(data.message.file){
-                    receiveText = data.message.file
-                }
-                break;
-            case 'isReceive':
-                let getReceive = data.message
-                if (getReceive) {
-                    if('num' in data){
-                        for(let i in fileArray){
-                            if(Number(i) === Number(data.num)){
-                                sendFile(fileArray[i])
-                            }
-                        }
-                    }else{
-                        sendFile(sendText)
-                    }
-                } else {
-                    fileArray.push(sendText)
-                    alert("对端拒绝接受文件")
-                }
-                break;
-            case 'type':
-                let getFile = data.message
-                console.warn("getFile:", getFile)
-                name = getFile.fileName
-                type = getFile.fileType
-                size = getFile.fileSize
-                break;
-            case 'message':
-                writeToChatLog(JSON.parse(e.data).message, 'text-info', false)
-            default:
-                console.warn("data:", e.data)
-                break;
-        }
-    }
-
-}
-
 
 function handleReceiveMessage(event){
     onReceiveMessageCallback(event)
@@ -399,19 +350,6 @@ function onError(error) {
 }
 
 /*******************************ice 相关逻辑**************************************/
-
-pc1.addEventListener('icecandidate', e => onIceCandidate(pc1, e));
-pc1.addEventListener('iceconnectionstatechange', e => onIceStateChange(pc1, e));
-pc1.addEventListener('icegatheringstatechange', e => onicegatheringstatechange(pc1, e))
-pc1.addEventListener("signalingstatechange", e => onsignalingstatechange(pc1, e))
-pc1.onconnection = handleOnconnection
-pc1.onaddstream = handleOnaddstream
-
-pc2.addEventListener('icecandidate', e => onIceCandidate(pc2, e));
-pc2.addEventListener('iceconnectionstatechange', e => onIceStateChange(pc2, e));
-pc2.addEventListener('icegatheringstatechange',e=> onicegatheringstatechange(pc2,e))
-pc2.addEventListener("signalingstatechange", e=>onsignalingstatechange(pc2,e))
-pc2.onaddstream = handleOnaddremotestream
 
 async function onIceCandidate(pc, event) {
     try {
@@ -528,11 +466,22 @@ function handleReplaceElement(id){
 
 /******************************************getStats**************************************************/
 function LoGetStats(){
-    if(pc1 || pc2){
-        pc1.getStats(null)
-            .then(showLocalStats, function(err) {
+    if(pc1){
+        pc1.getStats(null).then(showLocalStats,
+            function(err) {
                 console.log(err);
             });
+        if ( localVideo.videoWidth) {
+            presentHtml.innerHTML = '<strong>Video dimensions:</strong> ' +
+                localVideo.videoWidth + 'x' +  localVideo.videoHeight + 'px';
+        }
+        if (remoteVideo.videoWidth) {
+            presentRemoteHtml.innerHTML = '<strong>Video dimensions:</strong> ' +
+                remoteVideo.videoWidth + 'x' + remoteVideo.videoHeight + 'px';
+        }
+
+    }
+    if(pc2){
         pc2.getStats(null)
             .then(showRemoteStats, function(err) {
                 console.log(err);
@@ -549,11 +498,7 @@ function LoGetStats(){
 }
 
 function ReGetStats(){
-    if(pc1 || pc2){
-        pc2.getStats(null)
-            .then(showLocalStats, function(err) {
-                console.log(err);
-            });
+    if(pc1){
         pc1.getStats(null)
             .then(showRemoteStats, function(err) {
                 console.log(err);
@@ -567,11 +512,27 @@ function ReGetStats(){
                 remoteVideo.videoWidth + 'x' + remoteVideo.videoHeight + 'px';
         }
     }
+
+    if(pc2){
+        pc2.getStats(null)
+            .then(showLocalStats, function(err) {
+                console.log(err);
+            });
+
+        if ( localVideo.videoWidth) {
+            presentHtml.innerHTML = '<strong>Video dimensions:</strong> ' +
+                localVideo.videoWidth + 'x' +  localVideo.videoHeight + 'px';
+        }
+        if (remoteVideo.videoWidth) {
+            presentRemoteHtml.innerHTML = '<strong>Video dimensions:</strong> ' +
+                remoteVideo.videoWidth + 'x' + remoteVideo.videoHeight + 'px';
+        }
+    }
 }
 function showLocalStats(results) {
     results.forEach(function(report) {
         if(report.type === 'remote-inbound-rtp'){
-           // console.warn("local: remote-inbound-rtp:",report)
+            // console.warn("local: remote-inbound-rtp:",report)
         }
         if (report.type === 'outbound-rtp' && (report.mediaType === 'video' ||report.mediaType === 'audio' )) {
             if(report.bytesSent){
@@ -599,6 +560,8 @@ function hangup(){
     console.warn("close peerConnection")
     pc1.close();
     pc2.close();
+    pc1DataChannel.close()
+    pc2DataChannel.close()
     if(pc1.localStream ){
         closeStream(pc1.localStream)
     }
@@ -699,7 +662,7 @@ function writeToChatLog (message, message_type, isLocal) {
             var target = e.target || e.srcElement;
             console.log(target.innerHTML);
             let dc = getDc()
-            dc.send(JSON.stringify({method: 'isReceive', message:true, num: i}))
+            dc.send(JSON.stringify({method: 'isReceive', message: true, num: i}))
         };
         if (window.addEventListener){
             ul.addEventListener("click",handler,false);
@@ -725,8 +688,8 @@ let timestampStart;
 let statsInterval = null;
 let bitrateMax = 0;
 let receiveBuffer = []
-let name, type, size, file,fileArray = [];
-let sendText, receiveText
+let name, type, size, file,unAcceptFileArray = [];
+let sendText, receiveText, fileReader;
 
 fileBtn.addEventListener("change",function () {
     // file = this.files[0]
@@ -748,8 +711,7 @@ function sendFile(data){
         sendProgress.max = data.size;
         // receiveProgress.max = data.size;
         fileReader = new FileReader();
-        let chunkSize = 10000;
-        // let chunkSize = 262144
+        let chunkSize = 10 * 1024 ;
         let offset = 0;
         let readSlice = o => {
             const slice = data.slice(offset, o + chunkSize);
@@ -774,16 +736,115 @@ function sendFile(data){
     }
 }
 
+// function getFileMd5 (file) {
+//     statusMessage.textContent = '';
+//     downloadAnchor.textContent = '';
+//     let fileData = {fileName: file.name, fileType: file.type, fileSize: file.size}
+//     console.warn("fileData:",fileData)
+//     let dc = getDc()
+//     dc.send(JSON.stringify({method: 'type', message:fileData}))
+//     sendProgress.max = file.size;
+//
+//
+//     return new Promise((resolve, reject) => {
+//         let blobSlice =
+//             File.prototype.slice ||
+//             File.prototype.mozSlice ||
+//             File.prototype.webkitSlice;
+//         let chunks = Math.ceil(file.size / 200)
+//         let currentChunk = 0;
+//         let offset = 0;
+//         let spark = new SparkMD5.ArrayBuffer();
+//         let fileReader = new FileReader();
+//         fileReader.onload = function (e) {
+//             if(e.target.result){
+//                 let dc = getDc()
+//                 dc.send(e.target.result)
+//                 offset += e.target.result.byteLength;
+//             }
+//             sendProgress.value = offset;
+//
+//             spark.append(e.target.result);
+//             currentChunk++;
+//             if (currentChunk < chunks) {
+//                 loadNext();
+//             } else {
+//                 let _md5 = spark.end();
+//                 resolve(_md5);
+//             }
+//         };
+//         function loadNext() {
+//             let start = currentChunk * 200;
+//
+//             let end = start + 1*1024*1024;  // let end = start + 200;
+//             (end > file.size) && (end = file.size);
+//             fileReader.readAsArrayBuffer(blobSlice.call(file, start, end)); // 这样才可以正常运行
+//         }
+//         loadNext();
+//     });
+// }
+
+function handleGetMessage(dc,e){
+    if(e.data.byteLength){
+        if(size){
+            receiveProgress.max = size;
+        }
+        handleReceiveMessage(e)
+    }else{
+        let data = JSON.parse(e.data)
+        console.warn("get method:",data.method)
+        switch(data.method) {
+            case 'notify':
+                isReceiveText.innerHTML = data.message.text;
+                createOrjoin.style.display = 'block'
+                isReceive.style.display = "block"
+                if(data.message.file){
+                    receiveText = data.message.file
+                }
+                receiveProgress.value = '';
+                break;
+            case 'isReceive':
+                let getReceive = data.message
+                receiveProgress.value = '';
+                sendProgress.value = ''
+                if (getReceive) {
+                    if('num' in data){
+                        for(let i in unAcceptFileArray){
+                            if(Number(i) === Number(data.num)){
+                                sendFile(unAcceptFileArray[i])
+                            }
+                        }
+                    }else{
+                        sendFile(sendText)
+                    }
+                } else {
+                    unAcceptFileArray.push(sendText)
+                    alert("对端拒绝接受文件")
+                }
+                break;
+            case 'type':
+                let getFile = data.message
+                console.warn("getFile:", getFile)
+                name = getFile.fileName
+                type = getFile.fileType
+                size = getFile.fileSize
+                break;
+            case 'message':
+                writeToChatLog(JSON.parse(e.data).message, 'text-info', false)
+            default:
+                console.warn("data:", e.data)
+                break;
+        }
+    }
+}
+
+
 function onReceiveMessageCallback(event) {
-    // console.log(`Received Message ${event.data.byteLength}`);
     receiveBuffer.push(event.data);
     receivedSize += event.data.byteLength;
     receiveProgress.value = receivedSize;
     // receiveProgress.max = size;
 
-    // we are assuming that our signaling protocol told
-    // about the expected file size (and name, hash, etc).
-    // const file = fileInput.files[0];
     if (receivedSize === Number(size)) {
         receivedSize = 0
         const received = new Blob(receiveBuffer);
@@ -796,9 +857,7 @@ function onReceiveMessageCallback(event) {
             a.textContent = `Click to download '${name}' (${size} bytes)`;
             a.style.display = 'block';
             dataFile.appendChild(a);
-            // a.click();
         }else{
-            debugger
             downloadAnchor.href = URL.createObjectURL(received);
             downloadAnchor.download = name
             downloadAnchor.textContent = `Click to download '${name}' (${size} bytes)`;

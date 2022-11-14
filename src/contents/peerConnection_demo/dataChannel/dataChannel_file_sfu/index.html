@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>dataChannel- 上传文件</title>
+
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/content.css" />
+
+    <script src="js/jquery-3.4.0.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+</head>
+<body>
+    <!--------------------------简单dataChannel的处理（单页面）-------------------------------->
+    <div id="container" >
+        <h2 style="text-align: center">单页面 dataChannel</h2>
+        <section>
+            <div class="file-content">
+                <div >
+                    <form id="fileInfo">
+                        <input type="file" id="fileInput" name="files"/>
+                    </form>
+                    <button disabled id="sendFile" onclick="createPeerConnection()">Send</button>
+                    <button disabled id="create" onclick="createNewPeer()">SFU</button>
+                    <button disabled id="abortButton" onclick="closeDataChannels()">Abort</button>
+                </div>
+
+                <div class="progress">
+                    <div class="label">Send progress: </div>
+                    <progress id="sendProgress" max="0" value="0"></progress>
+                </div>
+
+                <div class="progress">
+                    <div class="label">Receive progress: </div>
+                    <progress id="receiveProgress" max="0" value="0"></progress>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div id="bitrate"></div>
+            <a id="download"></a>
+            <span id="status"></span>
+        </section>
+    </div>
+    <script src="js/index.js"></script>
+    <script src="js/peer.js"></script>
+</body>
+</html>
