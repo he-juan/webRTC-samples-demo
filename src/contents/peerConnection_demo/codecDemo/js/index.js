@@ -342,3 +342,4 @@ function hangup() {
     // clearInterval(P2PStatisticsInterval)
     // window.location.reload();
 }
+var vConsole = new window.VConsole();

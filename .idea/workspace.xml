@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dec9322d-fd7a-48cf-a961-2f8945c4710d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/contents/peerConnection_demo/codecDemo/css/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/contents/peerConnection_demo/codecDemo/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/contents/peerConnection_demo/codecDemo/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/contents/peerConnection_demo/codecDemo/js/bitrate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/contents/peerConnection_demo/codecDemo/js/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/contents/peerConnection_demo/codecDemo/js/sdp_tools.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/contents/peerConnection_demo/codecDemo/js/vconsole.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contents/peerConnection_demo/codecDemo/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/contents/peerConnection_demo/codecDemo/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,14 +16,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="130" column="67" selection-start-line="130" selection-start-column="67" selection-end-line="130" selection-end-column="67" />
+            <state relative-caret-position="406">
+              <caret line="134" column="25" selection-start-line="134" selection-start-column="25" selection-end-line="134" selection-end-column="25" />
               <folding>
                 <element signature="n#style#0;n#li#5;n#ul#3;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/contents/peerConnection_demo/codecDemo/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="92" column="35" selection-start-line="92" selection-start-column="35" selection-end-line="92" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -111,20 +112,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/contents/peerConnection_demo/dataChannel/muteAudio/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="13" column="58" selection-start-line="13" selection-start-column="58" selection-end-line="13" selection-end-column="58" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h2#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#button#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -180,7 +167,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/contents/bandWith/bandWith_demo/js/sdp_tools.js" />
         <option value="$PROJECT_DIR$/src/contents/bandWith/bandWith_demo/index.css" />
         <option value="$PROJECT_DIR$/src/contents/bandWith/bandWith_demo/js/bitrateControl.js" />
         <option value="$PROJECT_DIR$/src/contents/bandWith/bandWith_demo/js/index.js" />
@@ -231,6 +217,7 @@
         <option value="$PROJECT_DIR$/src/contents/peerConnection_demo/dataChannel/dataChannel_file_data/js/main.js" />
         <option value="$PROJECT_DIR$/src/contents/peerConnection_demo/dataChannel/text-dataChannel/index.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/src/contents/peerConnection_demo/codecDemo/index.html" />
       </list>
     </option>
   </component>
@@ -390,12 +377,12 @@
       <workItem from="1669789242456" duration="402000" />
       <workItem from="1673489805514" duration="740000" />
       <workItem from="1673509305086" duration="12000" />
-      <workItem from="1686796822189" duration="167000" />
+      <workItem from="1686796822189" duration="1434000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="129230000" />
+    <option name="totallyTimeSpent" value="130497000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -448,13 +435,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/contents/record-demo/video-plus-screen-recording/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2592">
-          <caret line="96" column="17" selection-start-line="96" selection-start-column="17" selection-end-line="96" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/contents/record-demo/screenRecorder_demo/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="513">
@@ -721,11 +701,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="130" column="67" selection-start-line="130" selection-start-column="67" selection-end-line="130" selection-end-column="67" />
+        <state relative-caret-position="406">
+          <caret line="134" column="25" selection-start-line="134" selection-start-column="25" selection-end-line="134" selection-end-column="25" />
           <folding>
             <element signature="n#style#0;n#li#5;n#ul#3;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contents/peerConnection_demo/codecDemo/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="92" column="35" selection-start-line="92" selection-start-column="35" selection-end-line="92" selection-end-column="35" />
         </state>
       </provider>
     </entry>
